@@ -202,12 +202,12 @@ html,
 }
 
 .seq .seq-step3 {
-  background-color: #2BBF8E;
+  background-color: #00b09a;
 }
 
 .seq .seq-step3 .seq-button:focus,
 .seq .seq-step3 .seq-button:hover {
-  color: #2BBF8E;
+  color: #00b09a;
 }
 
 .seq .seq-step4 {
