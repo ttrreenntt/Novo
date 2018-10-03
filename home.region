@@ -45,8 +45,7 @@
 		</li>
 		
 		</ul>
-		
-		<button type="button" class="seq-autoplay">Play</button>
+	
 		</div>
 		
 		<ul rel="sequence" class="seq-pagination" role="navigation" aria-label="Pagination">
