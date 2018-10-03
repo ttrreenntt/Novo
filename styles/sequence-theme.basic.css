@@ -349,13 +349,13 @@ html,
   transition-duration: .4s;
 }
 
-.seq.seq-active .seq-title, .seq.seq-active .logo {
+.seq.seq-active .seq-title {
   -webkit-transform: translate3d(0, -20px, 0);
   -ms-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
 }
 
-.seq.seq-active h3 {
+.seq.seq-active h3, .seq.seq-active .logo {
   -webkit-transform: translate3d(0, 20px, 0);
   -ms-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
