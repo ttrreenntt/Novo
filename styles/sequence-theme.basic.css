@@ -177,7 +177,7 @@ html,
   border: white solid 1px;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'din-2014', Helvetica, Arial, sans-serif;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-transition-duration: .25s;
