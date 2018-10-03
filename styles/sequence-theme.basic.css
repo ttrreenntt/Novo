@@ -22,15 +22,17 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
-.seq-next {
+li.seq-next {
 	display: block;
-	zoom: 1;
+	margin: 0;
+	padding: 0;
 	position: absolute;
 	top: 0;
 	left: 80%;
 	width: 20%;
 	height: 100%;
 	z-index: 100;
+	zoom: 1;
 }
 
 .logo {
