@@ -1,1 +1,0 @@
-function navReveal(){$("body").toggleClass("show-nav")}$(document).ready(function(){$(".toggle-nav").click(function(){navReveal()}),$(".menu li a").click(function(){navReveal()}),$("a").smoothScroll()});
