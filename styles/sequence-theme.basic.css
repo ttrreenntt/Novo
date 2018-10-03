@@ -119,10 +119,8 @@ html,
   /* Make the canvas the same dimensions as the container and prevent lines
    * from wrapping so each step can sit side-by-side */
   position: absolute;
-  height: 96%;
-  width: 96%;
-  margin: 2%;
-  border-radius: 20px;
+  height: 100%;
+  width: 100%;
   white-space: nowrap;
   /* Reset the font-size to remove 4px from :before and .title */
   font-size: 0;
