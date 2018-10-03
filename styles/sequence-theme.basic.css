@@ -225,8 +225,12 @@ html,
   color: #ffffff;
 }
 
-.seq .seq-step3 {
-  background-color: #ec0044;
+.seq .seq-step2 {
+	background-image: url('../assets/bg3.jpg');
+	background-color: #ec0044;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
 }
 
 .seq .seq-step3 .seq-button:focus,
