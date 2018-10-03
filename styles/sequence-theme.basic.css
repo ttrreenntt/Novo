@@ -186,6 +186,7 @@ html,
 .seq .seq-button:focus,
 .seq .seq-button:hover {
   background-color: white;
+  color: 
 }
 
 .seq-canvas li:after {
@@ -251,7 +252,7 @@ html,
 
 .seq .seq-step4 .seq-button:focus,
 .seq .seq-step4 .seq-button:hover {
-  color: #ffffff;
+  color: #008aab;
 }
 
 .seq .seq-title,
