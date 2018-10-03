@@ -168,11 +168,10 @@ html,
   display: inline-block;
   zoom: 1;
   margin-top: 2em;
-  padding: .8em 1em;
-  letter-spacing: .5px;
+  padding: 1em 1.2em;
+  letter-spacing: .75px;
   color: white;
   border: white solid 1px;
-  border-radius: 4em;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
