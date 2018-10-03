@@ -28,7 +28,7 @@ var options = {
 	startingStepAnimatesIn: true,
 	phaseThreshold: 300,
 	preloader: true,
-	reverseWhenNavigatingBackwards: true,
+	reverseWhenNavigatingBackwards: false,
 	keyNavigation: true,
 	fadeStepWhenSkipped: false
 }
