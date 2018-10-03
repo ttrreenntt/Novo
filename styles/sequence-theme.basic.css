@@ -114,11 +114,6 @@ html,
   color: transparent;
 }
 
-.seq .seq-pagination > *:focus,
-.seq .seq-pagination > *:hover {
-  background-color: rgba(250, 250, 250, 1);
-}
-
 
 
 .seq .seq-canvas {
