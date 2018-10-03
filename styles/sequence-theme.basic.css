@@ -184,7 +184,8 @@ html,
 }
 
 .seq .seq-step1 {
-  background-color: #000000;
+  background: url('../assets/novo-line.svg') no-repeat;
+  background-size: cover;
 }
 
 .seq .seq-step1 .seq-button:focus,
