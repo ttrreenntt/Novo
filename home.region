@@ -43,6 +43,14 @@
 		  </div>
 		</li>
 		
+		<li class="seq-step4" id="step4">
+		  <div class="seq-content">
+		    <h2 data-seq class="seq-title">Rapid Development of Step-Based Animated  Applications</h2>
+		    <h3 data-seq class="seq-subtitle">All of the JavaScript functionality you need built-in, so you can concentrate on substance and style</h3>
+		    <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a>
+		  </div>
+		</li>
+		
 		</ul>
 		</div>
 		
