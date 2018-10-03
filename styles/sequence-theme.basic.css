@@ -89,11 +89,9 @@ html,
   height: 100%;
 }
 
-/*
 .seq .seq-pagination .seq-current {
   background-color: #ffffff;
 }
-*/
 
 .seq .seq-pagination > * {
   margin: 0 6px;
