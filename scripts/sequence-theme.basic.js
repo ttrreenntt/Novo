@@ -26,7 +26,6 @@ var sequenceElement = document.getElementById("sequence");
 var options = {
   startingStepAnimatesIn: true,
   autoPlay: true,
-  /* Make this the same as the animateCanvasDuration */
   phaseThreshold: 250,
   preloader: true,
   reverseWhenNavigatingBackwards: true,
