@@ -35,6 +35,10 @@
 	zoom: 1;
 }
 
+.seq-next:hover, .seq-previous:hover {
+	cursor: pointer;
+}
+
 .logo {
 	display: block;
 	opacity: 1;
