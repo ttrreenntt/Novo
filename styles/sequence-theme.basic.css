@@ -77,7 +77,7 @@ html,
 }
 
 .seq .seq-pagination .seq-current {
-  background-color: white;;
+  background-color: white !important;
 }
 
 .seq .seq-pagination > * {
