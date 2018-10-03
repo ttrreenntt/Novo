@@ -22,7 +22,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
-li.seq-next {
+.seq-next {
 	display: block;
 	margin: 0;
 	padding: 0;
