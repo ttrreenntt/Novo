@@ -24,11 +24,12 @@ var sequenceElement = document.getElementById("sequence");
 // Place your Sequence options here to override defaults
 // See: http://sequencejs.com/documentation/#options
 var options = {
-  startingStepAnimatesIn: true,
-  phaseThreshold: 250,
-  preloader: true,
-  reverseWhenNavigatingBackwards: true,
-  fadeStepWhenSkipped: false
+	autoPlay: true,
+	startingStepAnimatesIn: true,
+	phaseThreshold: 250,
+	preloader: true,
+	reverseWhenNavigatingBackwards: true,
+	fadeStepWhenSkipped: false
 }
 
 // Launch Sequence on the element, and with the options we specified above
