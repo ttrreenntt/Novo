@@ -188,8 +188,12 @@ html,
   background-size: cover;
 }
 
-.seq-canvas li:before {
+.seq-canvas li:after {
 	content: '';
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,.5);
