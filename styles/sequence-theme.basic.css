@@ -210,6 +210,10 @@ html,
   color: #2BBF8E;
 }
 
+.seq .seq-step4 {
+  background-color: #000000;
+}
+
 .seq .seq-title,
 .seq .seq-subtitle,
 .seq .seq-button {
