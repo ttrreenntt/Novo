@@ -19,7 +19,7 @@
 	
 		<div class="seq-screen">
 		
-		<div class="seq-previous"></div>
+		<div class="seq-prev"></div>
 		<div class="seq-next"></div>	
 			
 		<ul class="seq-canvas">
