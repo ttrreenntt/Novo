@@ -21,7 +21,7 @@
 		
 		<li class="seq-step1" id="step1">
 		  <div class="seq-content">
-		    <h1 class='logo grayscale'>Novo</h1>
+		    <h1 class='logo, grayscale'>Novo</h1>
 		  </div>
 		</li>
 		
