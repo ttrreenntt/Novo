@@ -31,8 +31,8 @@
 	margin: 0;
 	padding: 0;
 	text-indent: -9999px;
-	width: 400px;
-	height: 400px;
+	width: 50vw;
+	height: 50vh;
 	background: url('../assets/novo-line.svg') no-repeat;
 	background-size: cover;
 	background-position: center center;
