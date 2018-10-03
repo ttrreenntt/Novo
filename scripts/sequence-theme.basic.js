@@ -30,7 +30,7 @@ var options = {
   phaseThreshold: 250,
   preloader: true,
   reverseWhenNavigatingBackwards: true,
-  fadeStepWhenSkipped: false
+  fadeStepWhenSkipped: false;
 }
 
 // Launch Sequence on the element, and with the options we specified above
