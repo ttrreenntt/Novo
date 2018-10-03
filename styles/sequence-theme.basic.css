@@ -168,9 +168,9 @@ html,
   display: inline-block;
   zoom: 1;
   margin-top: 2em;
-  padding: .6em;
+  padding: .8em 1em;
   color: white;
-  border: white solid 2px;
+  border: white solid 1px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
