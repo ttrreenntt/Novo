@@ -28,7 +28,7 @@
 	width: 50%;
 	height: 50%;
 	background: url('../assets/novo-line.svg') no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center center;
 }
 
