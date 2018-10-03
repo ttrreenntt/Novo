@@ -188,7 +188,7 @@ html,
   background-size: cover;
 }
 
-.seq-canvas li:after {
+.seq-canvas li:before {
 	content: '';
 	display: block;
 	position: absolute;
