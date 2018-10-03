@@ -29,6 +29,7 @@ var options = {
 	phaseThreshold: 300,
 	preloader: true,
 	reverseWhenNavigatingBackwards: true,
+	keyNavigation: true,
 	fadeStepWhenSkipped: false
 }
 
