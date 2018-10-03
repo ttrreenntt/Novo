@@ -39,7 +39,7 @@
 		
 		<li class="seq-step4" id="step4">
 		  <div class="seq-content">
-		    <h2 data-seq class="seq-title">Novo was formerly CRM Empowering Leaders</h2>
+		    <h2 data-seq class="seq-title">Novo was formerly<br>CRM Empowering Leaders</h2>
 		    <a class="seq-button" href="mailto:info@novo.org" target="_blank" tabindex="-1">Contact Us</a>
 		  </div>
 		</li>
