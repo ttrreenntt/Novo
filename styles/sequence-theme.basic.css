@@ -184,7 +184,7 @@ html,
 }
 
 .seq .seq-step1 {
-  background-color: #ec0044;
+  background-color: #000000;
 }
 
 .seq .seq-step1 .seq-button:focus,
@@ -193,7 +193,7 @@ html,
 }
 
 .seq .seq-step2 {
-  background-color: #000000;
+  background-color: #ec0044;
 }
 
 .seq .seq-step2 .seq-button:focus,
@@ -207,16 +207,16 @@ html,
 
 .seq .seq-step3 .seq-button:focus,
 .seq .seq-step3 .seq-button:hover {
-  color: #00b09a;
+  color: #ffffff;
 }
 
 .seq .seq-step4 {
-  background-color: #000000;
+  background-color: #008aab;
 }
 
 .seq .seq-step4 .seq-button:focus,
 .seq .seq-step4 .seq-button:hover {
-  background-color: #000000;
+  color: #ffffff;
 }
 
 .seq .seq-title,
