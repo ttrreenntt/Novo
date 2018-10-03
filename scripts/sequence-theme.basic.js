@@ -29,7 +29,7 @@ var options = {
   /* Make this the same as the animateCanvasDuration */
   phaseThreshold: 250,
   preloader: true,
-  reverseWhenNavigatingBackwards: true,
+  reverseWhenNavigatingBackwards: false,
   fadeStepWhenSkipped: false
 }
 
