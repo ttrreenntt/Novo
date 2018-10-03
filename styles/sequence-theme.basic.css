@@ -35,7 +35,7 @@
 	zoom: 1;
 }
 
-.seq-previous {
+.seq-prev {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -48,7 +48,7 @@
 	zoom: 1;
 }
 
-.seq-next:hover, .seq-previous:hover {
+.seq-next:hover, .seq-prev:hover {
 	cursor: pointer;
 }
 
