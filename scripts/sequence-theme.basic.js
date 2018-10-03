@@ -26,7 +26,7 @@ var sequenceElement = document.getElementById("sequence");
 var options = {
 	autoPlay: false,
 	startingStepAnimatesIn: true,
-	phaseThreshold: 250,
+	phaseThreshold: 300,
 	preloader: true,
 	reverseWhenNavigatingBackwards: true,
 	fadeStepWhenSkipped: false
