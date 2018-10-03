@@ -242,7 +242,11 @@ html,
 }
 
 .seq .seq-step4 {
-  background-color: #008aab;
+	background-image: url('../assets/bg4.jpg');
+	background-color: #008aab;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
 }
 
 .seq .seq-step4 .seq-button:focus,
