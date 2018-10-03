@@ -340,6 +340,8 @@ html,
   opacity: 0;
   -webkit-transition-duration: .4s;
   transition-duration: .4s;
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
 }
 
 .seq.seq-active .seq-title, .seq.seq-active .logo {
