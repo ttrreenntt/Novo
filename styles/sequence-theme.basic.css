@@ -36,13 +36,14 @@
 
 .seq .seq-step4 h3 a {
 	color: white;
+	font-weight: 600;
 	text-decoration: none;
 	padding-bottom: 2px;
 	border-bottom: 1px solid white;
 }
 
 .seq .seq-step3 h3 {
-	font-weight: 200;
+	font-weight: 300;
 }
 
 
