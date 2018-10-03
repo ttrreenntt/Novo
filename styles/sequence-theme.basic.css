@@ -77,13 +77,14 @@ html,
 }
 
 .seq .seq-pagination .seq-current {
-  border-radius: 100%;
+  background-color: white;;
 }
 
 .seq .seq-pagination > * {
   margin: 0 4px;
   padding: 0;
   display: inline-block;
+  border-radius: 100%;
   zoom: 1;
   width: 28px;
   height: 28px;
