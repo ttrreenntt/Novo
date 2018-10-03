@@ -76,6 +76,10 @@ html,
   height: 100%;
 }
 
+.seq .seq-pagination a:hover {
+	background-color: #ffffff;	
+}
+
 .seq .seq-pagination .seq-current {
   background-color: #ffffff;
 }
