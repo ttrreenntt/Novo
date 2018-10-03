@@ -25,7 +25,7 @@ var sequenceElement = document.getElementById("sequence");
 // See: http://sequencejs.com/documentation/#options
 var options = {
   startingStepAnimatesIn: true,
-  autoPlay: true,
+  autoPlay: false,
   autoPlayInterval: 2000,
   phaseThreshold: 250,
   preloader: true,
