@@ -103,7 +103,7 @@ html,
 
 .seq .seq-pagination > *:focus,
 .seq .seq-pagination > *:hover {
-  background-color: #ffffff;
+  background-color: rgba(250, 250, 250, .5);
 }
 
 
