@@ -419,6 +419,7 @@ html,
 }
 
 .seq .seq-in .seq-button {
+	opacity: 1;
   -webkit-animation-name: jelly;
   animation-name: jelly;
   -webkit-animation-duration: .5s;
