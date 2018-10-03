@@ -240,6 +240,13 @@ html,
   transform: translateZ(0);
 }
 
+.seq .seq-title em,
+.seq .seq-subtitle em {
+	display: inline-block;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #ffffff;
+}
+
 .seq .seq-title {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8em;
