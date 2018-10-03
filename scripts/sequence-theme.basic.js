@@ -24,6 +24,7 @@ var sequenceElement = document.getElementById("sequence");
 // Place your Sequence options here to override defaults
 // See: http://sequencejs.com/documentation/#options
 var options = {
+	keyNavigation: true,
   startingStepAnimatesIn: true,
   autoPlay: true,
   phaseThreshold: 250,
