@@ -54,6 +54,8 @@
 		<li><a href="#step4" rel="step4" title="Go to slide 4">Contact</a></li>
 		</ul>
 		
+		<button type="button" class="seq-autoplay">Play</button>
+		
 	</div>
 	
 	<script src="scripts/imagesloaded.pkgd.min.js"></script>
