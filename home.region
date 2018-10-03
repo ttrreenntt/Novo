@@ -21,9 +21,7 @@
 		
 		<li class="seq-step1" id="step1">
 		  <div class="seq-content">
-		    <h2 data-seq class="seq-title">Powered by Sequence.js</h2>
-		    <h3 data-seq class="seq-subtitle">The responsive CSS animation framework</h3>
-		    <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a>
+		    <h1 class='logo'>Novo</h1>
 		  </div>
 		</li>
 		
