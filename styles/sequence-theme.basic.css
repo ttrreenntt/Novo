@@ -36,6 +36,9 @@
 
 .seq .seq-step4 a {
 	color: white;
+	text-decoration: none;
+	padding-bottom: 4px;
+	border-bottom: 1px solid white;
 }
 
 
