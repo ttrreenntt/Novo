@@ -188,7 +188,7 @@ html,
 	
 	-webkit-filter: grayscale(100%);
 	filter: gray;
-	background-color: #00b09a;
+	background-color: #999999;
 	background-blend-mode: multiply;
 	background-size: cover;
 
