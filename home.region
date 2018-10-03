@@ -62,7 +62,7 @@
 	<script src="scripts/sequence.min.js"></script>
 	
 	<!-- combo and minify scripts when not logged in -->
-    <squarespace:script src="scripts/site.js" combo="false" />
+    <squarespace:script src="site.js" combo="false" />
 	  
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
