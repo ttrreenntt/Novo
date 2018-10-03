@@ -26,10 +26,12 @@ var sequenceElement = document.getElementById("sequence");
 var options = {
   startingStepAnimatesIn: true,
   autoPlay: true,
+  autoPlayInterval: 500,
+  cycle: true,
   /* Make this the same as the animateCanvasDuration */
   phaseThreshold: 250,
   preloader: true,
-  reverseWhenNavigatingBackwards: false,
+  reverseWhenNavigatingBackwards: true,
   fadeStepWhenSkipped: false
 }
 
