@@ -432,7 +432,7 @@ html,
 		height: 250px;
 	}
 	
-	h3 {
+	.seq .seq-subtitle {
 		line-height: 2.6em;
 	}
 }	
