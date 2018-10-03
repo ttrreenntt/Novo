@@ -362,7 +362,7 @@ html,
 }
 
 .seq .seq-in .seq-title,
-.seq .seq-in .seq-subtitle,  .seq.seq-active .logo  {
+.seq .seq-in .seq-subtitle,  .seq .seq-in .logo  {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -381,7 +381,7 @@ html,
 }
 
 .seq .seq-out .seq-title,
-.seq .seq-out .seq-subtitle {
+.seq .seq-out .seq-subtitle,  .seq .seq-out .logo  {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
