@@ -207,10 +207,6 @@ html,
 	z-index: -1;
 }
 
-.seq .seq-step1 {
-  background-color: #000000;
-}
-
 .seq .seq-step1 .seq-button:focus,
 .seq .seq-step1 .seq-button:hover {
   color: #ffffff;
