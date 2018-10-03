@@ -49,7 +49,7 @@ function defineSequence(imagesLoaded, Hammer) {
       startingStepId: 1,
 
       // Should the starting step animate in to begin with?
-      startingStepAnimatesIn: false,
+      startingStepAnimatesIn: true,
 
       // When the last step is reached, should Sequence cycle back to the start?
       cycle: true,
@@ -80,7 +80,7 @@ function defineSequence(imagesLoaded, Hammer) {
       // Specify a number in milliseconds or true (for a default of 5000ms) to
       // define the period Sequence should wait between each step before
       // navigating to the next step
-      autoPlay: false,
+      autoPlay: true,
 
       // How long to wait between each step before navigation occurs again
       autoPlayInterval: 5000,
