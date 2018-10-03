@@ -149,8 +149,8 @@ html,
   height: 100%;
 }
 
-.seq-canvas li {
-	margin: 2em !important;
+.seq .seq-canvas li {
+	margin: 20px !important;
 }
 
 .seq .seq-content {
