@@ -29,7 +29,7 @@
 		
 		<li class="seq-step2" id="step2">
 		  <div class="seq-content">
-		    <h2 data-seq class="seq-title">The word Novo comes from Latin and means <em>to make new.</em></h2>
+		    <h2 data-seq class="seq-title">The word Novo comes from Latin and means to<em>make new.</em></h2>
 		  </div>
 		</li>
 		
