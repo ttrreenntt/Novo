@@ -32,7 +32,6 @@
 	background: url('../assets/novo-line.svg') no-repeat;
 	background-size: cover;
 	background-position: center center;
-	-moz-osx-font-smoothing: grayscale;
 	-webkit-transform: translateZ(0);
 	-ms-transform: translateZ(0);
 	transform: translateZ(0);
