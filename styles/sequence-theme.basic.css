@@ -64,7 +64,7 @@ html,
   margin: 0 auto;
   padding: 0;
   /* Some basic styles */
-  font-family: sans-serif;
+  font-family: 'din-2014', Helvetica, Arial, sans-serif;
 }
 
 .seq .seq-pagination,
