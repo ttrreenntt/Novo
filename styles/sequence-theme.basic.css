@@ -150,7 +150,7 @@ html,
 }
 
 .seq-canvas li {
-	margin: 2em;
+	margin: 2em !important;
 }
 
 .seq .seq-content {
