@@ -438,6 +438,7 @@ html,
 }
 
 .seq .seq-out .seq-button {
+	opacity: 1;
   -webkit-transform: scale(1) translateZ(0);
   -ms-transform: scale(1) translateZ(0);
   transform: scale(1) translateZ(0);
