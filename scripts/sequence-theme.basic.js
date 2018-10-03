@@ -27,6 +27,7 @@ var options = {
 	keyNavigation: true,
   startingStepAnimatesIn: true,
   autoPlay: true,
+  autoPlayInterval: 2000,
   phaseThreshold: 250,
   preloader: true,
   reverseWhenNavigatingBackwards: true,
