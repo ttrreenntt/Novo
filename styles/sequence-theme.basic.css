@@ -76,10 +76,6 @@ html,
   height: 100%;
 }
 
-.seq .seq-pagination a:hover {
-	background-color: #ffffff;	
-}
-
 .seq .seq-pagination .seq-current {
   background-color: #ffffff;
 }
@@ -105,20 +101,11 @@ html,
   color: transparent;
 }
 
-.seq .seq-pagination > *:nth-child(1):focus,
-.seq .seq-pagination > *:nth-child(1):hover {
-  background-color: #ec0044;
+.seq .seq-pagination > *:focus,
+.seq .seq-pagination > *:hover {
+  background-color: #ffffff;
 }
 
-.seq .seq-pagination > *:nth-child(2):focus,
-.seq .seq-pagination > *:nth-child(2):hover {
-  background-color: #F96852;
-}
-
-.seq .seq-pagination > *:nth-child(3):focus,
-.seq .seq-pagination > *:nth-child(3):hover {
-  background-color: #2BBF8E;
-}
 
 .seq .seq-canvas {
   /* Make the canvas the same dimensions as the container and prevent lines
