@@ -115,11 +115,11 @@ html,
 }
 
 .seq .seq-pagination > *:focus{
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgba(250, 250, 250, .5);
 }
 
 .seq .seq-pagination > *:hover {
-  background-color: rgba(250, 250, 250, .5);
+  background-color: rgba(250, 250, 250, .1);
 }
 
 
