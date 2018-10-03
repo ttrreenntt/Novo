@@ -22,6 +22,17 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
+.logo {
+	display: block;
+	text-indent: -9999px;
+	width: 50%;
+	height: 50%;
+	background: url('../assets/novo-line.svg') no-repeat;
+	background-size: 100%;
+	background-position: center center;
+}
+
+
 body,
 html,
 .seq {
