@@ -32,6 +32,9 @@
 	background: url('../assets/novo-line.svg') no-repeat;
 	background-size: cover;
 	background-position: center center;
+	-webkit-transform: translate3d(0, 20px, 0);
+	-ms-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0);
 }
 
 
