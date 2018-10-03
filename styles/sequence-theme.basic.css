@@ -58,7 +58,7 @@ html,
 }
 
 .seq .seq-preloader {
-  background: #279FE5;
+  background: #ec0044;
 }
 
 .seq .seq-pagination {
@@ -77,17 +77,16 @@ html,
 }
 
 .seq .seq-pagination .seq-current {
-  background-color: white !important;
+  border-radius: 100%;
 }
 
 .seq .seq-pagination > * {
-  margin: 0 6px;
+  margin: 0 4px;
   padding: 0;
   display: inline-block;
-  border-radius: 100%;
   zoom: 1;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
   background: none;
   border: white solid 2px;
@@ -103,7 +102,7 @@ html,
 
 .seq .seq-pagination > *:nth-child(1):focus,
 .seq .seq-pagination > *:nth-child(1):hover {
-  background-color: #279FE5;
+  background-color: #ec0044;
 }
 
 .seq .seq-pagination > *:nth-child(2):focus,
@@ -184,21 +183,21 @@ html,
 }
 
 .seq .seq-step1 {
-  background-color: #279FE5;
+  background-color: #ec0044;
 }
 
 .seq .seq-step1 .seq-button:focus,
 .seq .seq-step1 .seq-button:hover {
-  color: #279FE5;
+  color: #ffffff;
 }
 
 .seq .seq-step2 {
-  background-color: #F96852;
+  background-color: #00000;
 }
 
 .seq .seq-step2 .seq-button:focus,
 .seq .seq-step2 .seq-button:hover {
-  color: #F96852;
+  color: #ffffff;
 }
 
 .seq .seq-step3 {
