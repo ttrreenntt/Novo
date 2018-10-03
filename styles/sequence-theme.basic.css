@@ -326,8 +326,8 @@ html,
   }
 
   40% {
-    -webkit-transform: translateZ(0) scale(1.15);
-    transform: translateZ(0) scale(1.15);
+    -webkit-transform: translateZ(0) scale(1.1);
+    transform: translateZ(0) scale(1.1);
   }
 
   60% {
@@ -354,9 +354,9 @@ html,
   }
 
   40% {
-    -webkit-transform: translateZ(0) scale(1.15);
-    -ms-transform: translateZ(0) scale(1.15);
-    transform: translateZ(0) scale(1.15);
+    -webkit-transform: translateZ(0) scale(1.1);
+    -ms-transform: translateZ(0) scale(1.1);
+    transform: translateZ(0) scale(1.1);
   }
 
   60% {
