@@ -338,7 +338,7 @@ html,
 }
 
 .seq.seq-active .seq-title,
-.seq.seq-active .seq-subtitle {
+.seq.seq-active .seq-subtitle, .seq.seq-active .logo {
   /* Starting positions */
   opacity: 0;
   -webkit-transition-duration: .4s;
