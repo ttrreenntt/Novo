@@ -22,7 +22,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 
-seq-step1 .seq-content {
+seq-step1 .seq-content div {
 	width: 100%;
 	height: 100%;
 	
