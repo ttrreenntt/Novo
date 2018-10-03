@@ -30,6 +30,7 @@
 	left: 80%;
 	width: 20%;
 	height: 100%;
+	z-index: 100;
 }
 
 .logo {
