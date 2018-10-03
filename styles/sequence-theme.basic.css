@@ -172,7 +172,7 @@ html,
   letter-spacing: .5px;
   color: white;
   border: white solid 1px;
-  border-radius: 100%;
+  border-radius: 4em;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
