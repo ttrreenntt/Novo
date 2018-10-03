@@ -394,7 +394,7 @@ html,
   transform: scale(1) translateZ(0);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   .seq {
     /* Make the container 16:9 but no bigger than 90% of the screen height */
     position: relative;
