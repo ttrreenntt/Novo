@@ -94,7 +94,7 @@ html,
 }
 
 .seq .seq-pagination > * {
-  margin: 0 6px;
+  margin: 0 10px;
   padding: 0;
   display: inline-block;
   border-radius: 100%;
