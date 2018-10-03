@@ -81,13 +81,13 @@ html,
 }
 
 .seq .seq-pagination > * {
-  margin: 0 4px;
+  margin: 0 6px;
   padding: 0;
   display: inline-block;
   border-radius: 100%;
   zoom: 1;
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
   background: none;
   border: white solid 2px;
