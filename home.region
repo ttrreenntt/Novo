@@ -21,7 +21,7 @@
 
    <body>
 
-   
+   {squarespace.main-content}
 	  
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
