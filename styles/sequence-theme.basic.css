@@ -189,9 +189,6 @@ html,
   transition-duration: .25s;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
-  -webkit-transform: translateZ(0) scale(0);
-  -ms-transform: translateZ(0) scale(0);
-  transform: translateZ(0) scale(0);
 }
 
 .seq .seq-button:focus,
