@@ -45,9 +45,9 @@
 		<li class="seq-step4" id="step4">
 		  <div class="seq-content">
 		    <h3 data-seq class="seq-subtitle">Novo was formerly<br><a href="http://crmleaders.org" target="_blank">CRM Empowering Leaders</a></h3>
+		    <h3 data-seq class="seq-subtitle small-title"><a href="https://blog.crmleaders.org/novo-changing-our-name" target="_blank">Read the story behind our new name.</a></h3>
 		    <a class="seq-button" href="https://www.crmleaders.org/give" target="_blank" tabindex="-1">Give to Novo</a>
 		    <a class="seq-button" href="mailto:info@novo.org" target="_blank" tabindex="-1">Contact Novo</a>
-		    <h3 data-seq class="seq-subtitle small-title"><a href="https://blog.crmleaders.org/novo-changing-our-name" target="_blank">Read the story behind our new name.</a></h3>
 		  </div>
 		</li>
 		
