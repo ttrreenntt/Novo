@@ -15,7 +15,15 @@
 
    <body>
 
-	
+	<section class="content">
+		
+		<main id="content" class="page-content" role="main" data-content-field="main-content">
+			
+			{squarespace.main-content}
+			
+		</main>
+
+	</section>
 	  
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
