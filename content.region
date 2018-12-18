@@ -19,7 +19,7 @@
 		
 		<main id="content" class="page-content" role="main" data-content-field="main-content">
 			
-			<div class="logo-small"></div>
+			<div class="logo-small"><a href="../home"></a></div>
 			
 			{squarespace.main-content}
 			
