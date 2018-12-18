@@ -16,7 +16,7 @@
    <body>
 	   
 	<div class="banner">
-		<a href="/serve">2018 Urbana Attendees: Join the movement.</a>
+		<a href="/serve">2018 Urbana Attendees: <strong>Join the movement.</strong></a>
 	</div>
 
 	<div id="sequence" class="seq">
