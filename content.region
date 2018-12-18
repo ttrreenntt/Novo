@@ -13,7 +13,7 @@
     {squarespace-headers}
   </head>
 
-   <body>
+   <body class="contentpage">
 
 	<section class="content">
 		
