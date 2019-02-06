@@ -1,4 +1,4 @@
-<nav data-content-field="navigation-primary-nav" class+'hello'>
+<nav data-content-field="navigation-primary-nav" class='hello'>
   {.repeated section items}
       {.folder?}
         <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
