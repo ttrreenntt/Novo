@@ -3,7 +3,7 @@
       {.folder?}
         <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
 
-        <span>
+        <span {.section active}class="active" {.end}>
           {.repeated section items}
             {.collection?}
                 <a href="{collection.fullUrl}">
