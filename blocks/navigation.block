@@ -3,7 +3,7 @@
       {.folder?}
         <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
 
-        <span {.section active}class="active" {.end}>
+        <span>
           {.repeated section items}
             {.collection?}
                 <a href="{collection.fullUrl}">
@@ -21,7 +21,7 @@
       {.or}
 
         {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
+          <a href="{fullUrl}" {.section active}class="active" {.end}>{navigationTitle}</a>
         {.end}
 
         {.section externalLink}
