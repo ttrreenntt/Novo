@@ -29,7 +29,8 @@
 		      <h2>Get the <span>News</span></h2>
 		      <div class="subscribe-content">
 			      <p>Subscribe to our newsletter to receive ministry and prayer updates, devotionals, and free resources.</p>
-			      <a class="button icon-arrow-right" href="#"><strong>Sign Up</strong></a>
+			      <squarespace:block-field id="newsletterSignup" columns="1"/>
+				  <!-- <a class="button icon-arrow-right" href="#"><strong>Sign Up</strong></a> -->
 		      </div>
 	      </div>
 	      
