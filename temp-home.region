@@ -15,9 +15,11 @@
 
    <body>
 	   
+<!--
 	<div class="banner">
 		<a href="/serve">Urbana 2018: <strong>Join the movement</strong></a>
 	</div>
+-->
 
 	<div id="sequence" class="seq">
 	
