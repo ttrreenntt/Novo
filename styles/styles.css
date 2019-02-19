@@ -2302,6 +2302,8 @@ main .form-wrapper form .form-button-wrapper {
     z-index: 1; }
   main .form-wrapper form .form-button-wrapper:hover:after {
     right: 4px; }
+  main .form-wrapper form .form-button-wrapper.hidden {
+    display: none; }
 
 main .form-wrapper form .field-list {
   margin-bottom: 18px;
@@ -2361,6 +2363,10 @@ main .form-wrapper form .field-list {
     color: rgba(38, 38, 38, 0.7); }
   main .form-wrapper form .field-list .field .field-element, main .form-wrapper form .field-list .fields .field-element {
     margin: 4px 0 2px 0; }
+
+main .form-wrapper form .form-submission-text {
+  color: #262626;
+  font-size: 20px; }
 
 @media screen and (max-width: 1220px) {
   .header nav {
