@@ -405,6 +405,8 @@ aside.announcement-bar {
         .mobile-nav nav a:last-child:hover:after, .mobile-nav nav a:nth-last-child(2):hover:after {
           width: 0;
           opacity: 0; }
+      .mobile-nav nav a:nth-last-child(2) {
+        margin: 22px 4px 0 0; }
     .mobile-nav nav a.active:before {
       width: 100%;
       left: 0%;
