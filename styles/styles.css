@@ -62,27 +62,27 @@
     margin-top: 0px; } }
 
 @-webkit-keyframes Reset {}@-moz-keyframes Reset {}@keyframes Reset {}@-webkit-keyframes Green-Background {
-  0% {
+  0%, 100% {
     background-position: 23% 23%; } }
 
 @-moz-keyframes Green-Background {
-  0% {
+  0%, 100% {
     background-position: 23% 23%; } }
 
 @keyframes Green-Background {
-  0% {
+  0%, 100% {
     background-position: 23% 23%; } }
 
 @-webkit-keyframes Green-Text {
-  0% {
+  0%, 100% {
     color: #00af9a; } }
 
 @-moz-keyframes Green-Text {
-  0% {
+  0%, 100% {
     color: #00af9a; } }
 
 @keyframes Green-Text {
-  0% {
+  0%, 100% {
     color: #00af9a; } }
 
 html, body {
