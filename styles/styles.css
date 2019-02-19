@@ -46,33 +46,6 @@
   50%, 90% {
     color: #eb0045; } }
 
-/*
-body.green {
-	@-webkit-keyframes Gradient {
-		0%, 40%, 50%, 90%, 100% {background-position: 23% 23%}
-	}
-	
-	@-moz-keyframes Gradient {
-		0%, 40%, 50%, 90%, 100% {background-position: 23% 23%}
-	}
-	
-	@keyframes Gradient {
-		0%, 40%, 50%, 90%, 100% {background-position: 23% 23%}
-	}
-	
-	@-webkit-keyframes Text-Color {
-		0%, 40%, 50%, 90%, 100% {color: $green}
-	}
-	
-	@-moz-keyframes Text-Color {
-		0%, 40%, 50%, 90%, 100% {color: $green}
-	}
-	
-	@keyframes Text-Color {
-		0%, 40%, 50%, 90%, 100% {color: $green}
-	}
-}
-*/
 @-webkit-keyframes Show {
   to {
     opacity: 1;
@@ -88,7 +61,31 @@ body.green {
     opacity: 1;
     margin-top: 0px; } }
 
-@-webkit-keyframes Reset {}@-moz-keyframes Reset {}@keyframes Reset {}html, body {
+@-webkit-keyframes Reset {}@-moz-keyframes Reset {}@keyframes Reset {}@-webkit-keyframes Green-Background {
+  0% {
+    background-position: 23% 23%; } }
+
+@-moz-keyframes Green-Background {
+  0% {
+    background-position: 23% 23%; } }
+
+@keyframes Green-Background {
+  0% {
+    background-position: 23% 23%; } }
+
+@-webkit-keyframes Green-Text {
+  0% {
+    color: #00af9a; } }
+
+@-moz-keyframes Green-Text {
+  0% {
+    color: #00af9a; } }
+
+@keyframes Green-Text {
+  0% {
+    color: #00af9a; } }
+
+html, body {
   font-family: 'din-2014', Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #262626;
@@ -1140,9 +1137,9 @@ main.contentpage {
       color: white;
       font-weight: 800;
       line-height: 28px;
-      -webkit-animation: Reset 20s 0s ease infinite !important;
-      -moz-animation: Reset 20s 0s ease infinite !important;
-      animation: Reset 20s 0s ease infinite !important;
+      -webkit-animation: Reset 0.3s 0s ease 1 !important;
+      -moz-animation: Reset 0.3s 0s ease 1 !important;
+      animation: Reset 0.3s 0s ease 1 !important;
       letter-spacing: .75px;
       background: black;
       z-index: 10; }
@@ -1358,9 +1355,9 @@ main.blogpage .frame .sidebar .content {
       letter-spacing: .25px;
       background-color: #acacac;
       border-radius: 4px;
-      -webkit-animation: Reset 20s 0s ease infinite !important;
-      -moz-animation: Reset 20s 0s ease infinite !important;
-      animation: Reset 20s 0s ease infinite !important;
+      -webkit-animation: Reset 0.3s 0s ease 1 !important;
+      -moz-animation: Reset 0.3s 0s ease 1 !important;
+      animation: Reset 0.3s 0s ease 1 !important;
       transition: all 0.3s 0s ease;
       -webkit-transition: all 0.3s 0s ease;
       -moz-transition: all 0.3s 0s ease;
@@ -1507,9 +1504,9 @@ main.blogpage .frame .blog-item .content .entry-tags, main.blogpage .frame .blog
     letter-spacing: .25px;
     background-color: #acacac;
     border-radius: 4px;
-    -webkit-animation: Reset 20s 0s ease infinite !important;
-    -moz-animation: Reset 20s 0s ease infinite !important;
-    animation: Reset 20s 0s ease infinite !important;
+    -webkit-animation: Reset 0.3s 0s ease 1 !important;
+    -moz-animation: Reset 0.3s 0s ease 1 !important;
+    animation: Reset 0.3s 0s ease 1 !important;
     transition: all 0.3s 0s ease;
     -webkit-transition: all 0.3s 0s ease;
     -moz-transition: all 0.3s 0s ease;
@@ -1914,6 +1911,40 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
     cursor: pointer;
     z-index: 20; }
 
+body.green .header {
+  -webkit-animation: Green-Background 40s 0s ease infinite;
+  -moz-animation: Green-Background 40s 0s ease infinite;
+  animation: Green-Background 40s 0s ease infinite; }
+  body.green .header nav a:last-child {
+    -webkit-animation: Green-Text 40s 0s ease infinite;
+    -moz-animation: Green-Text 40s 0s ease infinite;
+    animation: Green-Text 40s 0s ease infinite; }
+
+body.green .footer {
+  -webkit-animation: Green-Text 40s 0s ease infinite;
+  -moz-animation: Green-Text 40s 0s ease infinite;
+  animation: Green-Text 40s 0s ease infinite; }
+  body.green .footer:before, body.green .footer:after {
+    -webkit-animation: Green-Background 40s 0s ease infinite;
+    -moz-animation: Green-Background 40s 0s ease infinite;
+    animation: Green-Background 40s 0s ease infinite; }
+  body.green .footer a {
+    -webkit-animation: Green-Text 40s 0s ease infinite;
+    -moz-animation: Green-Text 40s 0s ease infinite;
+    animation: Green-Text 40s 0s ease infinite; }
+    body.green .footer a:after {
+      -webkit-animation: Green-Background 40s 0s ease infinite;
+      -moz-animation: Green-Background 40s 0s ease infinite;
+      animation: Green-Background 40s 0s ease infinite; }
+  body.green .footer a.button {
+    -webkit-animation: Green-Background 40s 0s ease infinite;
+    -moz-animation: Green-Background 40s 0s ease infinite;
+    animation: Green-Background 40s 0s ease infinite; }
+  body.green .footer .social .social-content {
+    -webkit-animation: Green-Background 40s 0s ease infinite;
+    -moz-animation: Green-Background 40s 0s ease infinite;
+    animation: Green-Background 40s 0s ease infinite; }
+
 .sqs-video-wrapper {
   border-radius: 8px;
   overflow: hidden;
@@ -2000,6 +2031,11 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover {
     color: black;
     opacity: 1; }
+
+body.green:not(.button-style-default).button-corner-style-square .sqs-editable-button, body.green:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape {
+  -webkit-animation: Green-Background 40s 0s ease infinite;
+  -moz-animation: Green-Background 40s 0s ease infinite;
+  animation: Green-Background 40s 0s ease infinite; }
 
 .sqs-modal-lightbox-content {
   opacity: 0;
