@@ -289,7 +289,7 @@ aside.announcement-bar {
 
 .mobile-nav {
   display: block;
-  width: 100%;
+  width: 90%;
   height: auto;
   position: absolute;
   top: 0px;
@@ -389,20 +389,18 @@ aside.announcement-bar {
         margin: 12px 4px 0 0;
         padding: 9px 15px;
         border-radius: 4px;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 1.1px;
-        color: #00af9a;
+        color: #262626;
         background-color: white;
-        -webkit-animation: Text-Color 40s 0s ease infinite;
-        -moz-animation: Text-Color 40s 0s ease infinite;
-        animation: Text-Color 40s 0s ease infinite;
         transition: all 0.3s 0s ease;
         -webkit-transition: all 0.3s 0s ease;
         -moz-transition: all 0.3s 0s ease;
         -o-transition: all 0.3s 0s ease;
         -ms-transition: all 0.3s 0s ease; }
         .mobile-nav nav a:last-child:hover, .mobile-nav nav a:nth-last-child(2):hover {
-          ccolor: #00af9a;
+          color: white;
           background-color: black; }
         .mobile-nav nav a:last-child:hover:after, .mobile-nav nav a:nth-last-child(2):hover:after {
           width: 0;
