@@ -313,7 +313,7 @@ aside.announcement-bar {
     width: 84px;
     height: 34px;
     position: absolute;
-    top: 20px;
+    top: 118px;
     left: 20px;
     opacity: 1;
     border-radius: 4px;
@@ -348,7 +348,7 @@ aside.announcement-bar {
       letter-spacing: 1px; }
   .mobile-nav nav {
     display: block;
-    margin: 100px 0 40px 60px; }
+    margin: 168px 0 40px 60px; }
     .mobile-nav nav a {
       display: table;
       margin: 0 0 10px;
@@ -409,16 +409,16 @@ aside.announcement-bar {
       display: block;
       position: absolute;
       width: 1px;
-      height: 400px;
-      top: 60px;
+      height: 370px;
+      top: 158px;
       left: 36px;
       background: rgba(255, 255, 255, 0.12); }
 
+body.contentpage .mobile-nav {
+  top: -107px; }
+
 body.show-nav .site {
   margin-left: -90%; }
-
-body.show-nav .header .open-nav {
-  visibility: hidden; }
 
 .header {
   width: 100%;
@@ -2477,16 +2477,16 @@ main .form-wrapper form .form-submission-text {
     .header .open-nav {
       visibility: visible; }
     .header .banner .map {
-      width: 140%;
-      left: -20%;
-      top: 160px;
+      width: 130%;
+      left: -15%;
+      top: 200px;
       bottom: auto;
       height: 400px;
       background-position: left top;
       opacity: 1; }
     .header .banner .message {
       max-width: 70%;
-      top: 86px; }
+      top: 40px; }
       .header .banner .message h2 {
         font-size: 42px;
         padding: 0px 0 18px 0; }
