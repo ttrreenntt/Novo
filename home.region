@@ -57,7 +57,7 @@
 	    <div class="frame">
 	    
 		<h1>
-		  <a href="/new-home" data-content-field="site-title">Novo</a>
+		  <a href="/" data-content-field="site-title">Novo</a>
 		</h1>
 		
 		<div class="open-nav icon-arrow-right"></div>
