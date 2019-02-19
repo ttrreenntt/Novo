@@ -46,6 +46,30 @@
   50%, 90% {
     color: #eb0045; } }
 
+@-webkit-keyframes Gradient {
+  0%, 40%, 50%, 90%, 100% {
+    background-position: 23% 23%; } }
+
+@-moz-keyframes Gradient {
+  0%, 40%, 50%, 90%, 100% {
+    background-position: 23% 23%; } }
+
+@keyframes Gradient {
+  0%, 40%, 50%, 90%, 100% {
+    background-position: 23% 23%; } }
+
+@-webkit-keyframes Text-Color {
+  0%, 40%, 50%, 90%, 100% {
+    color: #00af9a; } }
+
+@-moz-keyframes Text-Color {
+  0%, 40%, 50%, 90%, 100% {
+    color: #00af9a; } }
+
+@keyframes Text-Color {
+  0%, 40%, 50%, 90%, 100% {
+    color: #00af9a; } }
+
 @-webkit-keyframes Show {
   to {
     opacity: 1;
