@@ -291,7 +291,7 @@ aside.announcement-bar {
   width: 90%;
   height: auto;
   position: absolute;
-  top: 0px;
+  top: -107px;
   bottom: 0px;
   left: 10%;
   background: #262626;
@@ -413,9 +413,6 @@ aside.announcement-bar {
       top: 158px;
       left: 36px;
       background: rgba(255, 255, 255, 0.12); }
-
-body.contentpage .mobile-nav {
-  top: -107px; }
 
 body.show-nav .site {
   margin-left: -90%; }
@@ -2608,7 +2605,9 @@ main .form-wrapper form .form-submission-text {
         font-size: 26px;
         line-height: 32px; }
       main.contentpage .frame .content-frame .content p, main.contentpage .frame .blog-item .content p, main.contentpage .frame .blog-list .content p {
-        letter-spacing: -.25px; } }
+        letter-spacing: -.25px; }
+  main.contentpage .frame .sqs-block-summary-v2 .summary-excerpt p {
+    display: none; } }
 
 @media screen and (max-width: 1220px) and (min-width: 1001px), (max-width: 740px) and (min-width: 625px) {
   .footer {
