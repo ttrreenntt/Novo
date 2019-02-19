@@ -95,6 +95,7 @@
 body {
   display: block;
   position: relative;
+  overflow: hidden;
   opacity: 0;
   -webkit-animation: Show 0.5s 0s ease 1;
   -moz-animation: Show 0.5s 0s ease 1;
