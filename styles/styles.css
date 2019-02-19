@@ -95,7 +95,6 @@
 body {
   display: block;
   position: relative;
-  overflow: hidden;
   opacity: 0;
   -webkit-animation: Show 0.5s 0s ease 1;
   -moz-animation: Show 0.5s 0s ease 1;
@@ -317,19 +316,13 @@ aside.announcement-bar {
     top: 20px;
     left: 20px;
     opacity: 1;
-    background: white;
     border-radius: 4px;
-    transition: all 0.3s 0s ease;
-    -webkit-transition: all 0.3s 0s ease;
-    -moz-transition: all 0.3s 0s ease;
-    -o-transition: all 0.3s 0s ease;
-    -ms-transition: all 0.3s 0s ease;
-    opacity: 1;
+    opacity: .5;
     cursor: pointer;
     z-index: 999; }
     .mobile-nav .close-nav:before {
       position: absolute;
-      color: black;
+      color: white;
       top: 10px;
       left: 4px;
       font-size: 26px;
@@ -349,7 +342,7 @@ aside.announcement-bar {
       content: 'Close';
       font-family: 'din-2014', Helvetica, Arial, sans-serif;
       font-size: 14px;
-      color: black;
+      color: white;
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1px; }
@@ -416,8 +409,8 @@ aside.announcement-bar {
       display: block;
       position: absolute;
       width: 1px;
-      height: 390px;
-      top: 70px;
+      height: 400px;
+      top: 60px;
       left: 36px;
       background: rgba(255, 255, 255, 0.12); }
 
@@ -530,10 +523,9 @@ body.show-nav .header .open-nav {
     width: 78px;
     height: 34px;
     position: absolute;
-    top: 158px;
+    top: 10px;
     right: -13px;
     opacity: 1;
-    background: white;
     border-radius: 4px;
     transition: all 0.3s 0s ease;
     -webkit-transition: all 0.3s 0s ease;
@@ -553,13 +545,10 @@ body.show-nav .header .open-nav {
     z-index: 999; }
     .header .open-nav:before {
       position: absolute;
-      color: #00af9a;
+      color: white;
       top: 10px;
-      right: 4px;
+      right: 2px;
       font-size: 26px;
-      -webkit-animation: Text-Color 40s 0s ease infinite;
-      -moz-animation: Text-Color 40s 0s ease infinite;
-      animation: Text-Color 40s 0s ease infinite;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       transition: all 0.3s 0s ease;
@@ -568,7 +557,7 @@ body.show-nav .header .open-nav {
       -o-transition: all 0.3s 0s ease;
       -ms-transition: all 0.3s 0s ease; }
     .header .open-nav:hover:before {
-      right: 0px; }
+      right: -2px; }
     .header .open-nav:after {
       content: "";
       display: block;
@@ -578,11 +567,8 @@ body.show-nav .header .open-nav {
       content: 'Menu';
       font-family: 'din-2014', Helvetica, Arial, sans-serif;
       font-size: 14px;
-      color: #00af9a;
+      color: white;
       font-weight: 600;
-      -webkit-animation: Text-Color 40s 0s ease infinite;
-      -moz-animation: Text-Color 40s 0s ease infinite;
-      animation: Text-Color 40s 0s ease infinite;
       text-transform: uppercase;
       letter-spacing: 1px; }
   .header nav {
