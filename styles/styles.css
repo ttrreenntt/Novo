@@ -1895,9 +1895,18 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
       padding: 0 0 12px 0; }
     .footer .etc ul li:first-child {
       display: inline-block;
-      padding-left: 16px;
+      padding: 0 0 0 16px;
       position: relative;
       font-size: 16px; }
+    .footer .etc ul li.crm {
+      font-size: 13px;
+      font-weight: 600;
+      opacity: .6;
+      padding: 0 0 16px 0; }
+      .footer .etc ul li.crm em {
+        font-style: italic;
+        font-weight: 400;
+        padding: 0 2px 0 0; }
     .footer .etc span {
       display: inline-block;
       position: absolute;
