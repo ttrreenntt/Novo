@@ -2241,13 +2241,13 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
   font-weight: 800;
   color: white; }
 
-.form-wrapper form .field-error {
+main .form-wrapper form .field-error {
   margin: 0 0 12px;
   padding: 4px 12px 4px 24px;
   background-color: #eb0045;
   border-radius: 3px; }
 
-.form-wrapper form .form-button-wrapper {
+main .form-wrapper form .form-button-wrapper {
   display: inline-block;
   position: relative;
   border-radius: 4px;
@@ -2256,16 +2256,16 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
   -webkit-animation: Gradient 40s 0s ease infinite;
   -moz-animation: Gradient 40s 0s ease infinite;
   animation: Gradient 40s 0s ease infinite; }
-  .form-wrapper form .form-button-wrapper input.button.sqs-editable-button {
+  main .form-wrapper form .form-button-wrapper input.button.sqs-editable-button {
     display: inline-block;
     position: relative;
     text-transform: uppercase;
     font-weight: 800;
     background: rgba(0, 0, 0, 0);
     z-index: 10; }
-  .form-wrapper form .form-button-wrapper:hover input.button.sqs-editable-button {
+  main .form-wrapper form .form-button-wrapper:hover input.button.sqs-editable-button {
     color: white; }
-  .form-wrapper form .form-button-wrapper:before {
+  main .form-wrapper form .form-button-wrapper:before {
     content: "";
     display: block;
     position: absolute;
@@ -2276,9 +2276,9 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     z-index: 1;
     background: rgba(0, 0, 0, 0);
     border-radius: 4px; }
-  .form-wrapper form .form-button-wrapper:hover:before {
+  main .form-wrapper form .form-button-wrapper:hover:before {
     background: black; }
-  .form-wrapper form .form-button-wrapper:after {
+  main .form-wrapper form .form-button-wrapper:after {
     content: "k";
     position: absolute;
     color: white;
@@ -2300,17 +2300,17 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease;
     z-index: 1; }
-  .form-wrapper form .form-button-wrapper:hover:after {
+  main .form-wrapper form .form-button-wrapper:hover:after {
     right: 4px; }
 
-.form-wrapper form .field-list {
+main .form-wrapper form .field-list {
   margin-bottom: 18px;
   padding: 0 24px 0 24px;
   border-radius: 0 0 4px 4px;
   background: linear-gradient(-45deg, rgba(172, 172, 172, 0.2), rgba(172, 172, 172, 0.1));
   background-size: 100% 100%;
   background-position: center center; }
-  .form-wrapper form .field-list .section.underline {
+  main .form-wrapper form .field-list .section.underline {
     margin: 0 -24px 24px -24px;
     padding: 12px 24px 12px 24px;
     font-size: 18px;
@@ -2322,44 +2322,44 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     -webkit-animation: Gradient 40s 0s ease infinite;
     -moz-animation: Gradient 40s 0s ease infinite;
     animation: Gradient 40s 0s ease infinite; }
-    .form-wrapper form .field-list .section.underline:first-of-type {
+    main .form-wrapper form .field-list .section.underline:first-of-type {
       border-radius: 4px 4px 0 0; }
-  .form-wrapper form .field-list .field {
+  main .form-wrapper form .field-list .field {
     margin: 0 0 18px; }
-  .form-wrapper form .field-list .field label, .form-wrapper form .field-list .field .title, .form-wrapper form .field-list .fields label, .form-wrapper form .field-list .fields .title {
+  main .form-wrapper form .field-list .field label, main .form-wrapper form .field-list .field .title, main .form-wrapper form .field-list .fields label, main .form-wrapper form .field-list .fields .title {
     font-weight: 400;
     line-height: 24px; }
-    .form-wrapper form .field-list .field label .required, .form-wrapper form .field-list .field .title .required, .form-wrapper form .field-list .fields label .required, .form-wrapper form .field-list .fields .title .required {
+    main .form-wrapper form .field-list .field label .required, main .form-wrapper form .field-list .field .title .required, main .form-wrapper form .field-list .fields label .required, main .form-wrapper form .field-list .fields .title .required {
       color: #00af9a;
       -webkit-animation: Text-Color 40s 0s ease infinite;
       -moz-animation: Text-Color 40s 0s ease infinite;
       animation: Text-Color 40s 0s ease infinite; }
-  .form-wrapper form .field-list .field .field-element, .form-wrapper form .field-list .fields .field-element {
+  main .form-wrapper form .field-list .field .field-element, main .form-wrapper form .field-list .fields .field-element {
     border-radius: 3px;
     border: 1px solid rgba(172, 172, 172, 0.7);
     font-size: 15px;
     font-weight: 400;
     color: rgba(38, 38, 38, 0.7); }
-    .form-wrapper form .field-list .field .field-element:focus, .form-wrapper form .field-list .fields .field-element:focus {
+    main .form-wrapper form .field-list .field .field-element:focus, main .form-wrapper form .field-list .fields .field-element:focus {
       border: 1px solid #262626;
       transition: all 0.3s 0s ease;
       -webkit-transition: all 0.3s 0s ease;
       -moz-transition: all 0.3s 0s ease;
       -o-transition: all 0.3s 0s ease;
       -ms-transition: all 0.3s 0s ease; }
-  .form-wrapper form .field-list .field textarea.field-element, .form-wrapper form .field-list .fields textarea.field-element {
+  main .form-wrapper form .field-list .field textarea.field-element, main .form-wrapper form .field-list .fields textarea.field-element {
     line-height: 24px;
     min-height: 240px; }
-  .form-wrapper form .field-list .field .caption, .form-wrapper form .field-list .fields .caption {
+  main .form-wrapper form .field-list .field .caption, main .form-wrapper form .field-list .fields .caption {
     text-transform: uppercase;
     color: rgba(38, 38, 38, 0.5);
     font-weight: 700;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  .form-wrapper form .field-list .field .option, .form-wrapper form .field-list .field select, .form-wrapper form .field-list .fields .option, .form-wrapper form .field-list .fields select {
+  main .form-wrapper form .field-list .field .option, main .form-wrapper form .field-list .field select, main .form-wrapper form .field-list .fields .option, main .form-wrapper form .field-list .fields select {
     font-size: 16px;
     color: rgba(38, 38, 38, 0.7); }
-  .form-wrapper form .field-list .field .field-element, .form-wrapper form .field-list .fields .field-element {
+  main .form-wrapper form .field-list .field .field-element, main .form-wrapper form .field-list .fields .field-element {
     margin: 4px 0 2px 0; }
 
 @media screen and (max-width: 1220px) {
