@@ -63,15 +63,15 @@
 
 @-webkit-keyframes Reset {}@-moz-keyframes Reset {}@keyframes Reset {}@-webkit-keyframes Green-Background {
   0%, 100% {
-    background-position: 23% 23%; } }
+    background-position: 20% 20%; } }
 
 @-moz-keyframes Green-Background {
   0%, 100% {
-    background-position: 23% 23%; } }
+    background-position: 20% 20%; } }
 
 @keyframes Green-Background {
   0%, 100% {
-    background-position: 23% 23%; } }
+    background-position: 20% 20%; } }
 
 @-webkit-keyframes Green-Text {
   0%, 100% {
