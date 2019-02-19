@@ -355,7 +355,7 @@ aside.announcement-bar {
       letter-spacing: 1px; }
   .mobile-nav nav {
     display: block;
-    margin: 124px 0 40px 40px; }
+    margin: 100px 0 40px 60px; }
     .mobile-nav nav a {
       display: table;
       margin: 0 0 10px;
@@ -392,7 +392,7 @@ aside.announcement-bar {
         font-size: 18px;
         font-weight: 700;
         letter-spacing: 1.1px;
-        color: #262626;
+        color: black;
         background-color: white;
         transition: all 0.3s 0s ease;
         -webkit-transition: all 0.3s 0s ease;
@@ -411,16 +411,15 @@ aside.announcement-bar {
       width: 100%;
       left: 0%;
       opacity: 1; }
-  .mobile-nav:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 20px;
-    height: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)); }
+    .mobile-nav nav:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 390px;
+      top: 70px;
+      left: 36px;
+      background: rgba(255, 255, 255, 0.12); }
 
 body.show-nav .site {
   margin-left: -90%; }
