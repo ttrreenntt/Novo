@@ -2649,18 +2649,20 @@ main .form-wrapper form .form-submission-text {
     float: none;
     width: 100%;
     margin-top: 240px; }
-    main.contentpage .frame .content-frame .content, main.contentpage .frame .blog-item .content, main.contentpage .frame .blog-list .content {
-      padding: 48px 24px 80px 28px; }
-      main.contentpage .frame .content-frame .content h1, main.contentpage .frame .blog-item .content h1, main.contentpage .frame .blog-list .content h1 {
-        font-size: 32px;
-        line-height: 36px; }
-        main.contentpage .frame .content-frame .content h1 strong, main.contentpage .frame .blog-item .content h1 strong, main.contentpage .frame .blog-list .content h1 strong {
-          font-size: 36px; }
-      main.contentpage .frame .content-frame .content h2, main.contentpage .frame .blog-item .content h2, main.contentpage .frame .blog-list .content h2 {
-        font-size: 26px;
-        line-height: 32px; }
-      main.contentpage .frame .content-frame .content p, main.contentpage .frame .blog-item .content p, main.contentpage .frame .blog-list .content p {
-        letter-spacing: -.25px; } }
+  main.contentpage .content {
+    padding: 48px 24px 80px 28px; }
+    main.contentpage .content h1 {
+      font-size: 32px;
+      line-height: 36px; }
+      main.contentpage .content h1 strong {
+        font-size: 36px; }
+    main.contentpage .content h2 {
+      font-size: 26px;
+      line-height: 32px; }
+    main.contentpage .content p {
+      letter-spacing: -.25px; }
+    main.contentpage .content ul, main.contentpage .content ol {
+      padding: 0 0 12px 24px; } }
 
 @media screen and (max-width: 1220px) and (min-width: 1001px), (max-width: 740px) and (min-width: 625px) {
   .footer {
