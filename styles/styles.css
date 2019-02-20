@@ -582,7 +582,7 @@ aside.announcement-bar {
       width: 13px;
       height: 10px;
       background: url("../assets/icon-menu.svg") no-repeat;
-      background-position: center center;
+      background-position: left top;
       background-size: 100%;
       top: 12px;
       right: 7px; }
