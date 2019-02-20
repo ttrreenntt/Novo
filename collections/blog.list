@@ -34,19 +34,19 @@
 			
 			<h3>More Blogs:</h3>
 			
-			{.equal?:title:"Discipleship"}
-				<a class="button" href="/mission-blog">Mission</a>
+			{.equal?:title:"Becoming Disciples"}
+				<a class="button" href="/mission-blog">On Mission</a><br>
 				<a class="button" href="/novo-action-blog">Novo in Action</a>
 			{.end}
 			
-			{.equal?:title:"Mission"}
-				<a class="button" href="/discipleship-blog">Discipleship</a>
+			{.equal?:title:"On Mission"}
+				<a class="button" href="/discipleship-blog">Becoming Disciples</a><br>
 				<a class="button" href="/novo-action-blog">Novo in Action</a>
 			{.end}
 			
 			{.equal?:title:"Novo in Action"}
-				<a class="button" href="/discipleship-blog">Discipleship</a>
-				<a class="button" href="/mission-blog">Mission</a>
+				<a class="button" href="/discipleship-blog">Becoming Disciples</a><br>
+				<a class="button" href="/mission-blog">On Mission</a>
 			{.end}
 		
 		
