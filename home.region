@@ -26,7 +26,7 @@
 	
 	<aside class="announcement-bar">
 		
-		<squarespace:query collection="featured-items" featured="true" limit="1">
+		<squarespace:query collection="announcement-bar" featured="true" limit="1">
 
 			{.repeated section items}
 			
