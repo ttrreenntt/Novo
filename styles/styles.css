@@ -2687,10 +2687,12 @@ main .form-wrapper form .form-submission-text {
     .header .banner .map {
       width: 130%;
       left: -15%;
-      top: 200px;
+      top: 180px;
       bottom: auto;
       height: 400px;
+      background: url("../assets/map-alternative.png") no-repeat;
       background-position: left top;
+      background-size: cover;
       opacity: 1; }
     .header .banner .message {
       max-width: 70%;
