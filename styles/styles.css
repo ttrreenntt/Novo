@@ -326,6 +326,30 @@ aside.announcement-bar {
     letter-spacing: 1px;
     background-color: black;
     z-index: 2; }
+  aside.announcement-bar span.crm {
+    display: inline-block;
+    width: 246px;
+    height: 20px;
+    padding: 2px 0 0 0;
+    position: absolute;
+    top: 56px;
+    left: 284px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 1;
+    background: url("../assets/crm-logo.svg") no-repeat;
+    background-position: right top;
+    background-size: 189px 18px; }
+    aside.announcement-bar span.crm strong {
+      display: none;
+      font-weight: 700;
+      color: white; }
+    aside.announcement-bar span.crm em {
+      font-style: italic;
+      font-size: 14px;
+      font-weight: 400;
+      padding-right: 2px; }
   aside.announcement-bar .featured-button {
     display: block;
     position: absolute;
@@ -2567,6 +2591,15 @@ main .form-wrapper form .form-submission-text {
         font-size: 26px;
         padding: 0 2px 4px 0;
         top: 53px; }
+      aside.announcement-bar .frame span.crm {
+        width: 220px;
+        height: 20px;
+        padding: 0;
+        top: 52px;
+        left: 204px;
+        background-size: 168px 16px; }
+        aside.announcement-bar .frame span.crm em {
+          font-size: 13px; }
       aside.announcement-bar .frame .featured-button {
         top: 34px; }
         aside.announcement-bar .frame .featured-button.icon-arrow-right:before, aside.announcement-bar .frame .featured-button.icon-close:before {
@@ -2642,6 +2675,9 @@ main .form-wrapper form .form-submission-text {
 @media screen and (max-width: 767px) {
   aside.announcement-bar:after {
     visibility: hidden; }
+  aside.announcement-bar .frame span.crm {
+    top: 56px;
+    left: 200px; }
   .header {
     height: 200px; }
     .header.homepage {
@@ -2744,6 +2780,16 @@ main .form-wrapper form .form-submission-text {
       padding: 50px 0px 40px 0px; }
       main.homepage .full-width-frame .content-frame .content h2 strong {
         padding: 0; } }
+
+@media screen and (max-width: 600px) {
+  aside.announcement-bar .frame span.crm {
+    top: 74px;
+    left: 0px;
+    font-size: 12px !important;
+    background: none;
+    opacity: .5; }
+    aside.announcement-bar .frame span.crm strong {
+      display: inline; } }
 
 @media screen and (max-width: 900px) {
   main.contentpage .frame .sidebar, main.blogpage .frame .sidebar {
