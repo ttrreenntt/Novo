@@ -1197,7 +1197,6 @@ main.contentpage {
     main.contentpage .content ul {
       padding: 0 0 12px 40px; }
       main.contentpage .content ul li {
-        display: inline-block;
         position: relative; }
       main.contentpage .content ul[data-rte-list] li > *:first-child::before {
         position: absolute;
