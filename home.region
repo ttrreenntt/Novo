@@ -34,6 +34,7 @@
 			
 				<h3>Featured {categories}</h3>
 				<h2>{title}</h2>
+				<span class="crm"><em>formerly</em><strong> CRM Empowering Leaders</strong></span>
 				
 				<div class="featured-button icon-arrow-right">
 					<a href="#"><span class="action">{tags}</span><span class="close-text">Close</span><span class="small"> the </span><span class="caps">{categories}</span></a>
