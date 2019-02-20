@@ -575,20 +575,17 @@ aside.announcement-bar {
     visibility: hidden;
     z-index: 999; }
     .header .open-nav:before {
+      content: "";
+      display: block;
       position: absolute;
-      color: white;
-      top: 10px;
-      right: 2px;
-      font-size: 26px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      transition: all 0.3s 0s ease;
-      -webkit-transition: all 0.3s 0s ease;
-      -moz-transition: all 0.3s 0s ease;
-      -o-transition: all 0.3s 0s ease;
-      -ms-transition: all 0.3s 0s ease; }
-    .header .open-nav:hover:before {
-      right: -2px; }
+      position: absolute;
+      width: 13px;
+      height: 10px;
+      background: url("../assets/icon-menu.svg") no-repeat;
+      background-position: center center;
+      background-size: 100%;
+      top: 12px;
+      right: 7px; }
     .header .open-nav:after {
       content: "";
       display: block;
