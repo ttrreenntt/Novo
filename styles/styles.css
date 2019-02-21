@@ -1429,7 +1429,8 @@ main.blogpage .frame .blog-item .content .entry-content, main.blogpage .frame .b
         border-radius: 4px;
         -webkit-transform: scale(1.05);
         -moz-transform: scale(1.05);
-        transform: scale(1.05); }
+        transform: scale(1.05);
+        top: 0px !important; }
   main.blogpage .frame .blog-item .content .entry-content hr.thin, main.blogpage .frame .blog-list .content .entry-content hr.thin {
     margin: -12px 0 14px 0; }
   main.blogpage .frame .blog-item .content .entry-content a.button, main.blogpage .frame .blog-list .content .entry-content a.button {
