@@ -2150,6 +2150,14 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
         .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .field-list .field .field-element ::-webkit-input-placeholder, .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .field-list .field .field-element ::-moz-input-placeholder, .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .field-list .field .field-element ::-ms-input-placeholder, .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .field-list .field .field-element ::placeholder {
           color: #acacac;
           font-weight: 300; }
+    .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .form-submission-text {
+      font-size: 18px;
+      color: rgba(38, 38, 38, 0.7);
+      font-weight: 300;
+      padding-bottom: 12px; }
+      .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper form .form-submission-text strong {
+        font-weight: 600;
+        color: #262626; }
   .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper .form-button-wrapper {
     display: inline-block;
     margin: 2px 0 0 0;
@@ -2179,6 +2187,8 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
       right: 2px; }
     .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper .form-button-wrapper:hover {
       background: #262626; }
+    .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper .form-button-wrapper.hidden {
+      display: none; }
   .sqs-modal-lightbox-content .lightbox-inner .lightbox-content .form-wrapper .form-inner-wrapper input[type=submit] {
     display: inline-block;
     position: relative;
