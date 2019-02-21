@@ -1795,6 +1795,10 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
     letter-spacing: .5px; }
   .footer .social a:after, .footer .contact a:after {
     display: none; }
+  .footer .blog .discipleship, .footer .blog .mission, .footer .blog .action {
+    display: none; }
+  .footer .blog .discipleship.show, .footer .blog .mission.show, .footer .blog .action.show {
+    display: block; }
   .footer .blog h3 {
     padding: 0 0 12px 0;
     font-family: 'din-2014', Helvetica, Arial, sans-serif;
