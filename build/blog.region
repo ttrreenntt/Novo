@@ -1,0 +1,14 @@
+    <main class="contentpage blogpage" data-content-field="main-content">  
+	    
+	    {.section collection}
+	    
+		    <div class="frame">
+			    
+			    {squarespace.main-content}
+	    	
+	    	</div>
+	    
+	    {.end}
+		
+    </main>
+
