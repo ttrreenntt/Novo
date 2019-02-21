@@ -9,7 +9,7 @@
 //Included Modules
 const core = require('@squarespace/core');
 const controller = require('@squarespace/controller');
-const tilt = require('vanilla-tilt/dist/vanilla-tilt-custom.js');
+const tilt = require('vanilla-tilt/dist/vanilla-tilt-custom.js'); 
 
 
 // Action Animations
