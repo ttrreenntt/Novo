@@ -2053,7 +2053,7 @@ main.blogpage .frame {
 		
 		h3 {
 			padding: 0 0 12px 0;
-			@include font-din($size:24px, $weight:600, $lh:32px);
+			@include font-din($size:24px, $color:$white, $weight:300, $lh:32px);
 		}
 		
 		p {
