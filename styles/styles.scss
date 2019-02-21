@@ -838,6 +838,12 @@ aside.announcement-bar {
 		
 		a.active {
 			
+			&:last-child, &:nth-last-child(2) {
+				&:after {
+					display: none;
+				}
+			}
+			
 			&:after {
 				width: 100%;
 				left: 0%;
