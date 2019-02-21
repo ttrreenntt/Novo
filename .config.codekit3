@@ -631,6 +631,36 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/build/styles/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/build/styles/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/styles/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/build/template.conf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/template.conf",
+		"oF": 0
+		},
 	"/collections/.sftp": {
 		"cB": 0,
 		"ft": 8192,
