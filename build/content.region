@@ -1,0 +1,24 @@
+    <main class="contentpage" data-content-field="main-content">  
+	    
+	    {.section collection}
+	    
+		    <div {.section mainImage}class="frame" {.or}class="full-width-frame" {.end}>
+				    	
+		    	{.section mainImage}
+		    	<div class="image-container">	
+		    		<div class="image" style="background-image:url('{assetUrl}?format=2500w');"></div>
+		    	</div>
+		    	{.end}
+		    	
+		    	<div class="content-frame">
+			        <div class="content">{squarespace.main-content}</div>
+		    	</div>
+		    	
+		    	<div class="clear"></div>
+	    	
+	    	</div>
+	    
+	    {.end}
+		
+    </main>
+
