@@ -346,6 +346,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/build/assets/map-alternative.png": {
+		"ft": 32768,
+		"iS": 194466,
+		"oA": 0,
+		"oAP": "/build/assets/map-alternative.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/assets/map.png": {
+		"ft": 32768,
+		"iS": 205626,
+		"oA": 0,
+		"oAP": "/build/assets/map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/build/assets/novo-logo-mark.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -606,16 +628,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/styles/reset-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/build/styles/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/styles/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
