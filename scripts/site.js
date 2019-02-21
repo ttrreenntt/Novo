@@ -29,7 +29,7 @@ function toggleBtn(btn) {
 	$(btn).toggleClass('close-btn');
 	$(btn).toggleClass('icon-arrow-right');
 	$(btn).toggleClass('icon-close');
-}
+} 
  
 function addArrows() {
     $('.form-button-wrapper').addClass('icon-arrow-right');
