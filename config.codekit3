@@ -9,25 +9,18 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/.npmrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/.npmrc",
-		"oF": 0
-		},
 	"/alternative.region": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/alternative.region",
+		"oF": 0
+		},
+	"/assets/.sftp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/assets/.sftp",
 		"oF": 0
 		},
 	"/assets/crm-logo.svg": {
@@ -39,6 +32,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/assets/fonts/.sftp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/assets/fonts/.sftp",
+		"oF": 0
 		},
 	"/assets/fonts/icons.eot": {
 		"cB": 0,
@@ -225,6 +225,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/blocks/.sftp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/blocks/.sftp",
+		"oF": 0
+		},
 	"/blocks/navigation.block": {
 		"cB": 0,
 		"ft": 8192,
@@ -338,28 +345,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/build/assets/map-alternative.png": {
-		"ft": 32768,
-		"iS": 452713,
-		"oA": 0,
-		"oAP": "/build/assets/map-alternative.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/build/assets/map.png": {
-		"ft": 32768,
-		"iS": 438895,
-		"oA": 0,
-		"oAP": "/build/assets/map.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/build/assets/novo-logo-mark.svg": {
 		"ft": 2097152,
@@ -525,6 +510,13 @@
 		"oAP": "/build/content.region",
 		"oF": 0
 		},
+	"/build/footer.region": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/footer.region",
+		"oF": 0
+		},
 	"/build/header-green.region": {
 		"cB": 0,
 		"ft": 8192,
@@ -556,18 +548,28 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/build/scripts/site-bundle.js.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/scripts/site-bundle.js.map",
-		"oF": 0
-		},
 	"/build/site.region": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/site.region",
+		"oF": 0
+		},
+	"/build/styles/gallery.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/gallery-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/build/styles/gallery.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/styles/gallery.css.map",
 		"oF": 0
 		},
 	"/build/styles/gallery.less": {
@@ -607,11 +609,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/build/styles/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/styles/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/build/template.conf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/build/template.conf",
+		"oF": 0
+		},
+	"/collections/.sftp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/collections/.sftp",
 		"oF": 0
 		},
 	"/collections/blog-archive.item": {
@@ -712,34 +731,12 @@
 		"oAP": "/home.region",
 		"oF": 0
 		},
-	"/LICENSE": {
+	"/scripts/.sftp": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "/LICENSE",
+		"oAP": "/scripts/.sftp",
 		"oF": 0
-		},
-	"/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"/scripts/site.js": {
 		"ft": 64,
@@ -751,24 +748,28 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
+	"/scripts/vanilla-tilt-custom.js": {
+		"ft": 64,
 		"ma": 0,
+		"mi": 0,
 		"oA": 1,
-		"oAP": "/scss/styles.css",
+		"oAP": "/scripts/vanilla-tilt-custom-min.js",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"sC": 0,
+		"tS": 0
 		},
 	"/site.region": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/site.region",
+		"oF": 0
+		},
+	"/styles/.sftp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/styles/.sftp",
 		"oF": 0
 		},
 	"/styles/gallery.less": {
@@ -808,16 +809,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/styles/styles-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/styles/styles-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/styles/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -828,22 +819,25 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/styles/styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/styles/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/template.conf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/template.conf",
 		"oF": 0
-		},
-	"/webpack.config.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/webpack.config-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		}
 	},
 "hooks": [
@@ -861,7 +855,7 @@
 	"abortBuildOnError": 0,
 	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
-	"autoBuildNewItems": 1,
+	"autoBuildNewItems": 0,
 	"autoprefixerEnableIEGrid": 0,
 	"babel7PresetType": 1,
 	"babelAllowRCFiles": 0,
@@ -1098,8 +1092,8 @@
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
-	"buildFolderName": "build",
-	"cleanBuild": 1,
+	"buildFolderName": "hello",
+	"cleanBuild": 0,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
 			"active": 0,
@@ -2771,7 +2765,7 @@
 		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
-		"autoOutputAction": 1,
+		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
