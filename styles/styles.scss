@@ -2248,6 +2248,10 @@ body.green {
 		nav a:last-child { @include green-text; }
 	}
 	
+	main.contentpage .full-width-frame .content-frame .content .sqs-block-embed {
+		padding: 0 !important;
+	}
+	
 	.footer {
 		@include green-text;
 		
