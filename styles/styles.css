@@ -676,6 +676,8 @@ aside.announcement-bar {
         .header nav a:last-child:hover {
           color: #00af9a;
           background-color: black; }
+    .header nav a.active:last-child:after, .header nav a.active:nth-last-child(2):after {
+      display: none; }
     .header nav a.active:after {
       width: 100%;
       left: 0%;
