@@ -51,7 +51,7 @@ function pickBlog() {
 	    break;
 	    case 3:
 	    $('.discipleship').toggleClass('show');
-	    $('.action').toggleClass('show');
+	    $('.action').toggleClass('show'); 
 	    // Switch to Action Blog 
     }
 }
