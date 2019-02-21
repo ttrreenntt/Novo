@@ -9,7 +9,7 @@
 		      
 			      	{.repeated section items}
 				
-					<div class="blog-content discipleship">
+					<div class="blog-content discipleship show">
 					
 						<h3>{title}</h3>
 						<div>{excerpt}</div>
@@ -25,7 +25,7 @@
 		      
 			      	{.repeated section items}
 				
-					<div class="blog-content mission show">
+					<div class="blog-content mission">
 					
 						<h3>{title}</h3>
 						<div>{excerpt}</div>
