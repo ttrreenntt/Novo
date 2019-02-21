@@ -1,7 +1,22 @@
 
+// Use the sqs-core module to access core Squarespace
+// functionality, like Lifecycle and ImageLoader. For
+// full documentation, go to:
+//
+// http://github.com/squarespace/squarespace-core
+
+
+//Included Modules
+/*
+const core = require('@squarespace/core');
+const controller = require('@squarespace/controller');
+const tilt = require('vanilla-tilt/dist/vanilla-tilt-custom.js');
+*/
+
+
 // Action Animations
 function hideControls(player) {
-    $(player).addClass('hide-controls'); 
+    $(player).addClass('hide-controls');
 }
 
 function toggleFeatured() {
