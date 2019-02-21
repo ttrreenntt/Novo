@@ -631,13 +631,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/build/template.conf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/template.conf",
-		"oF": 0
-		},
 	"/collections/.sftp": {
 		"cB": 0,
 		"ft": 8192,
