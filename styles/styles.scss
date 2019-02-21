@@ -2447,6 +2447,18 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
 						}
 					}
 				}
+				
+				.form-submission-text {
+					font-size: 18px;
+					color: $lightgray;
+					font-weight: 300;
+					padding-bottom: 12px;
+					
+					strong {
+						font-weight: 600;
+						color: $gray;
+					}
+				}
 			}
 			
 			.form-button-wrapper {
@@ -2475,6 +2487,10 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
 				
 				&:hover{
 					background: $gray;
+				}
+				
+				&.hidden {
+					display: none;
 				}
 			}
 			
