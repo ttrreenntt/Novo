@@ -14,7 +14,7 @@ const tilt = require('vanilla-tilt/dist/vanilla-tilt-custom.js');
 
 // Action Animations
 function hideControls(player) {
-    $(player).addClass('hide-controls');
+    $(player).addClass('hide-controls'); 
 }
 
 function toggleFeatured() {
