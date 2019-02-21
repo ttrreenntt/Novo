@@ -9,7 +9,39 @@
 		      
 			      	{.repeated section items}
 				
-					<div class="blog-content">
+					<div class="blog-content discipleship show">
+					
+						<h3>{title}</h3>
+						<div>{excerpt}</div>
+						<a  class="button icon-arrow-right" href="{fullUrl}">Keep <strong>Reading</strong></a>
+
+					</div> 
+		 
+					{.end} 
+	
+			  </squarespace:query>
+			  
+			  <squarespace:query collection="mission-blog" featured="true" limit="1">
+		      
+			      	{.repeated section items}
+				
+					<div class="blog-content mission">
+					
+						<h3>{title}</h3>
+						<div>{excerpt}</div>
+						<a  class="button icon-arrow-right" href="{fullUrl}">Keep <strong>Reading</strong></a>
+
+					</div>
+		
+					{.end}
+	
+			  </squarespace:query>
+			  
+			  <squarespace:query collection="novo-action-blog" featured="true" limit="1">
+		      
+			      	{.repeated section items}
+				
+					<div class="blog-content action">
 					
 						<h3>{title}</h3>
 						<div>{excerpt}</div>
