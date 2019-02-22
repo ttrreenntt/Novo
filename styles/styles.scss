@@ -244,6 +244,26 @@ $lightergray: rgba(172,172,172,1);
   }
 }
 
+.sqs-search-ui-text-input {
+	height: 200px !important; 
+}
+
+.sqs-search-ui-button-wrapper input.search-input[type="search"] {
+	padding: 12px 20px 12px 20px;
+	border-radius: 80px;
+	border: 1px solid $lightergray;
+	@include font-din($size: 20px, $color: $gray, $weight:300, $lh:24px);
+	box-sizing: content-box !important;
+	-webkit-appearance: none !important;
+	opacity: 1; 
+	
+	
+	&::-webkit-input-placeholder {
+		color: $lightergray;
+	} 
+	
+}
+
 
 // GLOBAL STYLES //********************************************
 
