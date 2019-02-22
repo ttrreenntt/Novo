@@ -752,13 +752,6 @@
 		"oAP": "/collections/index.list",
 		"oF": 0
 		},
-	"/content-test.region": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/content-test.region",
-		"oF": 0
-		},
 	"/content.region": {
 		"cB": 0,
 		"ft": 8192,
