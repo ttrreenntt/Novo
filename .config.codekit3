@@ -346,6 +346,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/build/assets/map-alternative (Joshua’s iMac's conflicted copy 2019-02-21).png": {
+		"ft": 32768,
+		"iS": 452713,
+		"oA": 0,
+		"oAP": "/build/assets/map-alternative (Joshua’s iMac's conflicted copy 2019-02-21).png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/build/assets/map-alternative.png": {
 		"ft": 32768,
 		"iS": 194466,
@@ -560,6 +571,16 @@
 		"oAP": "/build/home.region",
 		"oF": 0
 		},
+	"/build/scripts/site-bundle (Joshua’s iMac's conflicted copy 2019-02-21).js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/build/scripts/site-bundle (Joshua’s iMac's conflicted copy 2019-02-21)-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"/build/scripts/site-bundle.js": {
 		"ft": 64,
 		"ma": 0,
@@ -630,29 +651,6 @@
 		"oAP": "/build/styles/reset-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"/build/styles/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/styles/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/build/styles/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/build/styles/styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"/build/template.conf": {
 		"cB": 0,
