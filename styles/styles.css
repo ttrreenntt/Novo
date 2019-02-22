@@ -1971,6 +1971,20 @@ body.green .header {
     -moz-animation: Green-Text 40s 0s ease infinite;
     animation: Green-Text 40s 0s ease infinite; }
 
+body.green main.contentpage .content p a, body.green main.contentpage .content .sqs-block-button a {
+  -webkit-animation: Green-Text 40s 0s ease infinite;
+  -moz-animation: Green-Text 40s 0s ease infinite;
+  animation: Green-Text 40s 0s ease infinite; }
+  body.green main.contentpage .content p a:after, body.green main.contentpage .content .sqs-block-button a:after {
+    -webkit-animation: Green-Background 40s 0s ease infinite;
+    -moz-animation: Green-Background 40s 0s ease infinite;
+    animation: Green-Background 40s 0s ease infinite; }
+
+body.green main.contentpage .content .sqs-block-button a:after {
+  -webkit-animation: Green-Background 40s 0s ease infinite;
+  -moz-animation: Green-Background 40s 0s ease infinite;
+  animation: Green-Background 40s 0s ease infinite; }
+
 body.green main.contentpage .full-width-frame .content-frame .content .sqs-block-embed {
   padding: 0 !important; }
 
