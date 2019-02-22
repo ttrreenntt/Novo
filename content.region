@@ -1,4 +1,4 @@
-   <main class="contentpage" data-content-field="main-content">  
+   <main {.section collection}class="contentpage"{.or}class="contentpage alt"{.end} data-content-field="main-content">  
 	    
 	    {.section collection}
 	    
@@ -22,19 +22,19 @@
 	   
 	   <div class="full-width-frame">
 			    
-			    <div class="content-frame">
-				    
-			        <div class="content" data-content-field="main-content">
-				        
-				        {squarespace.main-content}
-				        
-				        <div class="sidebar"></div>
-				        
-				    </div>
+		    <div class="content-frame">
+			    
+		        <div class="content" data-content-field="main-content">
 			        
-		    	</div>
-
+			        {squarespace.main-content}
+			        
+			        <div class="sidebar"></div>
+			        
+			    </div>
+		        
 	    	</div>
+
+    	</div>
 		
 	   {.end}
 		
