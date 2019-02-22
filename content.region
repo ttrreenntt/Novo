@@ -19,12 +19,14 @@
 	    	</div>
 	    
 	   {.or}
+	   
 	   <div class="full-width-frame">
 	   
 	   			<div class="content-frame">
 			        <div id="content" class="content" data-content-field="main-content">{squarespace.main-content}</div>
 		    	</div> 
 		</div>
+		
 	   {.end}
 		
     </main>
