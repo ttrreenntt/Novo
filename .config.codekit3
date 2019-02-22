@@ -246,6 +246,13 @@
 		"oAP": "/blog.region",
 		"oF": 0
 		},
+	"/build/alternative.region": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/alternative.region",
+		"oF": 0
+		},
 	"/build/assets/crm-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -529,6 +536,13 @@
 		"oAP": "/build/collections/index.list",
 		"oF": 0
 		},
+	"/build/content.region": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/content.region",
+		"oF": 0
+		},
 	"/build/footer.region": {
 		"cB": 0,
 		"ft": 8192,
@@ -736,6 +750,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/collections/index.list",
+		"oF": 0
+		},
+	"/content-test.region": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/content-test.region",
 		"oF": 0
 		},
 	"/content.region": {
