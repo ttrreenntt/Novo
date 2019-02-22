@@ -246,13 +246,6 @@
 		"oAP": "/blog.region",
 		"oF": 0
 		},
-	"/build/alternative.region": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/alternative.region",
-		"oF": 0
-		},
 	"/build/assets/crm-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -674,6 +667,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/build/template.conf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/template.conf",
+		"oF": 0
 		},
 	"/collections/.sftp": {
 		"cB": 0,
