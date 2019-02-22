@@ -147,7 +147,7 @@ class VanillaTilt {
 		var angleY = event.beta - this.settings.gyroscopeMinAngleY - 45; // Subtract 45 degrees for most common mobile device angle
         break; 
         
-    case 180:  
+    case 220:  
     
         // Portrait Upside-Down (leave as is)
     	var angleX = event.gamma - this.settings.gyroscopeMinAngleX;
@@ -383,10 +383,10 @@ class VanillaTilt {
       "mouse-event-element": null,
       reset: true,
       gyroscope: true,
-      gyroscopeMinAngleX: -90,
-      gyroscopeMaxAngleX: 90,
-      gyroscopeMinAngleY: -90,
-      gyroscopeMaxAngleY: 90,
+      gyroscopeMinAngleX: -45,
+      gyroscopeMaxAngleX: 45,
+      gyroscopeMinAngleY: -45,
+      gyroscopeMaxAngleY: 45,
     };
 
     let newSettings = {};
