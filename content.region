@@ -11,7 +11,7 @@
 		    	{.end}
 		    	
 		    	<div class="content-frame">
-			        <div class="content"  data-content-field="main-content">{squarespace.main-content}</div>
+			        <div id="content" class="content"  data-content-field="main-content">{squarespace.main-content}</div>
 		    	</div>
 		    	
 		    	<div class="clear"></div>
