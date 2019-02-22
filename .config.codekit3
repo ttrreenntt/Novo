@@ -543,13 +543,6 @@
 		"oAP": "/build/content.region",
 		"oF": 0
 		},
-	"/build/footer.region": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/footer.region",
-		"oF": 0
-		},
 	"/build/header-green.region": {
 		"cB": 0,
 		"ft": 8192,
@@ -793,6 +786,16 @@
 		"oA": 0,
 		"oAP": "/scripts/.sftp",
 		"oF": 0
+		},
+	"/scripts/site-bundle.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/scripts/site-bundle-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"/scripts/site.js": {
 		"ft": 64,
