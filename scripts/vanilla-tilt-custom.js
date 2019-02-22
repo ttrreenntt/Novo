@@ -147,7 +147,7 @@ class VanillaTilt {
 		var angleY = event.beta - this.settings.gyroscopeMinAngleY - 45; // Subtract 45 degrees for most common mobile device angle
         break; 
         
-    case 220:  
+    case 180:  
     
         // Portrait Upside-Down (leave as is)
     	var angleX = event.gamma - this.settings.gyroscopeMinAngleX;
