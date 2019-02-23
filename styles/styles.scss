@@ -287,7 +287,7 @@ body {
   animation-play-state: paused !important;
 }
 
-.sqs-search-ui-button-wrapper input.search-input[type="search"], .sqs-search-container {
+.sqs-search-ui-button-wrapper input.search-input[type="search"] {
 	padding: 12px 20px 12px 20px;
 	border-radius: 80px;
 	border: 1px solid $lightergray;
