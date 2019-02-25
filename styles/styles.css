@@ -2079,9 +2079,11 @@ body.green .footer {
   line-height: 24px;
   box-sizing: content-box !important;
   -webkit-appearance: none !important;
-  text-indent: 24px;
-  font-size: 28px;
   opacity: 1; }
+
+.sqs-search-container input {
+  text-indent: 24px;
+  font-size: 28px; }
 
 .sqs-video-wrapper {
   border-radius: 8px;
