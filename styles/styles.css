@@ -2086,8 +2086,10 @@ body.green .footer {
   font-size: 24px;
   color: #acacac; }
 
-.sqs-search-container-list .search-results sqs-search-container-item .sqs-main-image img {
-  max-width: auto; }
+.sqs-search-container-list .search-results .sqs-search-container-item .sqs-main-image img {
+  max-width: auto;
+  border-radius: 4px;
+  overflow: hidden; }
 
 .sqs-video-wrapper {
   border-radius: 8px;
