@@ -2107,6 +2107,9 @@ body.green .footer {
     color: #262626;
     font-weight: 600; }
 
+.sqs-search-page-more:hover {
+  color: white !important; }
+
 .sqs-video-wrapper {
   border-radius: 8px;
   overflow: hidden;
@@ -2212,8 +2215,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover span:before, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover span:before {
-    right: 4px;
-    color: black; }
+    right: 4px; }
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover {
     color: black;
     opacity: 1; }
