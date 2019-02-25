@@ -2074,7 +2074,7 @@ body.green .footer {
   border: 1px solid #acacac;
   font-family: 'din-2014', Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #262626;
+  color: rgba(38, 38, 38, 0.7);
   font-weight: 300;
   line-height: 24px;
   box-sizing: content-box !important;
@@ -2082,8 +2082,9 @@ body.green .footer {
   opacity: 1; }
 
 .sqs-search-container input {
-  text-indent: 24px;
-  font-size: 28px; }
+  text-indent: 30px;
+  font-size: 24px;
+  color: #acacac; }
 
 .sqs-video-wrapper {
   border-radius: 8px;
