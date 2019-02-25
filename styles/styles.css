@@ -2094,7 +2094,7 @@ body.green .footer {
   -o-transition: all 0.3s 0s ease;
   -ms-transition: all 0.3s 0s ease; }
   .search-result:hover {
-    background: rgba(172, 172, 172, 0.5); }
+    background: rgba(172, 172, 172, 0.2); }
 
 .sqs-search-container-list .search-results .sqs-search-container-item .sqs-main-image {
   border-radius: 4px;
