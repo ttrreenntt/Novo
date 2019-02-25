@@ -2020,7 +2020,7 @@ body.green .footer {
 .sqs-search-ui-button-wrapper .spinner-wrapper .sqs-spin {
   margin: 0 0 0 -6px !important; }
 
-.sqs-search-ui-button-wrapper input.search-input[type="search"], .sqs-search-page-input {
+.sqs-search-ui-button-wrapper input.search-input[type="search"] {
   margin: -6px 0 0 -6px;
   background: url("../assets/search.svg") no-repeat;
   background-position: 14px center;
@@ -2037,12 +2037,12 @@ body.green .footer {
   -webkit-appearance: none !important;
   text-indent: 12px;
   opacity: 1; }
-  .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus, .sqs-search-page-input:focus {
+  .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus {
     width: 100%; }
-  .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder, .sqs-search-ui-button-wrapper input.search-input[type="search"] input[type="text"], .sqs-search-page-input::-webkit-input-placeholder, .sqs-search-page-input input[type="text"] {
+  .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder, .sqs-search-ui-button-wrapper input.search-input[type="search"] input[type="text"] {
     color: #acacac;
     padding-top: 1px; }
-  .sqs-search-ui-button-wrapper input.search-input[type="search"].loading, .sqs-search-page-input.loading {
+  .sqs-search-ui-button-wrapper input.search-input[type="search"].loading {
     background: none; }
 
 .sqs-search-preview-ui {
@@ -2064,6 +2064,22 @@ body.green .footer {
       color: rgba(38, 38, 38, 0.7); }
       .sqs-search-preview-ui .sqs-search-ui-result .sqs-search-ui-item .sqs-main-content .sqs-content em {
         font-weight: 600; }
+
+.sqs-search-page-input {
+  background: url("../assets/search.svg") no-repeat;
+  background-position: 18px center;
+  background-size: 20px 20px;
+  border-radius: 80px !important;
+  border: 1px solid #acacac;
+  font-family: 'din-2014', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #262626;
+  font-weight: 300;
+  line-height: 24px;
+  box-sizing: content-box !important;
+  -webkit-appearance: none !important;
+  text-indent: 12px;
+  opacity: 1; }
 
 .sqs-video-wrapper {
   border-radius: 8px;
