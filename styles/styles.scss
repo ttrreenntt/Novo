@@ -2308,7 +2308,7 @@ body.green {
 }
 .sqs-search-ui-button-wrapper input.search-input[type="search"] {
 	padding: 12px 10px 12px 20px !important;
-	border-radius: 80px;
+	border-radius: 80px !important;
 	border: 1px solid $lightergray;
 	@include font-din($size: 20px, $color: $gray, $weight:300, $lh:24px);
 	box-sizing: content-box !important;
@@ -2320,7 +2320,37 @@ body.green {
 	&::-webkit-input-placeholder {
 		color: $lightergray;
 	} 
+}
+
+.sqs-search-preview-ui {
+	margin: 12px 0 0;
+	border-radius: 4px;
 	
+	.sqs-search-ui-result {
+		border-radius: 8px;
+		
+		.sqs-search-ui-item {
+			.sqs-main-image-container img {
+				left: 0px !important;
+			}
+			
+			.sqs-main-content {
+				.sqs-title {
+					font-weight: 600;
+					font-size: 18px !important;
+				}
+				
+				.sqs-content {
+					font-size: 14px !important;
+					color: $lightgray;
+					
+					em {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+	}
 }
 
 // Video Player
