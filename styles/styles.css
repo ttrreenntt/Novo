@@ -2039,7 +2039,7 @@ body.green .footer {
   opacity: 1; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus, .sqs-search-page-input:focus {
     width: 100%; }
-  .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder, .sqs-search-page-input::-webkit-input-placeholder {
+  .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder, .sqs-search-ui-button-wrapper input.search-input[type="search"] input[type="text"], .sqs-search-page-input::-webkit-input-placeholder, .sqs-search-page-input input[type="text"] {
     color: #acacac;
     padding-top: 1px; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"].loading, .sqs-search-page-input.loading {
