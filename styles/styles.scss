@@ -2411,12 +2411,16 @@ body.green {
 		.sqs-content {
 			em {
 				font-style: normal;
-				font-weight: 800;
+				font-weight: 600;
 			}
 			
 			.sqs-title {
 				font-size: 24px;
 				font-weight: 600;
+			}
+			
+			.sqs-content {
+				color: $lightgray;
 			}
 			
 		}
