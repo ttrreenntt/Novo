@@ -2194,7 +2194,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     content: "k";
     position: absolute;
     color: white;
-    top: 14px;
+    top: 12px;
     right: 10px;
     font-size: 36px;
     font-family: "icons";
@@ -2212,7 +2212,8 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover span:before, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover span:before {
-    right: 4px; }
+    right: 4px;
+    color: black; }
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover {
     color: black;
     opacity: 1; }
