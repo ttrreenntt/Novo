@@ -2397,6 +2397,16 @@ body.green {
 	color: $lightergray;
 }
 
+.search-result {
+	background: rgba(172,172,172,0);
+	@include animate;
+	
+	&:hover {
+		background: rgba(172,172,172,.5);
+	}
+	
+}
+
 .sqs-search-container-list .search-results {
 	.sqs-search-container-item {
 		
@@ -2430,10 +2440,6 @@ body.green {
 				}
 			}
 			
-		}
-		
-		&:hover {
-			background: rgba(172,172,172,.5);
 		}
 	}
 }
