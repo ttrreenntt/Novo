@@ -2107,12 +2107,6 @@ body.green .footer {
     color: #262626;
     font-weight: 600; }
 
-.sqs-search-page-more.sqs-editable-button {
-  background: black;
-  -webkit-animation: Reset 0.3s 0s ease 1 !important;
-  -moz-animation: Reset 0.3s 0s ease 1 !important;
-  animation: Reset 0.3s 0s ease 1 !important; }
-
 .sqs-video-wrapper {
   border-radius: 8px;
   overflow: hidden;
