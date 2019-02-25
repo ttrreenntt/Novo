@@ -2311,7 +2311,7 @@ body.green {
 	margin: 0 0 0 -6px !important;
 }
 
-.sqs-search-ui-button-wrapper input.search-input[type="search"] {
+.sqs-search-ui-button-wrapper input.search-input[type="search"], .sqs-search-page-input {
 	margin: -6px 0 0 -6px;
 	background: url('../assets/search.svg') no-repeat;
 	background-position: 14px center;
