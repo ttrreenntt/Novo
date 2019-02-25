@@ -2400,10 +2400,11 @@ body.green {
 .sqs-search-container-list .search-results {
 	.sqs-search-container-item {
 		.sqs-main-image {
+			border-radius: 4px;
+			overflow: hidden;
+			
 			img {
 				max-width: none !important;
-				border-radius: 4px;
-				overflow: hidden;
 			}
 		}
 	}
