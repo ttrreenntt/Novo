@@ -2527,7 +2527,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
 		content: "k";
 		position: absolute;
 		color: $white;
-		top: 14px;
+		top: 12px;
 		right: 10px;
 		font-size: 36px;
 		font-family: "icons";
@@ -2543,6 +2543,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
 	
 	&:hover span:before {
 		right: 4px;
+		color: $black;
 	}
 	
 	&:hover {
