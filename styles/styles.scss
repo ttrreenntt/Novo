@@ -2329,7 +2329,7 @@ body.green {
 		width: 100%;
 	}
 	
-	&::-webkit-input-placeholder {
+	&::-webkit-input-placeholder, input[type="text"] {
 		color: $lightergray;
 		padding-top: 1px;
 	}
