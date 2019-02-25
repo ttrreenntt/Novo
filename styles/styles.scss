@@ -2522,7 +2522,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
 	@include font-din($size: 18px, $color: $white, $weight:400, $lh:24px);
 	text-transform: none;
 	
-	strong {
+	strong, span {
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: .5px;
