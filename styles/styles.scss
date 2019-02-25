@@ -2397,6 +2397,16 @@ body.green {
 	color: $lightergray;
 }
 
+.sqs-search-container-list .search-results {
+	sqs-search-container-item {
+		.sqs-main-image {
+			img {
+				max-width: auto;
+			}
+		}
+	}
+}
+
 // Video Player
 .sqs-video-wrapper {
 	border-radius: 8px;
