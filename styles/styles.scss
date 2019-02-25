@@ -2385,14 +2385,14 @@ body.green {
 	background-size: 20px 20px;
 	border-radius: 80px !important;
 	border: 1px solid $lightergray;
-	@include font-din($size: 20px, $color: $gray, $weight:300, $lh:24px);
+	@include font-din($size: 20px, $color: $lightgray, $weight:300, $lh:24px);
 	box-sizing: content-box !important;
 	-webkit-appearance: none !important;
 	opacity: 1; 
 }
 
 .sqs-search-container input {
-	text-indent: 26px;
+	text-indent: 30px;
 	font-size: 24px;
 	color: $lightergray;
 }
