@@ -2092,6 +2092,14 @@ body.green .footer {
   .sqs-search-container-list .search-results .sqs-search-container-item .sqs-main-image img {
     max-width: none !important; }
 
+.sqs-search-container-list .search-results .sqs-search-container-item .sqs-content em {
+  font-style: normal;
+  font-weight: 800; }
+
+.sqs-search-container-list .search-results .sqs-search-container-item .sqs-content .sqs-title {
+  font-size: 24px;
+  font-weight: 600; }
+
 .sqs-video-wrapper {
   border-radius: 8px;
   overflow: hidden;
