@@ -2190,6 +2190,29 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .5px; }
+  body:not(.button-style-default).button-corner-style-square .sqs-editable-button span:before, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape span:before {
+    content: "k";
+    position: absolute;
+    color: white;
+    top: 14px;
+    right: 10px;
+    font-size: 36px;
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.3s 0s ease;
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    -ms-transition: all 0.3s 0s ease; }
+  body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover span:before, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover span:before {
+    right: 4px; }
   body:not(.button-style-default).button-corner-style-square .sqs-editable-button:hover, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape:hover {
     color: black;
     opacity: 1; }
