@@ -2303,9 +2303,11 @@ body.green {
 // SQSP STYLES //********************************************
 
 //Search
+.sqs-block-search {
+	padding-top: 0px;
+}
 .sqs-search-ui-button-wrapper input.search-input[type="search"] {
-	padding: 12px 20px 12px 20px;
-	padding-right: 10px;
+	padding: 12px 10px 12px 20px !important;
 	border-radius: 80px;
 	border: 1px solid $lightergray;
 	@include font-din($size: 20px, $color: $gray, $weight:300, $lh:24px);
