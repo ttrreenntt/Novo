@@ -2094,11 +2094,14 @@ body.green .footer {
 
 .sqs-search-container-list .search-results .sqs-search-container-item .sqs-content em {
   font-style: normal;
-  font-weight: 800; }
+  font-weight: 600; }
 
 .sqs-search-container-list .search-results .sqs-search-container-item .sqs-content .sqs-title {
   font-size: 24px;
   font-weight: 600; }
+
+.sqs-search-container-list .search-results .sqs-search-container-item .sqs-content .sqs-content {
+  color: rgba(38, 38, 38, 0.7); }
 
 .sqs-video-wrapper {
   border-radius: 8px;
