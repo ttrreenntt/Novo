@@ -2388,7 +2388,8 @@ body.green {
 	@include font-din($size: 20px, $color: $gray, $weight:300, $lh:24px);
 	box-sizing: content-box !important;
 	-webkit-appearance: none !important;
-	text-indent: 12px;
+	text-indent: 24px;
+	font-size: 28px;
 	opacity: 1; 
 }
 
