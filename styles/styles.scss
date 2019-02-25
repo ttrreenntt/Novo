@@ -2433,6 +2433,10 @@ body.green {
 	}
 }
 
+.sqs-search-page-more:hover {
+	color: white !important;
+}
+
 
 // Video Player
 .sqs-video-wrapper {
@@ -2543,7 +2547,6 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
 	
 	&:hover span:before {
 		right: 4px;
-		color: $black;
 	}
 	
 	&:hover {
