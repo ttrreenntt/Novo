@@ -2107,6 +2107,9 @@ body.green .footer {
     color: #262626;
     font-weight: 600; }
 
+.sqs-search-page-more-wrapper {
+  text-align: left; }
+
 .sqs-search-page-more:hover {
   color: white !important; }
 
