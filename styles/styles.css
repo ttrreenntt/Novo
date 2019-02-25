@@ -2107,6 +2107,12 @@ body.green .footer {
     color: #262626;
     font-weight: 600; }
 
+.sqs-search-page-more.sqs-editable-button {
+  background: black;
+  -webkit-animation: Reset 0.3s 0s ease 1 !important;
+  -moz-animation: Reset 0.3s 0s ease 1 !important;
+  animation: Reset 0.3s 0s ease 1 !important; }
+
 .sqs-video-wrapper {
   border-radius: 8px;
   overflow: hidden;
@@ -2186,7 +2192,7 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
   font-weight: 400;
   line-height: 24px;
   text-transform: none; }
-  body:not(.button-style-default).button-corner-style-square .sqs-editable-button strong, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape strong {
+  body:not(.button-style-default).button-corner-style-square .sqs-editable-button strong, body:not(.button-style-default).button-corner-style-square .sqs-editable-button span, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape strong, body:not(.button-style-default).button-corner-style-square .sqs-editable-button-shape span {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .5px; }
