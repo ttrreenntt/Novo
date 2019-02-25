@@ -2433,6 +2433,12 @@ body.green {
 	}
 }
 
+.sqs-search-page-more.sqs-editable-button {
+	background: $black;
+	@include reset-animation;
+	
+}
+
 // Video Player
 .sqs-video-wrapper {
 	border-radius: 8px;
