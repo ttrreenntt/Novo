@@ -2402,6 +2402,8 @@ body.green {
 		.sqs-main-image {
 			img {
 				max-width: auto;
+				border-radius: 4px;
+				overflow: hidden;
 			}
 		}
 	}
