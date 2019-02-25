@@ -2523,6 +2523,28 @@ body:not(.button-style-default).button-corner-style-square .sqs-editable-button,
 		letter-spacing: .5px;
 	}
 	
+	span:before {
+		content: "k";
+		position: absolute;
+		color: $white;
+		top: 14px;
+		right: 10px;
+		font-size: 36px;
+		font-family: "icons";
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		speak: none;
+		line-height: 1;
+		@include font-smoothing;
+		@include animate;
+	}
+	
+	&:hover span:before {
+		right: 4px;
+	}
+	
 	&:hover {
 		color: $black;
 		opacity: 1;	
