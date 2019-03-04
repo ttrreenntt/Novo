@@ -112,7 +112,8 @@ body {
   -webkit-transition: all 0.3s 0s ease;
   -moz-transition: all 0.3s 0s ease;
   -o-transition: all 0.3s 0s ease;
-  -ms-transition: all 0.3s 0s ease; }
+  -ms-transition: all 0.3s 0s ease;
+  z-index: 0; }
 
 .clear {
   display: block;
@@ -280,7 +281,8 @@ aside.announcement-bar {
   -webkit-transition: all 0.7s 0s ease;
   -moz-transition: all 0.7s 0s ease;
   -o-transition: all 0.7s 0s ease;
-  -ms-transition: all 0.7s 0s ease; }
+  -ms-transition: all 0.7s 0s ease;
+  z-index: 0; }
   aside.announcement-bar.show-featured {
     max-height: 1200px; }
   aside.announcement-bar .frame {
@@ -472,7 +474,7 @@ aside.announcement-bar {
   -moz-transition: all 0.7s 3s ease;
   -o-transition: all 0.7s 3s ease;
   -ms-transition: all 0.7s 3s ease;
-  z-index: 100; }
+  z-index: 0; }
   .header.homepage {
     margin: -120px 0 0 0;
     height: 860px; }
