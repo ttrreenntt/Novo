@@ -267,6 +267,7 @@ body {
 	width: 100%;
 	position: relative;
 	@include animate;
+	z-index: 0;
 }
 
 .clear {
@@ -443,6 +444,7 @@ aside.announcement-bar {
 	background-color: $black;
 	overflow: hidden;
 	@include animate(.7s);
+	z-index: 0;
 	
 	&.show-featured {
 		max-height: 1200px;
@@ -652,7 +654,7 @@ aside.announcement-bar {
 	overflow: hidden;
 	@include background-animation;
 	@include animate(.7s, 3s, ease);
-	z-index: 100;
+	z-index: 0;
 	
 	&.homepage {
 		margin: -120px 0 0 0;
