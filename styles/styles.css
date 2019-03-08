@@ -2787,7 +2787,7 @@ main .form-wrapper form .form-submission-text {
   main.homepage .frame .content-frame, main.homepage .full-width-frame .content-frame {
     margin-top: 240px; }
     main.homepage .frame .content-frame .content, main.homepage .full-width-frame .content-frame .content {
-      padding: 40px 30px 30px 36px; }
+      padding: 40px 24px 30px 30px; }
       main.homepage .frame .content-frame .content h2, main.homepage .full-width-frame .content-frame .content h2 {
         font-size: 36px;
         line-height: 30px;
