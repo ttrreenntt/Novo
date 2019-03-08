@@ -3377,11 +3377,12 @@ main .form-wrapper {
 						a {
 							font-size: 16px;
 							letter-spacing: .25px;
-							padding: 10px 40px 10px 16px;
+							padding: 9px 32px 9px 12px;
 							
 							&:after {
-								top: 11px;
-								right: 8px;
+								top: 12px;
+								right: 3px;
+								font-size: 32px;
 							}
 							
 							&:hover:after {
@@ -3434,7 +3435,50 @@ main .form-wrapper {
 			}
 		}
 	}
+	
+	main.homepage {
+		
+		.frame, .full-width-frame {
+			
+			.content-frame {
+		
+				.content {
+					
+					h2 {
+						font-size: 32px;
+						line-height: 26px;
+						
+						em {
+							top: 36px;
+							left: 11px;
+							font-size: 54px;
+						}
+						
+						strong {
+							font-size: 34px;
+							line-height: 48px;
+							padding: 0 0 0 30px;
+						}
+					}
+				}
+				
+			}
+		}
+		
+		.full-width-frame {
+			.content-frame {
+				
+				.content {
+					
+					h2 strong {
+						padding: 0;
+					}
+				}
+			}	
+		}
+	}
 }
+
 
 // Contentpage & Blogpage
 
@@ -3518,6 +3562,10 @@ main .form-wrapper {
 			
 			ul, ol { 
 				padding: 0 0 12px 24px;
+			}
+			
+			.sqs-block-button a {
+				letter-spacing: .25px;
 			}
 		}
 	}
