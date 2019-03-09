@@ -2417,6 +2417,8 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
       font-weight: 300;
       font-size: 22px;
       line-height: 30px; }
+  .sqs-block-summary-v2 .sqs-gallery-design-list .summary-item {
+    margin-bottom: 0px !important; }
   .sqs-block-summary-v2 .sqs-gallery-design-list .img-wrapper {
     border-radius: 3px;
     overflow: hidden;
