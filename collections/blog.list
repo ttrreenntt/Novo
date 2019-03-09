@@ -12,9 +12,15 @@
 			
 			<hr>
 			
+			{description}
+			
+			<squarespace:block-field id="blogSubscribe" columns="1"/>
+			
+			<hr>
+			
 			<h3>Recent Posts:</h3>
 			
-			<squarespace:query collection="{urlId}" limit="6">
+			<squarespace:query collection="{urlId}" limit="4">
 				<ul>
 					{.repeated section items}
 					  <li><a href="{fullUrl}">{title}</a></li>
