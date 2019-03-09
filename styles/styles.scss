@@ -2850,6 +2850,11 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
 			margin-bottom: 0px !important;
 		}
 		
+		.img-wrapper img.loaded, .sqs-video-wrapper img.loaded {
+			-webkit-filter: grayscale(0);
+			filter: grayscale(0);
+		}
+		
 		.img-wrapper {
 			border-radius: 3px;
 			overflow: hidden;
