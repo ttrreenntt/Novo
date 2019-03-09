@@ -2421,6 +2421,8 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
     border-radius: 3px;
     overflow: hidden;
     z-index: 100; }
+  .sqs-block-summary-v2 .sqs-gallery-design-autogrid {
+    margin-top: 20px; }
   .sqs-block-summary-v2 .sqs-gallery-image-container {
     border: 1px solid transparent;
     -webkit-animation: Show 0.3s 1.3s ease 1;
