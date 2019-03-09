@@ -1406,6 +1406,69 @@ main.blogpage .frame .sidebar .content {
         opacity: 1; }
       main.blogpage .frame .sidebar .content .entry-tags a:after {
         display: none; }
+  main.blogpage .frame .sidebar .content .lightbox-handle {
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0px;
+    padding: 11px 44px 11px 20px;
+    border-radius: 4px;
+    font-family: 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: .75px;
+    text-decoration: none;
+    background: black;
+    z-index: 10; }
+    main.blogpage .frame .sidebar .content .lightbox-handle:before {
+      content: "k";
+      position: absolute;
+      color: white;
+      top: 14px;
+      right: 8px;
+      font-size: 36px;
+      font-family: "icons";
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      speak: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: all 0.3s 0s ease;
+      -webkit-transition: all 0.3s 0s ease;
+      -moz-transition: all 0.3s 0s ease;
+      -o-transition: all 0.3s 0s ease;
+      -ms-transition: all 0.3s 0s ease; }
+    main.blogpage .frame .sidebar .content .lightbox-handle:hover:before {
+      right: 2px; }
+    main.blogpage .frame .sidebar .content .lightbox-handle:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      border-radius: 4px;
+      background: linear-gradient(-45deg, #008aab, #eb0045, #eb0045, #008aab, #00af9a, #00af9a);
+      background-size: 1200% 1200%;
+      -webkit-animation: Gradient 40s 0s ease infinite;
+      -moz-animation: Gradient 40s 0s ease infinite;
+      animation: Gradient 40s 0s ease infinite;
+      transition: all 0.3s 0s ease;
+      -webkit-transition: all 0.3s 0s ease;
+      -moz-transition: all 0.3s 0s ease;
+      -o-transition: all 0.3s 0s ease;
+      -ms-transition: all 0.3s 0s ease;
+      opacity: 1;
+      z-index: -10; }
+    main.blogpage .frame .sidebar .content .lightbox-handle:hover:after {
+      opacity: 0; }
 
 main.blogpage .frame .blog-item .content h1.entry-title, main.blogpage .frame .blog-list .content h1.entry-title {
   padding-bottom: 2px;
