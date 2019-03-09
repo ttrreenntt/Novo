@@ -12,23 +12,41 @@
 			
 			<hr>
 			
-			<h3>Recent Posts:</h3>
+			{.equal?:title:"Becoming Disciples"}
+				<a class="button" href="/discipleship-blog">More Articles</a><br>
+			{.end}
+			
+			{.equal?:title:"On Mission"}
+				<a class="button" href="/mission-blog">More Articles</a>
+			{.end}
+			
+			{.equal?:title:"Novo in Action"}
+				<a class="button" href="/novo-action-blog">More Articles</a>
+			{.end}
+			
+			<br><br>
+			
+<!-- 			<h3>Recent Posts:</h3> -->
 			
 			<squarespace:query collection="{urlId}" limit="6">
+<!--
 				<ul>
 					{.repeated section items}
 					  <li><a href="{fullUrl}">{title}</a></li>
 					{.end}
 				</ul>
+-->
 			</squarespace:query>
 			
-			<h3>Topics:</h3>
+<!-- 			<h3>Topics:</h3> -->
 			
 			{.section tags}
 					
+<!--
 				<p class="entry-tags">
 				{.repeated section @}<a href="{collection.fullUrl}?tag={@|url-encode}" rel="tag">{@}</a>{.alternates with}{.end}
 				</p>
+-->
 				
 			{.end}
 			
