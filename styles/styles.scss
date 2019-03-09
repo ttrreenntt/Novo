@@ -2797,6 +2797,10 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
 		}
 	}
 	
+	.sqs-gallery-design-autogrid {
+		margin-top: 20px;	
+	}
+	
 	.sqs-gallery-image-container {
 		border:1px solid transparent;
 		@include show(.3s, 1.3s);
