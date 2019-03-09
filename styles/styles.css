@@ -1178,6 +1178,10 @@ main.contentpage {
       letter-spacing: .75px;
       background: black;
       z-index: 10; }
+      main.contentpage .content .sqs-block-button a span {
+        text-transform: none;
+        font-weight: 400;
+        letter-spacing: .25px; }
       main.contentpage .content .sqs-block-button a:hover {
         opacity: 1; }
       main.contentpage .content .sqs-block-button a:before {
