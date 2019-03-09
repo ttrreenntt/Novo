@@ -14,7 +14,17 @@
 			
 			{description}
 			
-			<squarespace:block-field id="blogSubscribe" columns="1"/>
+			{.equal?:title:"Becoming Disciples"}
+				<squarespace:block-field id="Discipleship-Subscribe" columns="1"/>
+			{.end}
+			
+			{.equal?:title:"On Mission"}
+				<squarespace:block-field id="Mission-Subscribe" columns="1"/>
+			{.end}
+			
+			{.equal?:title:"Novo in Action"}
+				<squarespace:block-field id="Action-Subscribe" columns="1"/>
+			{.end}
 			
 			<hr>
 			
