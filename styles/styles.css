@@ -2482,6 +2482,9 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
       line-height: 30px; }
   .sqs-block-summary-v2 .sqs-gallery-design-list .summary-item {
     margin-bottom: 0px !important; }
+  .sqs-block-summary-v2 .sqs-gallery-design-list .img-wrapper img.loaded, .sqs-block-summary-v2 .sqs-gallery-design-list .sqs-video-wrapper img.loaded {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); }
   .sqs-block-summary-v2 .sqs-gallery-design-list .img-wrapper {
     border-radius: 3px;
     overflow: hidden;
