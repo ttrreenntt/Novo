@@ -1352,6 +1352,12 @@ main.contentpage {
 			background: rgba(0,0,0,1);
 			z-index: 10;
 			
+			span {
+				text-transform: none;
+				font-weight: 400;
+				letter-spacing: .25px;	
+			}
+			
 			&:hover {
 				opacity: 1;
 			}
