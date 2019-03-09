@@ -1629,6 +1629,62 @@ main.blogpage .frame {
 				}
 			}
 		}
+		
+		.lightbox-handle {
+			display: inline-block;
+			position: relative;
+			margin: 0 0 0px;
+			padding: 11px 44px 11px 20px;
+			border-radius: 4px;
+			@include font-din($size: 18px, $color: $white, $weight:800, $lh:28px);
+			text-transform: uppercase;
+			letter-spacing: .75px;
+			text-decoration: none;
+			background: rgba(0,0,0,1);
+			z-index: 10;
+			
+			&:before {
+				content: "k";
+				position: absolute;
+				color: $white;
+				top: 14px;
+				right: 8px;
+				font-size: 36px;
+				font-family: "icons";
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				speak: none;
+				line-height: 1;
+				@include font-smoothing;
+				@include animate;
+			}
+			
+			&:hover:before {
+				right: 2px;
+			}
+			
+			&:after {
+				@include pseudo;
+				width: 100%;
+				height: auto;
+				top: 0px;
+				left: 0px;
+				bottom: 0px;
+				border-radius: 4px;
+				background: linear-gradient(-45deg, $blue, $red, $red, $blue, $green, $green);
+				background-size: 1200% 1200%;
+				@include background-animation;
+				@include animate;
+				opacity: 1;
+				z-index: -10;
+			}
+			
+			&:hover:after {
+				opacity: 0;
+			}
+		}
 	}
 	
 	.blog-item .content, .blog-list .content {
