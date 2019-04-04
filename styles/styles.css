@@ -1004,7 +1004,7 @@ main.contentpage {
   main.contentpage .frame, main.contentpage .full-width-frame {
     width: 100%;
     max-width: 100%;
-    min-height: 500px; //reverse-back
+    min-height: 500px; 
     font-family: 'din-2014', Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #262626;
@@ -1089,6 +1089,7 @@ main.contentpage {
   main.contentpage .content {
     max-width: 940px;
     min-height: 500px;
+    min-height: 3000px; //reverse-back
     padding: 64px 64px 100px 64px; }
     main.contentpage .content .sqs-block {
       max-width: 680px; }
