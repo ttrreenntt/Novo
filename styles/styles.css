@@ -1710,6 +1710,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
 .footer {
   width: 100%;
   min-height: 1000px;
+  height: 100% !important;  
   margin: 0 0 0 0;
   position: relative;
   text-align: left;
