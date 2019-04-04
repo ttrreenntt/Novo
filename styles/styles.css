@@ -1710,8 +1710,6 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
 .footer {
   width: 100%;
   min-height: 1000px;
-  height: 3000px !important;
-  overflow: visible; 
   margin: 0 0 0 0;
   position: relative;
   text-align: left;
@@ -1724,8 +1722,6 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   z-index: 200; }
   .footer .frame {
     width: 85%;
-    height: 3000px !important;
-  	overflow: visible; 
     padding: 130px 0;
     -webkit-animation: Show 0.5s 1.2s ease 1;
     -moz-animation: Show 0.5s 1.2s ease 1;
