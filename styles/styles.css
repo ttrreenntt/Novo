@@ -1090,6 +1090,11 @@ main.contentpage {
     max-width: 940px;
     min-height: 500px;
     padding: 64px 64px 100px 64px; }
+    
+    main.contentpage .content:after {
+		clear:both;
+    }
+    
     main.contentpage .content .sqs-block {
       max-width: 680px; }
     main.contentpage .content h1 {
