@@ -1156,6 +1156,7 @@ main.homepage {
 main.contentpage {
 	width: 100%;
 	min-height: 300px;
+	margin-top: 0px;
 	position: relative;
 	background: linear-gradient(-45deg, #C3C3C3, #E5E5E5);
 	background-size: 100% 100%;
@@ -1174,7 +1175,6 @@ main.contentpage {
 		position: relative;
 		background: $white;
 		text-align: center;
-		
 		
 		.content-frame {
 			width: 85%;
@@ -2647,7 +2647,7 @@ body.green:not(.button-style-default).button-corner-style-square .sqs-editable-b
 // Lightboxes
 .sqs-modal-lightbox-content {
 	opacity: 0;
-	@include show(.5s);
+	@include show(.5s); 
 }
 
 .lightbox-inner {
@@ -3140,6 +3140,19 @@ main .form-wrapper {
 
 
 // RESPONSIVE STYLES //********************************************
+
+//Fix Android Issues
+.android {
+	main.contentpage {
+		opacity: 1 !important;
+		@include reset-animation;
+	}
+	
+	.footer {
+		opacity: 1 !important;
+		@include reset-animation;
+	}
+}
 
 // Homepage
 @media screen and (max-width: 1220px) {
@@ -3997,8 +4010,6 @@ main .form-wrapper {
 		}
 	}
 }
-
-
 
 
 
