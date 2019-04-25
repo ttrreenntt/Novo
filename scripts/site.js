@@ -84,6 +84,12 @@ function showPage() {
   pickBlog();
   
   
+  //Fix Android Issues
+  if (navigator.userAgent.match(/Android/)) {
+	   $('body').addClass('android');
+	}
+  
+  
 }
 
 
