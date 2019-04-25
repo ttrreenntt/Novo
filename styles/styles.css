@@ -2713,7 +2713,7 @@ main .form-wrapper form .form-submission-text {
   -moz-animation: Reset 0.3s 0s ease 1 !important;
   animation: Reset 0.3s 0s ease 1 !important; }
 
-.android .footer {
+.android .footer .frame {
   opacity: 1 !important;
   -webkit-animation: Reset 0.3s 0s ease 1 !important;
   -moz-animation: Reset 0.3s 0s ease 1 !important;
