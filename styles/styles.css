@@ -1793,7 +1793,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   .footer .icon-arrow-right:before {
     position: absolute;
     color: white;
-    top: 12px;
+    top: 13px;
     right: 10px;
     font-size: 36px;
     transition: all 0.3s 0s ease;
