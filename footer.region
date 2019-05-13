@@ -71,7 +71,9 @@
 		      <h2>Get the <span>News</span></h2>
 		      <div class="subscribe-content">
 			      <p>Subscribe to our newsletter to receive ministry and prayer updates, devotionals, and free resources.</p>
-			      <squarespace:block-field id="newsletterSignup" columns="1"/>
+				  <!-- <squarespace:block-field id="newsletterSignup" columns="1"/> -->
+				  <a  class="button icon-arrow-right" href="https://www.novo.org/subscribe"><strong>Sign Up</strong></a>
+
 		      </div>
 	      </div>
 	      
