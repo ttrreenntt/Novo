@@ -1524,10 +1524,6 @@ main.blogpage .frame .blog-item .content .entry-content, main.blogpage .frame .b
     text-decoration: none;
     background: black;
     z-index: 10; }
-    main.blogpage .frame .blog-item .content .entry-content a.button .label, main.blogpage .frame .blog-list .content .entry-content a.button .label {
-      display: inline-block;
-      white-space: nowrap;
-      overflow: hidden; }
     main.blogpage .frame .blog-item .content .entry-content a.button .title, main.blogpage .frame .blog-list .content .entry-content a.button .title {
       display: inline-block;
       max-width: 280px;
@@ -1641,15 +1637,22 @@ main.blogpage .frame .blog-item .content nav.pagination a, main.blogpage .frame 
   text-decoration: none;
   background: black;
   z-index: 10; }
+  main.blogpage .frame .blog-item .content nav.pagination a .label, main.blogpage .frame .blog-item .content nav.pagination a .colon, main.blogpage .frame .blog-list .content nav.pagination a .label, main.blogpage .frame .blog-list .content nav.pagination a .colon {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top; }
   main.blogpage .frame .blog-item .content nav.pagination a .title, main.blogpage .frame .blog-list .content nav.pagination a .title {
     display: inline-block;
     max-width: 280px;
+    padding-left: 4px;
     text-transform: capitalize;
     font-weight: 300;
     letter-spacing: 0px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis; }
+    text-overflow: ellipsis;
+    vertical-align: top; }
   main.blogpage .frame .blog-item .content nav.pagination a:before, main.blogpage .frame .blog-list .content nav.pagination a:before {
     content: "p";
     position: absolute;
