@@ -1749,12 +1749,6 @@ main.blogpage .frame {
 				background: rgba(0,0,0,1);
 				z-index: 10;
 				
-				.label {
-					display: inline-block;
-					white-space: nowrap;
-					overflow: hidden;
-				}
-				
 				.title {
 					display: inline-block;
 					max-width: 280px;
@@ -1866,15 +1860,24 @@ main.blogpage .frame {
 				background: rgba(0,0,0,1);
 				z-index: 10;
 				
+				.label, .colon {
+					display: inline-block; 
+					white-space: nowrap;
+					overflow: hidden;
+					vertical-align: top;
+				}
+				
 				.title {
 					display: inline-block;
 					max-width: 280px;
+					padding-left: 4px;
 					text-transform: capitalize;
 					font-weight: 300;
 					letter-spacing: 0px;
 					white-space: nowrap;
 					overflow: hidden;
 					text-overflow: ellipsis;
+					vertical-align: top;
 					
 				}
 				
