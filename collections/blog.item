@@ -159,9 +159,9 @@
 	{.if pagination}
 	
 		<nav class="pagination clear">
-			{.if pagination.nextItem}<a class="older" href="{pagination.nextItem.fullUrl}" rel="next"><span>Previous Post</span><span class="colon">: </span><span class="title">{pagination.nextItem.title}</span></a>{.end}
+			{.if pagination.nextItem}<a class="older" href="{pagination.nextItem.fullUrl}" rel="next"><span class="label">Previous Post</span><span class="colon">: </span><span class="title">{pagination.nextItem.title}</span></a>{.end}
 			
-			{.if pagination.prevItem}<a class="newer" href="{pagination.prevItem.fullUrl}" rel="prev"><span>Next Post<span><span class="colon">: </span><span class="title">{pagination.prevItem.title}</span></a>{.end}
+			{.if pagination.prevItem}<a class="newer" href="{pagination.prevItem.fullUrl}" rel="prev"><span  class="label">Next Post<span><span class="colon">: </span><span class="title">{pagination.prevItem.title}</span></a>{.end}
 			
 		</nav>
 		
