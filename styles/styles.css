@@ -1524,6 +1524,10 @@ main.blogpage .frame .blog-item .content .entry-content, main.blogpage .frame .b
     text-decoration: none;
     background: black;
     z-index: 10; }
+    main.blogpage .frame .blog-item .content .entry-content a.button .label, main.blogpage .frame .blog-list .content .entry-content a.button .label {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden; }
     main.blogpage .frame .blog-item .content .entry-content a.button .title, main.blogpage .frame .blog-list .content .entry-content a.button .title {
       display: inline-block;
       max-width: 280px;
