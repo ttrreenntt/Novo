@@ -1749,6 +1749,12 @@ main.blogpage .frame {
 				background: rgba(0,0,0,1);
 				z-index: 10;
 				
+				.label {
+					display: inline-block;
+					white-space: nowrap;
+					overflow: hidden;;
+				}
+				
 				.title {
 					display: inline-block;
 					max-width: 280px;
@@ -2018,7 +2024,7 @@ main.blogpage .frame {
 	.icon-arrow-right:before {
 		position: absolute;
 		color: $white;
-		top: 12px;
+		top: 13px;
 		right: 10px;
 		font-size: 36px;
 		@include animate;
