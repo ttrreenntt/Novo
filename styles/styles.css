@@ -2790,11 +2790,11 @@ main .form-wrapper form .form-submission-text {
   color: #262626;
   font-size: 20px; }
 
-.sqs-gallery-block-grid .margin-wrapper {
+#block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper {
   overflow: hidden;
   border-radius: 4px;
   cursor: pointer !important; }
-  .sqs-gallery-block-grid .margin-wrapper .image-slide-title {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper .image-slide-title {
     display: inline-block;
     position: absolute;
     pointer-events: none;
@@ -2803,7 +2803,7 @@ main .form-wrapper form .form-submission-text {
     top: 0;
     height: 20%;
     font-family: 'Panton-Black', 'din-2014', Helvetica, Arial, sans-serif;
-    font-size: 21px !important;
+    font-size: 18px !important;
     color: white;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -2814,7 +2814,7 @@ main .form-wrapper form .form-submission-text {
     -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
-    .sqs-gallery-block-grid .margin-wrapper .image-slide-title:before {
+    #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper .image-slide-title:before {
       content: "";
       display: block;
       position: absolute;
@@ -2825,7 +2825,7 @@ main .form-wrapper form .form-submission-text {
       background-color: white;
       opacity: .5;
       border-radius: 10px; }
-    .sqs-gallery-block-grid .margin-wrapper .image-slide-title:after {
+    #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper .image-slide-title:after {
       content: 'Download';
       display: inline-block;
       position: absolute;
@@ -2838,7 +2838,7 @@ main .form-wrapper form .form-submission-text {
       font-size: 13px !important;
       color: white;
       font-weight: 400; }
-  .sqs-gallery-block-grid .margin-wrapper .grid-description {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper .grid-description {
     display: inline-block;
     position: absolute;
     pointer-events: none;
@@ -2853,17 +2853,17 @@ main .form-wrapper form .form-submission-text {
     -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
-    .sqs-gallery-block-grid .margin-wrapper .grid-description p {
+    #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper .grid-description p {
       font-size: 14px;
       letter-spacing: .25px;
       text-align: center;
       font-weight: 200;
       color: white; }
-  .sqs-gallery-block-grid .margin-wrapper a {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper a {
     display: inline-block;
     position: relative;
     pointer-events: all; }
-    .sqs-gallery-block-grid .margin-wrapper a:after {
+    #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper a:after {
       content: "";
       display: block;
       position: absolute;
@@ -2877,14 +2877,14 @@ main .form-wrapper form .form-submission-text {
       -moz-transition: all 0.3s 0s ease;
       -o-transition: all 0.3s 0s ease;
       -ms-transition: all 0.3s 0s ease; }
-  .sqs-gallery-block-grid .margin-wrapper:hover .image-slide-title, .sqs-gallery-block-grid .margin-wrapper:hover .grid-description {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:hover .image-slide-title, #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:hover .grid-description {
     opacity: 1;
     cursor: pointer !important; }
-  .sqs-gallery-block-grid .margin-wrapper:hover a {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:hover a {
     cursor: pointer !important; }
-    .sqs-gallery-block-grid .margin-wrapper:hover a:after {
+    #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:hover a:after {
       background-color: rgba(0, 0, 0, 0.9); }
-  .sqs-gallery-block-grid .margin-wrapper:after {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:after {
     content: "g";
     position: absolute;
     color: white;
@@ -2909,7 +2909,7 @@ main .form-wrapper form .form-submission-text {
     -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
-  .sqs-gallery-block-grid .margin-wrapper:hover:after {
+  #block-yui_3_17_2_1_1561659504951_12947 .sqs-gallery-block-grid .margin-wrapper:hover:after {
     opacity: 1;
     top: 74%;
     transition: all 0.3s 0.1s ease;
