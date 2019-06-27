@@ -2792,20 +2792,21 @@ main .form-wrapper form .form-submission-text {
 
 .sqs-gallery-block-grid .margin-wrapper {
   overflow: hidden;
-  border-radius: 4px; }
+  border-radius: 4px;
+  cursor: pointer !important; }
   .sqs-gallery-block-grid .margin-wrapper .image-slide-title {
     display: inline-block;
     position: absolute;
     pointer-events: none;
     margin: 0 0 0 0 !important;
-    padding: 20% 0 60% 0;
+    padding: 12% 0 68% 0;
     top: 0;
     height: 20%;
-    font-size: 18px !important;
+    font-family: 'Panton-Black', 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 21px !important;
+    color: white;
     text-transform: uppercase;
     letter-spacing: .5px;
-    font-weight: 400;
-    color: white;
     opacity: 0;
     z-index: 1;
     transition: all 0.3s 0s ease;
@@ -2833,9 +2834,31 @@ main .form-wrapper form .form-submission-text {
       left: 0;
       text-align: center;
       letter-spacing: .5px;
+      font-family: 'din-2014', Helvetica, Arial, sans-serif;
+      font-size: 13px !important;
       color: white;
-      font-size: 13px;
       font-weight: 400; }
+  .sqs-gallery-block-grid .margin-wrapper .grid-description {
+    display: inline-block;
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    margin: 0 0 0 0 !important;
+    top: 26%;
+    height: 20%;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.3s 0s ease;
+    -webkit-transition: all 0.3s 0s ease;
+    -moz-transition: all 0.3s 0s ease;
+    -o-transition: all 0.3s 0s ease;
+    -ms-transition: all 0.3s 0s ease; }
+    .sqs-gallery-block-grid .margin-wrapper .grid-description p {
+      font-size: 14px;
+      letter-spacing: .25px;
+      text-align: center;
+      font-weight: 200;
+      color: white; }
   .sqs-gallery-block-grid .margin-wrapper a {
     display: inline-block;
     position: relative;
@@ -2854,7 +2877,7 @@ main .form-wrapper form .form-submission-text {
       -moz-transition: all 0.3s 0s ease;
       -o-transition: all 0.3s 0s ease;
       -ms-transition: all 0.3s 0s ease; }
-  .sqs-gallery-block-grid .margin-wrapper:hover .image-slide-title {
+  .sqs-gallery-block-grid .margin-wrapper:hover .image-slide-title, .sqs-gallery-block-grid .margin-wrapper:hover .grid-description {
     opacity: 1;
     cursor: pointer !important; }
   .sqs-gallery-block-grid .margin-wrapper:hover a {
@@ -2865,7 +2888,7 @@ main .form-wrapper form .form-submission-text {
     content: "g";
     position: absolute;
     color: white;
-    bottom: 10%;
+    top: 68%;
     left: 0px;
     width: 100%;
     text-align: center;
@@ -2878,6 +2901,7 @@ main .form-wrapper form .form-submission-text {
     speak: none;
     line-height: 1;
     opacity: 0;
+    cursor: pointer !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: all 0.3s 0s ease;
@@ -2887,7 +2911,7 @@ main .form-wrapper form .form-submission-text {
     -ms-transition: all 0.3s 0s ease; }
   .sqs-gallery-block-grid .margin-wrapper:hover:after {
     opacity: 1;
-    bottom: 4%;
+    top: 74%;
     transition: all 0.3s 0.1s ease;
     -webkit-transition: all 0.3s 0.1s ease;
     -moz-transition: all 0.3s 0.1s ease;
