@@ -2796,6 +2796,7 @@ main .form-wrapper form .form-submission-text {
   .sqs-gallery-block-grid .margin-wrapper .image-slide-title {
     display: inline-block;
     position: absolute;
+    pointer-events: none;
     margin: 0 0 0 0 !important;
     padding: 20% 0 60% 0;
     top: 0;
@@ -2806,7 +2807,7 @@ main .form-wrapper form .form-submission-text {
     font-weight: 400;
     color: white;
     opacity: 0;
-    z-index: 10;
+    z-index: 1;
     transition: all 0.3s 0s ease;
     -webkit-transition: all 0.3s 0s ease;
     -moz-transition: all 0.3s 0s ease;
@@ -2835,20 +2836,24 @@ main .form-wrapper form .form-submission-text {
       color: white;
       font-size: 13px;
       font-weight: 400; }
-  .sqs-gallery-block-grid .margin-wrapper a:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 0.3s 0s ease;
-    -webkit-transition: all 0.3s 0s ease;
-    -moz-transition: all 0.3s 0s ease;
-    -o-transition: all 0.3s 0s ease;
-    -ms-transition: all 0.3s 0s ease; }
+  .sqs-gallery-block-grid .margin-wrapper a {
+    display: inline-block;
+    position: relative;
+    pointer-events: all; }
+    .sqs-gallery-block-grid .margin-wrapper a:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0);
+      transition: all 0.3s 0s ease;
+      -webkit-transition: all 0.3s 0s ease;
+      -moz-transition: all 0.3s 0s ease;
+      -o-transition: all 0.3s 0s ease;
+      -ms-transition: all 0.3s 0s ease; }
   .sqs-gallery-block-grid .margin-wrapper:hover .image-slide-title {
     opacity: 1;
     cursor: pointer !important; }
