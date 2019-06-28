@@ -2836,11 +2836,12 @@ main .form-wrapper form .form-submission-text {
       -ms-transition: all 0.3s 0s ease; }
   .collection-5d13b2a5990c4f00014818ae .content h2:hover em:after {
     right: -72px; }
-  .collection-5d13b2a5990c4f00014818ae .content h2 .open em:after {
-    top: 2px;
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg); }
+
+.collection-5d13b2a5990c4f00014818ae .content .open h2 em:after {
+  top: 2px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg); }
 
 .collection-5d13b2a5990c4f00014818ae .content .sqs-block-horizontalrule {
   margin: -24px 0;
