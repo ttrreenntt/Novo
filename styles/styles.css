@@ -2859,6 +2859,7 @@ main .form-wrapper form .form-submission-text {
   -o-transition: all 0.3s 0s ease;
   -ms-transition: all 0.3s 0s ease; }
   .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open {
+    display: inline-block;
     max-height: 1200px !important; }
 
 .collection-5d13b2a5990c4f00014818ae .font-panton {
@@ -2884,6 +2885,7 @@ main .form-wrapper form .form-submission-text {
 .collection-5d13b2a5990c4f00014818ae .font-panton, .collection-5d13b2a5990c4f00014818ae .font-din {
   display: block;
   padding: 40px 40px 36px 50px;
+  margin-bottom: 16px;
   background-color: rgba(200, 200, 200, 0.5);
   border-radius: 4px;
   letter-spacing: .5px; }
