@@ -2852,13 +2852,13 @@ main .form-wrapper form .form-submission-text {
     margin: 0 !important;
     padding: 0 !important; }
 
-.collection-5d13b2a5990c4f00014818ae .content .sqs-row {
+.collection-5d13b2a5990c4f00014818ae .content .sqs-row, .collection-5d13b2a5990c4f00014818ae .content .sqs-block {
   transition: all 0.3s 0s ease;
   -webkit-transition: all 0.3s 0s ease;
   -moz-transition: all 0.3s 0s ease;
   -o-transition: all 0.3s 0s ease;
   -ms-transition: all 0.3s 0s ease; }
-  .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open {
+  .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open, .collection-5d13b2a5990c4f00014818ae .content .sqs-block.open {
     display: inline-block;
     max-height: 1200px !important; }
 
