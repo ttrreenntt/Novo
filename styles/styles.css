@@ -2864,6 +2864,44 @@ main .form-wrapper form .form-submission-text {
     .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open {
       max-height: 1200px !important; }
 
+.collection-5d13b2a5990c4f00014818ae .font-panton {
+  font-family: 'Panton-Light', 'din-2014', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: black; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton .font-name {
+    font-family: 'Panton-Black', 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: black; }
+
+.collection-5d13b2a5990c4f00014818ae .font-din {
+  font-family: 'din-2014', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 300; }
+  .collection-5d13b2a5990c4f00014818ae .font-din .font-name {
+    font-family: 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: black;
+    font-weight: 800; }
+
+.collection-5d13b2a5990c4f00014818ae .font-panton, .collection-5d13b2a5990c4f00014818ae .font-din {
+  display: block;
+  padding: 40px 40px 36px 50px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 4px;
+  letter-spacing: .5px; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton span, .collection-5d13b2a5990c4f00014818ae .font-din span {
+    display: block;
+    word-break: break-all;
+    padding-bottom: 12px; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton .font-name, .collection-5d13b2a5990c4f00014818ae .font-din .font-name {
+    padding-bottom: 18px; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton .alphabet-uppercase, .collection-5d13b2a5990c4f00014818ae .font-din .alphabet-uppercase {
+    text-transform: uppercase;
+    letter-spacing: .5px; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton .numbers, .collection-5d13b2a5990c4f00014818ae .font-din .numbers {
+    font-size: 24px; }
+
 .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper {
   overflow: hidden;
   border-radius: 4px;
