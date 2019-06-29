@@ -2809,9 +2809,6 @@ main .form-wrapper form .form-submission-text {
       top: 6px;
       right: -44px;
       color: #00af9a;
-      -webkit-animation: Text-Color 40s 0s ease infinite;
-      -moz-animation: Text-Color 40s 0s ease infinite;
-      animation: Text-Color 40s 0s ease infinite;
       font-size: 34px;
       font-family: "icons";
       font-style: normal;
@@ -2852,13 +2849,13 @@ main .form-wrapper form .form-submission-text {
     margin: 0 !important;
     padding: 0 !important; }
 
-.collection-5d13b2a5990c4f00014818ae .content .sqs-row, .collection-5d13b2a5990c4f00014818ae .content .sqs-block {
+.collection-5d13b2a5990c4f00014818ae .content .sqs-row {
   transition: all 0.3s 0s ease;
   -webkit-transition: all 0.3s 0s ease;
   -moz-transition: all 0.3s 0s ease;
   -o-transition: all 0.3s 0s ease;
   -ms-transition: all 0.3s 0s ease; }
-  .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open, .collection-5d13b2a5990c4f00014818ae .content .sqs-block.open {
+  .collection-5d13b2a5990c4f00014818ae .content .sqs-row.open {
     display: inline-block;
     max-height: 1200px !important; }
 
