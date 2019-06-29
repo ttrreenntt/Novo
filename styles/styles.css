@@ -2128,11 +2128,11 @@ body.green .header {
     -moz-animation: Green-Text 40s 0s ease infinite;
     animation: Green-Text 40s 0s ease infinite; }
 
-body.green main.contentpage .content p a, body.green main.contentpage .content .sqs-block-button a {
+body.green main.contentpage .content p a, body.green main.contentpage .content .sqs-block-button a, body.green main.contentpage .content h2 em {
   -webkit-animation: Green-Text 40s 0s ease infinite;
   -moz-animation: Green-Text 40s 0s ease infinite;
   animation: Green-Text 40s 0s ease infinite; }
-  body.green main.contentpage .content p a:after, body.green main.contentpage .content .sqs-block-button a:after {
+  body.green main.contentpage .content p a:after, body.green main.contentpage .content .sqs-block-button a:after, body.green main.contentpage .content h2 em:after {
     -webkit-animation: Green-Background 40s 0s ease infinite;
     -moz-animation: Green-Background 40s 0s ease infinite;
     animation: Green-Background 40s 0s ease infinite; }
