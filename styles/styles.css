@@ -3040,7 +3040,7 @@ main .form-wrapper form .form-submission-text {
     display: inline-block;
     position: absolute;
     width: 100%;
-    top: 40%;
+    top: 42%;
     left: 0;
     text-align: center;
     text-transform: uppercase;
@@ -3073,7 +3073,7 @@ main .form-wrapper form .form-submission-text {
   .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .image-slide-anchor:hover:before {
     opacity: 1; }
   .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .image-slide-anchor:hover:after {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.65); }
 
 .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .image-slide-title {
   display: inline-block;
