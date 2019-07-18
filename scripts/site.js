@@ -62,8 +62,6 @@ $(document).ready(function () {
 	// Add Arrows to Form Buttons 
 	$('.sqs-editable-button').click(function(){ addArrows(); });
 	
-	alert('hi');
-	
 });
 
 
@@ -97,6 +95,7 @@ function showPage() {
 		alert('hi');
 	}
 	
+	alert('hi');
 	
 }
 
