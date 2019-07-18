@@ -71,25 +71,28 @@ document.body.classList.add('js-loading');
 window.addEventListener("load", showPage);
 
 function showPage() {
-  document.body.classList.remove('js-loading');
+	document.body.classList.remove('js-loading');
+	
+	$('header').addClass('show');
+	
+	// Fix Footer Buttons
+	$('span.sqs-editable-button').addClass('icon-arrow-right');
+	$('.subscribe-content .sqs-editable-button').html("<strong>Sign Up</strong>"); 
+	$('.contact-content .sqs-editable-button').html("Send an <strong>Email</strong>");
+	
+	// Pick Blog Post
+	pickBlog();
   
-  $('header').addClass('show');
   
-  // Fix Footer Buttons
-  $('span.sqs-editable-button').addClass('icon-arrow-right');
-  $('.subscribe-content .sqs-editable-button').html("<strong>Sign Up</strong>"); 
-  $('.contact-content .sqs-editable-button').html("Send an <strong>Email</strong>");
-  
-  // Pick Blog Post
-  pickBlog();
-  
-  
-  //Fix Android Issues
-  if (navigator.userAgent.match(/Android/)) {
+	//Fix Android Issues
+	if (navigator.userAgent.match(/Android/)) {
 	   $('body').addClass('android');
 	}
-  
-  
+	
+	// Fix Chrome Issues
+	if(userAgent.search("Chrome") > -1){
+		$('body').addClass('chrome');
+	}
 }
 
 
