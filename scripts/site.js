@@ -68,8 +68,6 @@ $(document).ready(function () {
 // Loading Animations
 document.body.classList.add('js-loading');
 
-window.addEventListener("load", showPage);
-
 function showPage() {
 	document.body.classList.remove('js-loading');
 	
@@ -98,6 +96,10 @@ function showPage() {
 	alert('hi');
 	
 }
+
+window.addEventListener("load", showPage);
+
+
 
 
 // SQSP Functions
