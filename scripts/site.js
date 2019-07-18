@@ -69,7 +69,7 @@ $(document).ready(function () {
 document.body.classList.add('js-loading');
 
 function showPage() {
-	alert('hi');
+	
 	
 	document.body.classList.remove('js-loading');
 	
@@ -88,6 +88,8 @@ function showPage() {
 	if (navigator.userAgent.match(/Android/)) {
 	   $('body').addClass('android');
 	}
+	
+	alert('hi');
 	
 	// Fix Chrome Issues
 	if (userAgent.search("Chrome") > -1){
