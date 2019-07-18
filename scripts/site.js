@@ -90,7 +90,7 @@ function showPage() {
 	}
 	
 	// Fix Chrome Issues
-	if(userAgent.search("Chrome") > -1){
+	if (userAgent.search("Chrome") > -1){
 		$('body').addClass('chrome');
 	}
 }
