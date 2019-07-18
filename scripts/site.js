@@ -94,6 +94,10 @@ function showPage() {
 		$('body').addClass('chrome');
 		alert('hi');
 	}
+	
+	if(/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
+	 alert('I am chrome');
+	}
 }
 
 
