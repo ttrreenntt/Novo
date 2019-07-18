@@ -95,9 +95,7 @@ function showPage() {
 		alert('hi');
 	}
 	
-	if(/chrom(e|ium)/.test(navigator.userAgent.toLowerCase())){
-	 alert('I am chrome');
-	}
+	alert('hi');
 }
 
 
