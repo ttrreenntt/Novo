@@ -39,7 +39,7 @@ function pickBlog() {
 	    case 3:
 	    $('.discipleship').toggleClass('show');
 	    $('.action').toggleClass('show'); 
-	    // Switch to Action Blog 
+	    // Switch to Action Blog  
     }
 }
 
@@ -61,6 +61,8 @@ $(document).ready(function () {
 	
 	// Add Arrows to Form Buttons 
 	$('.sqs-editable-button').click(function(){ addArrows(); });
+	
+	alert('hi');
 	
 });
 
@@ -95,7 +97,7 @@ function showPage() {
 		alert('hi');
 	}
 	
-	alert('hi');
+	
 }
 
 
