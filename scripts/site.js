@@ -69,6 +69,8 @@ $(document).ready(function () {
 document.body.classList.add('js-loading');
 
 function showPage() {
+	alert('hi');
+	
 	document.body.classList.remove('js-loading');
 	
 	$('header').addClass('show');
@@ -93,7 +95,7 @@ function showPage() {
 		alert('hi');
 	}
 	
-	alert('hi');
+	
 	
 }
 
