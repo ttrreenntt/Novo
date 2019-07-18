@@ -89,15 +89,10 @@ function showPage() {
 	   $('body').addClass('android');
 	}
 	
-	alert('hi');
-	
 	// Fix Chrome Issues
-	if (userAgent.search("Chrome") > -1){
+	if (navigator.userAgent.match(/Chrome/)) {
 		$('body').addClass('chrome');
-		alert('hi');
 	}
-	
-	
 	
 }
 
