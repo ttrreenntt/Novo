@@ -131,9 +131,11 @@ body {
 .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
-  -webkit-animation-play-state: paused !important;
+  /*
+ -webkit-animation-play-state: paused !important;
   -moz-animation-play-state: paused !important;
-  animation-play-state: paused !important; }
+  animation-play-state: paused !important;
+*/ }
 
 .mobile-nav {
   display: block;
