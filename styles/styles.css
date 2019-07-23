@@ -600,7 +600,10 @@ aside.announcement-bar {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both;
-    opacity: 0;
+    opacity: 1 !important;
+    -webkit-animation: Reset 0.3s 0s ease 1 !important;
+    -moz-animation: Reset 0.3s 0s ease 1 !important;
+    animation: Reset 0.3s 0s ease 1 !important;
     margin-top: 20px;
     z-index: 10; }
     .header h1 a {
@@ -650,7 +653,10 @@ aside.announcement-bar {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both;
     margin-top: 20px;
-    opacity: 0;
+    opacity: 1 !important;
+    -webkit-animation: Reset 0.3s 0s ease 1 !important;
+    -moz-animation: Reset 0.3s 0s ease 1 !important;
+    animation: Reset 0.3s 0s ease 1 !important;
     cursor: pointer;
     visibility: hidden;
     z-index: 999; }
@@ -694,7 +700,10 @@ aside.announcement-bar {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both;
-    opacity: 0;
+    opacity: 1 !important;
+    -webkit-animation: Reset 0.3s 0s ease 1 !important;
+    -moz-animation: Reset 0.3s 0s ease 1 !important;
+    animation: Reset 0.3s 0s ease 1 !important;
     margin-top: 20px;
     z-index: 20; }
     .header nav a {
@@ -793,7 +802,10 @@ aside.announcement-bar {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both;
-    opacity: 0;
+    opacity: 1 !important;
+    -webkit-animation: Reset 0.3s 0s ease 1 !important;
+    -moz-animation: Reset 0.3s 0s ease 1 !important;
+    animation: Reset 0.3s 0s ease 1 !important;
     margin-top: 20px; }
     .header .banner .map {
       display: block;
@@ -3209,13 +3221,13 @@ main .form-wrapper form .form-submission-text {
     -o-transition: all 0.3s 0.1s ease;
     -ms-transition: all 0.3s 0.1s ease; }
 
-.android main.contentpage, .chrome main.contentpage, * main.contentpage {
+* main.contentpage {
   opacity: 1 !important;
   -webkit-animation: Reset 0.3s 0s ease 1 !important;
   -moz-animation: Reset 0.3s 0s ease 1 !important;
   animation: Reset 0.3s 0s ease 1 !important; }
 
-.android .footer .frame, .chrome .footer .frame, * .footer .frame {
+* .footer .frame {
   opacity: 1 !important;
   -webkit-animation: Reset 0.3s 0s ease 1 !important;
   -moz-animation: Reset 0.3s 0s ease 1 !important;
