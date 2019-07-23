@@ -3206,13 +3206,13 @@ main .form-wrapper form .form-submission-text {
     -o-transition: all 0.3s 0.1s ease;
     -ms-transition: all 0.3s 0.1s ease; }
 
-.android main.contentpage, .chrome main.contentpage {
+.android main.contentpage, .chrome main.contentpage, * main.contentpage {
   opacity: 1 !important;
   -webkit-animation: Reset 0.3s 0s ease 1 !important;
   -moz-animation: Reset 0.3s 0s ease 1 !important;
   animation: Reset 0.3s 0s ease 1 !important; }
 
-.android .footer .frame, .chrome .footer .frame {
+.android .footer .frame, .chrome .footer .frame, * .footer .frame {
   opacity: 1 !important;
   -webkit-animation: Reset 0.3s 0s ease 1 !important;
   -moz-animation: Reset 0.3s 0s ease 1 !important;
