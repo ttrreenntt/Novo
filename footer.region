@@ -121,7 +121,7 @@
     
     </div>
 	
-	<squarespace:script src="vanilla-tilt-custom.js" combo="false" />
+	<squarespace:script src="vanilla-tilt.js" combo="false" />
 	<squarespace:script src="site.js" combo="false" />	
     {squarespace-footers}
     
