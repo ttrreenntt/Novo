@@ -43,28 +43,6 @@ function pickBlog() {
     }
 }
 
-
-$(document).ready(function () {
-	
-	// Hide Video Controls
-	$('.sqs-video-wrapper').click(function(){ hideControls(this); });
-	
-	// Show / Hide Featured Content
-	$('.featured-button').click(function(){ toggleFeatured(); });
-	
-	// Show / Hide Mobile Nae
-	$('.open-nav').click(function(){ toggleNav(); });
-	$('.close-nav').click(function(){ toggleNav(); });
-	
-	// Replace Button Text
-	$('.featured-button').click(function(){ toggleBtn(this); });
-	
-	// Add Arrows to Form Buttons 
-	$('.sqs-editable-button').click(function(){ addArrows(); });
-	
-});
-
-
 // Loading Animations
 document.body.classList.add('js-loading');
 
@@ -96,7 +74,33 @@ function showPage() {
 	
 }
 
-window.addEventListener("load", showPage);
+
+
+
+$(document).ready(function () {
+	
+	// Hide Video Controls
+	$('.sqs-video-wrapper').click(function(){ hideControls(this); });
+	
+	// Show / Hide Featured Content
+	$('.featured-button').click(function(){ toggleFeatured(); });
+	
+	// Show / Hide Mobile Nae
+	$('.open-nav').click(function(){ toggleNav(); });
+	$('.close-nav').click(function(){ toggleNav(); });
+	
+	// Replace Button Text
+	$('.featured-button').click(function(){ toggleBtn(this); });
+	
+	// Add Arrows to Form Buttons 
+	$('.sqs-editable-button').click(function(){ addArrows(); });
+	
+	window.addEventListener("load", showPage);
+	
+});
+
+
+
 
 
 
