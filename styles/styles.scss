@@ -4162,10 +4162,6 @@ main .form-wrapper {
 @media screen and (max-width: 900px) {
 	main.contentpage, main.blogpage {
 		
-		.content p a {
-			display: inline;
-		}
-		
 		.frame {
 			
 			.sidebar {
@@ -4202,6 +4198,16 @@ main .form-wrapper {
 }
 
 @media screen and (max-width: 600px) {
+	
+	main.contentpage, main.blogpage {
+	
+		.content p a {
+			display: inline;
+			border-bottom: none;
+			text-decoration: underline;
+		}
+	}
+	
 	.sqs-col-12 {
 		.sqs-col-1, .sqs-col-2, .sqs-col-3, .sqs-col-4, .sqs-col-5, .sqs-col-6, .sqs-col-7, .sqs-col-8, .sqs-col-9, .sqs-col-10, .sqs-col-11, .sqs-col-12 {
 			width: 100%;
