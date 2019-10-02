@@ -2953,8 +2953,7 @@ main .form-wrapper form .form-submission-text {
       font-family: 'din-2014', Helvetica, Arial, sans-serif;
       font-size: 13px !important;
       color: white;
-      font-weight: 400;
-      pointer-events: none; }
+      font-weight: 400; }
   .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper .grid-description {
     display: inline-block;
     position: absolute;
@@ -3019,6 +3018,7 @@ main .form-wrapper form .form-submission-text {
     line-height: 1;
     opacity: 0;
     cursor: pointer !important;
+    pointer-events: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: all 0.3s 0s ease;
