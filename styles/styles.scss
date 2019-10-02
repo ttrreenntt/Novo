@@ -4203,8 +4203,11 @@ main .form-wrapper {
 	
 		.content p a {
 			display: inline;
-			border-bottom: none;
 			text-decoration: underline;
+			
+			&:after {
+				display: none;
+			}
 		}
 	}
 	
