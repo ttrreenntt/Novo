@@ -2953,7 +2953,8 @@ main .form-wrapper form .form-submission-text {
       font-family: 'din-2014', Helvetica, Arial, sans-serif;
       font-size: 13px !important;
       color: white;
-      font-weight: 400; }
+      font-weight: 400;
+      pointer-events: none; }
   .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper .grid-description {
     display: inline-block;
     position: absolute;
