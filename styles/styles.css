@@ -3496,6 +3496,8 @@ main .form-wrapper form .form-submission-text {
     float: none;
     width: 100%;
     margin-top: 340px; }
+    main.contentpage .frame .content-frame .content p a, main.contentpage .frame .blog-item .content p a, main.contentpage .frame .blog-list .content p a, main.blogpage .frame .content-frame .content p a, main.blogpage .frame .blog-item .content p a, main.blogpage .frame .blog-list .content p a {
+      display: inline; }
     main.contentpage .frame .content-frame .content nav.pagination a .title, main.contentpage .frame .content-frame .content nav.pagination a .colon, main.contentpage .frame .blog-item .content nav.pagination a .title, main.contentpage .frame .blog-item .content nav.pagination a .colon, main.contentpage .frame .blog-list .content nav.pagination a .title, main.contentpage .frame .blog-list .content nav.pagination a .colon, main.blogpage .frame .content-frame .content nav.pagination a .title, main.blogpage .frame .content-frame .content nav.pagination a .colon, main.blogpage .frame .blog-item .content nav.pagination a .title, main.blogpage .frame .blog-item .content nav.pagination a .colon, main.blogpage .frame .blog-list .content nav.pagination a .title, main.blogpage .frame .blog-list .content nav.pagination a .colon {
       display: none; }
   main.contentpage .frame .blog-item, main.contentpage .frame .blog-list, main.blogpage .frame .blog-item, main.blogpage .frame .blog-list {
