@@ -249,7 +249,10 @@ $lightergray: rgba(172,172,172,1);
 
 // HTML & Body
 html, body {
-	@include font-din($size: 18px, $color: $gray, $weight:400, $lh:24px); 
+	@include font-din($size: 18px, $color: $gray, $weight:400, $lh:24px);
+	-webkit-animation-play-state: running;
+	-moz-animation-play-state: running;
+	animation-play-state: running; 
 }
 
 body {
@@ -285,7 +288,11 @@ body {
 .js-loading *,
 .js-loading *:before,
 .js-loading *:after {
+/*
+  -webkit-animation-play-state: paused !important;
+  -moz-animation-play-state: paused !important;
   animation-play-state: paused !important;
+*/
 }
 
 //Mobile Nav
@@ -637,6 +644,75 @@ aside.announcement-bar {
 		padding: 10px 0 40px 0;
 		position: relative;
 		color: $white;
+		
+		h1, h2 {
+			position: relative;
+			top: auto;
+			padding: 0 0 12px 0;
+			@include font-din($size:28px, $color:$white, $weight:200, $lh:32px);
+			letter-spacing: .5px;
+			color: $green;
+			@include text-animation;   
+		}
+		
+		p {
+			@include font-din($size:18px, $weight:200, $lh:30px);
+			letter-spacing: .25px;
+		}
+		
+		img {
+			border-radius: 4px;
+		}
+		
+		.sqs-block-button a {
+			display: inline-block;
+			position: relative;
+			margin: -17px 0;
+			padding: 11px 44px 11px 20px;
+			border-radius: 4px;
+			@include font-din($size: 18px, $color: $white, $weight:800, $lh:28px);
+			letter-spacing: .75px;
+			background: linear-gradient(-45deg, $blue, $red, $red, $blue, $green, $green);
+			background-size: 1200% 1200%;
+			@include background-animation;
+			@include animate;
+			z-index: 10;
+			
+			span {
+				text-transform: none;
+				font-weight: 400;
+				letter-spacing: .25px;	
+			}
+			
+			&:hover {
+				opacity: 1;
+				color: $black;
+			}
+			
+			&:before {
+				content: "k";
+				position: absolute;
+				color: $white;
+				top: 15px;
+				right: 10px;
+				font-size: 36px;
+				font-family: "icons";
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				speak: none;
+				line-height: 1;
+				@include font-smoothing;
+				@include animate;
+			}
+			
+			&:hover:before {
+				right: 4px;
+				color: $black;
+			}
+	
+		} 
 	}
 }
 
@@ -2339,7 +2415,7 @@ body.green {
 	}
 	
 	main.contentpage .content {
-		p a, .sqs-block-button a  {
+		p a, .sqs-block-button a, h2 em  {
 			@include green-text;
 			
 			&:after {
@@ -3147,11 +3223,451 @@ main .form-wrapper {
 	}
 }
 
+// Brand Toolkit
+.collection-5d13b2a5990c4f00014818ae {
+	
+	.content  {
+		
+		h2 {
+			display: inline-block;
+			position: relative;
+			width: 100%;
+			margin-top: 0px;
+			padding: 30px 0 !important;
+			border-top: 1px solid $lightergray;
+			border-bottom: 1px solid $lightergray;
+			cursor: pointer !important;
+			
+			em {
+				display: inline-block;
+				position: relative;
+				cursor: pointer !important;
+				
+				&:after {
+					content: "p";
+					position: absolute;
+					top: 6px;
+					right: -44px;
+					color: $green;
+					font-size: 34px;
+					font-family: "icons";
+					font-style: normal;
+					font-weight: normal;
+					font-variant: normal;
+					text-transform: none;
+					speak: none;
+					line-height: 1;
+					cursor: pointer !important;
+					-webkit-transform: rotate(0deg);
+					-moz-transform: rotate(0deg);
+					transform: rotate(0deg);
+					-webkit-transform-origin: 36% 36%;
+					-moz-transform-origin: 36% 36%;
+					transform-origin: 36% 36%;
+					@include font-smoothing;
+					@include animate();
+				}
+			}
+			
+			&:hover {
+				em:after {
+					right:-72px;
+				}
+			}
+		}
+		
+		.open h2 {
+			em:after {
+				top:2px;
+				right:-72px;
+				-webkit-transform: rotate(90deg);
+				-moz-transform: rotate(90deg);
+				transform: rotate(90deg);
+			}
+		}
+		
+		.sqs-block-horizontalrule { 
+			margin: -18px 0;
+			padding: 0;
+			opacity: 0;
+			
+			hr {
+				margin: 0 !important;
+				padding: 0 !important;
+			}
+		}
+		
+		.sqs-row {
+			@include animate;
+			
+			&.open {
+				//display: inline-block;
+				max-height: 1200px !important;
+			}
+		}
+	}
+	
+	.font-panton {
+		@include font-panton($size: 30px, $color: $black, $weight:200);
+		
+		.font-name {
+			@include font-panton($size: 34px, $color: $black, $weight:800);	
+			letter-spacing: .5px;
+		}
+	}
+	
+	.font-din {
+		@include font-din($size: 30px, $color: $black, $weight:300);
+		
+		.font-name {
+			@include font-din($size: 34px, $color: $black, $weight:800);
+			letter-spacing: .25px;	
+		}
+	}
+	
+	.font-panton, .font-din {
+		display: block;
+		padding: 40px 40px 36px 50px;
+		margin-bottom: 16px;
+		background-color: rgba(200,200,200, .5);
+		border-radius: 4px;
+		letter-spacing: .75px;
+		
+		span {
+			display: block;
+			word-break: break-all;
+			padding-bottom: 12px;	
+		}
+		
+		.font-name {
+			padding-bottom: 18px;	
+		}
+		
+		.alphabet-uppercase {
+			text-transform: uppercase;
+			letter-spacing: .5px;
+		}
+		
+		.numbers {
+			font-size: 24px;
+		}
+		
+	}
+	
+	.sqs-gallery-aspect-ratio-square {
+	
+		.margin-wrapper {
+			overflow: hidden;
+			border-radius: 4px;
+			cursor: pointer !important;
+			
+			.image-slide-title {
+				display: inline-block;
+				position: absolute;
+				pointer-events:none;
+				margin: 0 0 0 0 !important;
+				padding: 12% 0 68% 0;
+				top: 0;
+				height: 20%;
+				@include font-panton($size: 18px !important, $color: $white, $weight:800);
+				text-transform: uppercase;
+				letter-spacing: .5px;
+				opacity: 0;
+				z-index: 1;
+				@include animate;
+				
+				&:before {
+					@include pseudo;
+					width: 80%;
+					left: 10%;
+					top: 49%;
+					height: 1px;
+					background-color: $white;
+					opacity: .5;
+					border-radius: 10px;
+				}
+				
+				&:after {
+					content:'Download';
+					display: inline-block;
+					position: absolute;
+					width: 100%;
+					bottom: 24%;
+					left: 0;
+					text-align: center;
+					letter-spacing: .5px;
+					@include font-din($size: 13px !important, $color: $white, $weight:400);
+				}
+			}
+			
+			.grid-description {
+				display: inline-block;
+				position: absolute;
+				pointer-events:none;
+				width: 100%;
+				margin: 0 0 0 0 !important;
+				top: 26%;
+				height: 20%;
+				opacity: 0;
+				z-index: 1;
+				@include animate;
+				
+				p {
+					font-size: 14px;
+					letter-spacing: .25px;
+					text-align: center;
+					font-weight: 200;
+					color: $white;
+				}
+			}
+			
+			a {
+				display: inline-block;
+				position: relative;
+				pointer-events:all;
+				
+				&:after {
+					@include pseudo;
+					width: 100%;
+					top: 0;
+					left: 0;
+					bottom: 0; 
+					background-color: rgba(0,0,0,0);
+					@include animate;
+				}
+					
+			}
+			
+			&:hover{
+				
+				.image-slide-title, .grid-description {
+					opacity: 1;
+					cursor: pointer !important;
+				}
+				
+				a{
+					cursor: pointer !important;
+					
+					&:after {
+						background-color: rgba(0,0,0,.9);
+					}
+				}
+			}
+			
+			&:after {
+				content: "g";
+				position: absolute;
+				color: $white;
+				top:68%;
+				left: 0px;
+				width: 100%;
+				text-align: center;
+				font-size: 36px;
+				font-family: "icons";
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				speak: none;
+				line-height: 1;
+				opacity: 0;
+				cursor: pointer !important;
+				pointer-events: none;
+				@include font-smoothing;
+				@include animate(.3s, 0s);
+			}
+			
+			&:hover:after {
+				opacity: 1;
+				top: 74%;
+				@include animate(.3s, .1s);
+			}
+		}
+	}
+	
+	.sqs-gallery-aspect-ratio-standard {
+		
+		.margin-wrapper {
+			
+			.image-slide-anchor {
+				display: inline-block;
+				position: relative;
+				pointer-events:all;
+				overflow: hidden;
+				margin-bottom: 4px;
+				border-radius: 4px;
+				cursor: pointer !important;
+				
+				&:before {
+					content:'Copy Hex';
+					display: inline-block;
+					position: absolute;
+					width: 100%;
+					top: 42%;
+					left: 0;
+					text-align: center;
+					text-transform: uppercase;
+					letter-spacing: .5px;
+					@include font-din($size: 16px !important, $color: $white, $weight:600);
+					@include animate;
+					opacity: 0;
+					z-index: 10;
+				}
+				
+				&:after {
+					@include pseudo;
+					width: 100%;
+					top: 0;
+					left: 0;
+					bottom: 0; 
+					background-color: rgba(0,0,0,0);
+					@include animate;
+				}
+				
+				&:hover:before {
+					opacity: 1;
+				}
+
+				
+				&:hover:after {
+					background-color: rgba(0,0,0,.65);
+				}
+			}
+		
+			.image-slide-title {
+				display: inline-block;
+				@include font-panton($size: 18px !important, $color: $gray, $weight:800);
+				text-align: left;
+				margin-left: 4px;
+				text-transform: uppercase;
+				letter-spacing: .5px;
+				z-index: 1;
+				@include animate;
+			}
+			
+			.grid-description {
+				display: inline-block;
+				@include font-din($size: 16px !important, $color: $gray, $weight:400);
+				
+				p {
+					margin-left: 4px;
+					letter-spacing: .25px;
+				}
+				
+				strong {
+					display: inline-block;
+					padding: 0 4px 0 0;
+					letter-spacing: .5px;
+					@include font-din($size: 16px !important, $color: $gray, $weight:700);
+				}
+			}
+			
+			
+		}
+	}
+	
+	.sqs-gallery-aspect-ratio-widescreen {
+		.margin-wrapper {
+			overflow: hidden;
+			border-radius: 4px;
+			cursor: pointer !important;
+			
+			a {
+				display: inline-block;
+				position: relative;
+				pointer-events:all;
+				
+				&:after {
+					@include pseudo;
+					width: 100%;
+					top: 0;
+					left: 0;
+					bottom: 0; 
+					background-color: rgba(0,0,0,0);
+					@include animate;
+				}
+					
+			}
+			
+			&:hover{
+				
+				.image-slide-title, .grid-description {
+					opacity: 1;
+					cursor: pointer !important;
+				}
+				
+				a{
+					cursor: pointer !important;
+					
+					&:after {
+						background-color: rgba(0,0,0,.8);
+					}
+				}
+			}
+			
+			&:before{
+				content: "Download from Unsplash.com";
+				position: absolute;
+				display: inline-block;
+				pointer-events:none;
+				color: $white;
+				top: 30%;
+				left: 25%;
+				width: 50%;
+				@include font-din($size: 16px !important, $color: $white, $weight:600);
+				text-transform: uppercase;
+				text-align: center;
+				font-size: 36px;
+				opacity: 0;
+				z-index: 20;
+				cursor: pointer !important;
+				@include font-smoothing;
+				@include animate(.3s, 0s);
+			}
+			
+			&:hover:before {
+				opacity: 1;
+				@include animate(.3s, .1s);
+			}
+			
+			&:after {
+				content: "g";
+				position: absolute;
+				pointer-events:none;
+				color: $white;
+				top:48%;
+				left: 0px;
+				width: 100%;
+				text-align: center;
+				font-size: 36px;
+				font-family: "icons";
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				speak: none;
+				line-height: 1;
+				opacity: 0;
+				cursor: pointer !important;
+				@include font-smoothing;
+				@include animate(.3s, 0s);
+			}
+			
+			&:hover:after {
+				opacity: 1;
+				top:60%;
+				@include animate(.3s, .1s);
+			}
+		}
+	}
+
+}
+
 
 // RESPONSIVE STYLES //********************************************
 
 //Fix Android Issues
-.android {
+.android, .chrome {
 	main.contentpage {
 		opacity: 1 !important;
 		@include reset-animation;
@@ -3161,7 +3677,7 @@ main .form-wrapper {
 		opacity: 1 !important;
 		@include reset-animation;
 	}
-}
+} 
 
 // Homepage
 @media screen and (max-width: 1220px) {
@@ -3373,6 +3889,21 @@ main .form-wrapper {
 				left:200px;
 			}
 		}
+		
+		.featured-content {
+			.sqs-col-1, .sqs-col-2, .sqs-col-3, .sqs-col-4, .sqs-col-5, .sqs-col-6, .sqs-col-7, .sqs-col-8, .sqs-col-9, .sqs-col-10, .sqs-col-11, .sqs-col-12 {
+				width: 100%;
+			}
+			
+			h1, h2 {
+
+				@include font-din($size:24px, $color:$white, $weight:200, $lh:28px);
+			}
+			
+			p {
+				@include font-din($size:18px, $weight:200, $lh:28px);
+			}
+		}
 	}
 	
 	.header {
@@ -3555,6 +4086,17 @@ main .form-wrapper {
 	aside.announcement-bar {
 		
 		.frame {
+			
+			h3 {
+				top: 30px;
+			}
+			
+			h2 {
+				@include font-panton($size: 21px, $color: $white, $weight:200);
+				letter-spacing: -.25px;
+				text-transform: capitalize;
+				top: 53px;
+			}
 			
 			a.crm {
 				top: 74px;
@@ -4021,9 +4563,135 @@ main .form-wrapper {
 }
 
 
+// Brand Toolkit 
 
+@media screen and (max-width: 1025px) {
+	
+	.collection-5d13b2a5990c4f00014818ae {
+		.sqs-gallery-aspect-ratio-widescreen {
+			.margin-wrapper{
+				&:before {
+					width: 80%;
+					left: 10%;
+				}
+				
+				&:after {
+					top:54%;
+				}
+				
+				&:hover:after {
+					top:66%;
+				}
+				
+			}
+		}
+	}
+}
 
-
+@media screen and (max-width: 600px) {
+	
+	.collection-5d13b2a5990c4f00014818ae {
+		
+		.font-panton {
+			@include font-panton($size: 24px, $color: $black, $weight:200);
+			
+			.font-name {
+				@include font-panton($size: 30px, $color: $black, $weight:800);	
+				letter-spacing: .5px;
+			}
+		}
+		
+		.font-din {
+			@include font-din($size: 24px, $color: $black, $weight:300);
+			
+			.font-name {
+				@include font-din($size: 30px, $color: $black, $weight:800);
+				letter-spacing: .25px;	
+			}
+		}
+		
+		.font-panton, .font-din {
+			padding: 30px 30px 26px 40px;
+		}
+			
+		.sqs-gallery-aspect-ratio-square {
+	
+			.margin-wrapper {
+				.image-slide-title {
+					visibility: hidden;
+					
+					&:after {
+						visibility: visible;
+						bottom: 44%;
+						font-size: 12px !important;
+						font-weight: 600;
+					}
+				
+				}
+				
+				.grid-description {
+					display: none;
+				}
+				
+				&:after {
+					top:48%;
+				}
+				
+				&:hover:after {
+					top: 54%;
+				}
+			}
+		}
+		
+		.sqs-gallery-aspect-ratio-standard {
+		
+			.margin-wrapper {
+				
+				.image-slide-anchor {
+					&:before {
+						top:30%;
+						@include font-din($size: 12px !important, $color: $white, $weight:600);
+					}
+				}
+				
+				.image-slide-title {
+					@include font-panton($size: 14px !important, $color: $gray, $weight:800);
+					letter-spacing: 0px;
+				}
+				
+				.grid-description {
+					display: inline-block;
+					@include font-din($size: 12px !important, $color: $gray, $weight:400);
+					
+					p {
+						line-height: 18px;
+						margin-left: 4px;
+						letter-spacing: -.5px;
+					}
+					
+					strong {
+						display: inline-block;
+						padding: 0 0 0 0;
+						letter-spacing: 0px;
+						@include font-din($size: 12px !important, $color: $gray, $weight:700);
+					}
+				}
+			}
+			
+		}
+		
+		.sqs-gallery-aspect-ratio-widescreen {
+			.margin-wrapper{
+				
+				&:before {
+					top: 20%;
+					font-size: 14px !important;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
 
 
 
