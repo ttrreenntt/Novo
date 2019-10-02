@@ -1216,7 +1216,7 @@ main.contentpage {
       main.contentpage .content p em {
         font-style: italic; }
     main.contentpage .content p a, main.contentpage .content .sqs-block-button a {
-      display: inline-block;
+      display: inline;
       position: relative;
       font-weight: 400;
       color: #00af9a;
