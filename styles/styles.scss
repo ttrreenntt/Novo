@@ -4179,6 +4179,11 @@ main .form-wrapper {
 				margin-top: 340px;
 				
 				.content {
+					
+					p a {
+						display: inline;
+					}
+					
 					nav.pagination {
 						a {
 							.title, .colon {
