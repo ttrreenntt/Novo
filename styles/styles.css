@@ -3491,7 +3491,7 @@ main .form-wrapper form .form-submission-text {
     display: inline;
     text-decoration: underline; }
     main.contentpage .content p a:after, main.blogpage .content p a:after {
-      display: none; }
+      opacity: 0; }
   main.contentpage .frame .sidebar, main.blogpage .frame .sidebar {
     display: none; }
   main.contentpage .frame .image-container, main.blogpage .frame .image-container {
