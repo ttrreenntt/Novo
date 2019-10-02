@@ -3487,8 +3487,6 @@ main .form-wrapper form .form-submission-text {
     padding: 0; } }
 
 @media screen and (max-width: 900px) {
-  main.contentpage .content p a, main.blogpage .content p a {
-    display: inline; }
   main.contentpage .frame .sidebar, main.blogpage .frame .sidebar {
     display: none; }
   main.contentpage .frame .image-container, main.blogpage .frame .image-container {
@@ -3504,6 +3502,10 @@ main .form-wrapper form .form-submission-text {
     margin-top: 0px !important; } }
 
 @media screen and (max-width: 600px) {
+  main.contentpage .content p a, main.blogpage .content p a {
+    display: inline;
+    border-bottom: none;
+    text-decoration: underline; }
   .sqs-col-12 .sqs-col-1, .sqs-col-12 .sqs-col-2, .sqs-col-12 .sqs-col-3, .sqs-col-12 .sqs-col-4, .sqs-col-12 .sqs-col-5, .sqs-col-12 .sqs-col-6, .sqs-col-12 .sqs-col-7, .sqs-col-12 .sqs-col-8, .sqs-col-12 .sqs-col-9, .sqs-col-12 .sqs-col-10, .sqs-col-12 .sqs-col-11, .sqs-col-12 .sqs-col-12 {
     width: 100%; }
   #collection-5c6d99affa0d602b7ea1a581 .search-block {
