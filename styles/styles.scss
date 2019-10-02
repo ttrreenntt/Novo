@@ -4162,6 +4162,10 @@ main .form-wrapper {
 @media screen and (max-width: 900px) {
 	main.contentpage, main.blogpage {
 		
+		.content p a {
+			display: inline;
+		}
+		
 		.frame {
 			
 			.sidebar {
@@ -4179,10 +4183,6 @@ main .form-wrapper {
 				margin-top: 340px;
 				
 				.content {
-					
-					p a {
-						display: inline;
-					}
 					
 					nav.pagination {
 						a {
