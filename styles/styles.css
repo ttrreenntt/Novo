@@ -338,7 +338,7 @@ aside.announcement-bar {
     background-color: black;
     z-index: 2; }
   aside.announcement-bar a.crm {
-    display: inline-block;
+    display: none;
     width: 225px;
     height: 20px;
     padding: 0 0 0 0;
