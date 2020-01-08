@@ -81,7 +81,7 @@
 		      <h2>Contact</h2>
 		      <div class="contact-content">
 			      <p><a href='https://goo.gl/maps/6iuKBdLUVqm'>1240 N Lakeview Ave, #120<br>Anaheim, CA 92807</a></p>
-			      <p><a href='tel:1-714-779-370'>(714) 779-0370</a></p>
+			      <p><a href='tel:1-714-779-0370'>(714) 779-0370</a></p>
 			      <squarespace:block-field id="contactForm" columns="1"/>
 		      </div>
 	      </div>
