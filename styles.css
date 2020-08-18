@@ -337,31 +337,6 @@ aside.announcement-bar {
     letter-spacing: 1px;
     background-color: black;
     z-index: 2; }
-  aside.announcement-bar a.crm {
-    display: inline-block;
-    width: 225px;
-    height: 20px;
-    padding: 0 0 0 0;
-    position: absolute;
-    top: 55px;
-    left: 284px;
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    opacity: 1;
-    background: url("../assets/crm-logo.svg") no-repeat;
-    background-position: right top;
-    background-size: 168px 16px; }
-    aside.announcement-bar a.crm strong {
-      display: none;
-      font-weight: 700;
-      color: white; }
-    aside.announcement-bar a.crm em {
-      font-style: italic;
-      font-size: 14px;
-      font-weight: 400;
-      padding-right: 2px; }
   aside.announcement-bar .featured-button {
     display: block;
     position: absolute;
@@ -1216,7 +1191,7 @@ main.contentpage {
       main.contentpage .content p em {
         font-style: italic; }
     main.contentpage .content p a, main.contentpage .content .sqs-block-button a {
-      display: inline-block;
+      display: inline;
       position: relative;
       font-weight: 400;
       color: #00af9a;
@@ -3018,6 +2993,7 @@ main .form-wrapper form .form-submission-text {
     line-height: 1;
     opacity: 0;
     cursor: pointer !important;
+    pointer-events: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: all 0.3s 0s ease;
@@ -3152,8 +3128,8 @@ main .form-wrapper form .form-submission-text {
     pointer-events: none;
     color: white;
     top: 30%;
-    left: 30%;
-    width: 40%;
+    left: 25%;
+    width: 50%;
     font-family: 'din-2014', Helvetica, Arial, sans-serif;
     font-size: 16px !important;
     color: white;
@@ -3692,3 +3668,82 @@ main .form-wrapper form .form-submission-text {
       top: 119px; }
     .footer .social .social-content .instagram {
       top: 119px; } }
+
+@media screen and (max-width: 1025px) {
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-widescreen .margin-wrapper:before {
+    width: 80%;
+    left: 10%; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-widescreen .margin-wrapper:after {
+    top: 54%; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-widescreen .margin-wrapper:hover:after {
+    top: 66%; } }
+
+@media screen and (max-width: 600px) {
+  .collection-5d13b2a5990c4f00014818ae .font-panton {
+    font-family: 'Panton-Light', 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: black; }
+    .collection-5d13b2a5990c4f00014818ae .font-panton .font-name {
+      font-family: 'Panton-Black', 'din-2014', Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      color: black;
+      letter-spacing: .5px; }
+  .collection-5d13b2a5990c4f00014818ae .font-din {
+    font-family: 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 300; }
+    .collection-5d13b2a5990c4f00014818ae .font-din .font-name {
+      font-family: 'din-2014', Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      color: black;
+      font-weight: 800;
+      letter-spacing: .25px; }
+  .collection-5d13b2a5990c4f00014818ae .font-panton, .collection-5d13b2a5990c4f00014818ae .font-din {
+    padding: 30px 30px 26px 40px; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper .image-slide-title {
+    visibility: hidden; }
+    .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper .image-slide-title:after {
+      visibility: visible;
+      bottom: 44%;
+      font-size: 12px !important;
+      font-weight: 600; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper .grid-description {
+    display: none; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper:after {
+    top: 48%; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-square .margin-wrapper:hover:after {
+    top: 54%; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .image-slide-anchor:before {
+    top: 30%;
+    font-family: 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 12px !important;
+    color: white;
+    font-weight: 600; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .image-slide-title {
+    font-family: 'Panton-Black', 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 14px !important;
+    color: #262626;
+    letter-spacing: 0px; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .grid-description {
+    display: inline-block;
+    font-family: 'din-2014', Helvetica, Arial, sans-serif;
+    font-size: 12px !important;
+    color: #262626;
+    font-weight: 400; }
+    .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .grid-description p {
+      line-height: 18px;
+      margin-left: 4px;
+      letter-spacing: -.5px; }
+    .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-standard .margin-wrapper .grid-description strong {
+      display: inline-block;
+      padding: 0 0 0 0;
+      letter-spacing: 0px;
+      font-family: 'din-2014', Helvetica, Arial, sans-serif;
+      font-size: 12px !important;
+      color: #262626;
+      font-weight: 700; }
+  .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-widescreen .margin-wrapper:before {
+    top: 20%;
+    font-size: 14px !important;
+    line-height: 20px; } }
