@@ -34,7 +34,6 @@
 			
 				<h3>Featured {categories}</h3>
 				<h2>{title}</h2>
-				<a class="crm" href="https://www.novo.org/novo-action-blog/novo-changing-our-name"><em>formerly</em><strong> CRM Empowering Leaders</strong></a>
 				
 				<div class="featured-button icon-arrow-right">
 					<a href="#"><span class="action">{tags}</span><span class="close-text">Close</span><span class="small"> the </span><span class="caps">{categories}</span></a>
