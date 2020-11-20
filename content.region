@@ -1,4 +1,4 @@
-   <main {.section collection}class="contentpage"{.or}class="contentpage alt"{.end} data-content-field="main-content">  
+   <main {.section collection}class="contentpage test-page"{.or}class="contentpage alt test-page"{.end} data-content-field="main-content">
 	    
 	    {.section collection}
 	    
