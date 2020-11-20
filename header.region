@@ -27,7 +27,7 @@
   </head>
   
   
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes} contentpage test">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} contentpage">
 	  
   	<div class="mobile-nav">
 		<div class="close-nav icon-close"></div>
