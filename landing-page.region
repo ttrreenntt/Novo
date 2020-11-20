@@ -1,0 +1,24 @@
+	<main class="contentpage alt" data-content-field="main-content">  
+	    
+	    {.section collection}
+	    
+		    <div class="full-width-frame">
+			    
+			    <div class="content-frame">
+				    
+			        <div class="content" data-content-field="main-content">
+				        
+				        {squarespace.main-content}
+				        
+				        <div class="sidebar"></div>
+				        
+				    </div>
+			        
+		    	</div>
+
+	    	</div>
+	    
+	    {.end}
+		
+    </main>
+

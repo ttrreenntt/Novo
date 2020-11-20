@@ -27,7 +27,7 @@
   </head>
   
   
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes} contentpage green">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} contentpage green ">
 	  
   	<div class="mobile-nav">
 		<div class="close-nav icon-close"></div>
