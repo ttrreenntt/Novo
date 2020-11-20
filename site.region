@@ -6,7 +6,7 @@
 
     {squarespace-headers}
   </head>
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} test">
 
     <header>
       {.section website}
