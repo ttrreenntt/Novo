@@ -3516,8 +3516,7 @@ main .form-wrapper form .form-submission-text {
     width: 130px;
     height: 145px; }
   .header h1:before, .header h1:after {
-    display: none;
-  }
+    display: none; }
   .footer.landing-page .footer-list {
     width: 400px;
     margin: 0 auto; }
@@ -3526,9 +3525,7 @@ main .form-wrapper form .form-submission-text {
   .footer.landing-page .landing-contact li:nth-of-type(2n+1):before {
     display: none; }
   .footer.landing-page .frame {
-    padding: 25px 0 20px;
-  }
-}
+    padding: 25px 0 20px; } }
 
 @media screen and (max-width: 600px) {
   aside.announcement-bar .frame h3 {
@@ -3851,12 +3848,10 @@ main .form-wrapper form .form-submission-text {
 
 @media screen and (max-width: 500px) {
   .header.landing-page h1 {
-    left: 53%; }
+    left: 52%; }
   .footer.landing-page .footer-list {
     width: 100%; }
   .footer.landing-page .landing-contact li {
     display: block; }
   .footer.landing-page .landing-contact li:before {
-    display: none;
-  }
-}
+    display: none; } }
