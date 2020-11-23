@@ -567,6 +567,7 @@ aside.announcement-bar {
 
 .header.landing-page h1 a {
   background: url("../assets/novo-logo-white.png") no-repeat;
+  width: 140px;
 }
 
   .header.homepage {
@@ -3378,7 +3379,9 @@ main .form-wrapper form .form-submission-text {
   main.homepage .full-width-frame .content-frame .content div.col {
     width: 100%; }
   main.homepage .full-width-frame .content-frame .content .sqs-video-wrapper {
-    margin: 0; } }
+    margin: 0; }
+  .footer.landing-page .landing-contact li {
+    font-size: 20px;}}
 
 @media screen and (max-width: 767px) {
   aside.announcement-bar:after {
@@ -3503,7 +3506,29 @@ main .form-wrapper form .form-submission-text {
     main.homepage .full-width-frame .content-frame .content {
       padding: 50px 0px 40px 0px; }
       main.homepage .full-width-frame .content-frame .content h2 strong {
-        padding: 0; } }
+        padding: 0; }
+  .header.landing-page h1 {
+    left: 50%;
+    width: 130px;
+    height: 145px; }
+  .header.landing-page h1 a {
+    background: url("../assets/novo-logo-white-mob.png") no-repeat;
+    width: 130px;
+    height: 145px; }
+  .header h1:before, .header h1:after {
+    display: none;
+  }
+  .footer.landing-page .footer-list {
+    width: 400px;
+    margin: 0 auto; }
+  .footer.landing-page .landing-contact li {
+    padding-top: 7px; }
+  .footer.landing-page .landing-contact li:nth-of-type(2n+1):before {
+    display: none; }
+  .footer.landing-page .frame {
+    padding: 25px 0 20px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   aside.announcement-bar .frame h3 {
@@ -3823,3 +3848,15 @@ main .form-wrapper form .form-submission-text {
     top: 20%;
     font-size: 14px !important;
     line-height: 20px; } }
+
+@media screen and (max-width: 500px) {
+  .header.landing-page h1 {
+    left: 53%; }
+  .footer.landing-page .footer-list {
+    width: 100%; }
+  .footer.landing-page .landing-contact li {
+    display: block; }
+  .footer.landing-page .landing-contact li:before {
+    display: none;
+  }
+}
