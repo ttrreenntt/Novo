@@ -1,0 +1,46 @@
+	<footer id="footer" class="footer landing-page">
+      
+      <div class="frame">
+	      
+
+	      <div class="landing-contact">
+
+                                <ul class="footer-list">
+                                <li><a href="/">NOVO</a></li>
+                                <li>1240 N Lakeview Ave, #120</li>
+                                <li>Anaheim, CA 92807</li>
+                                <li><a href="tel:1-714-779-0370">(714) 779-0370</a></li>
+                                </ul>
+
+
+          	      </div>
+	      
+	      <div class="clear"></div> 
+	      
+      </div>
+      
+      <div class="logo-mark"></div>
+      
+    </footer>
+    
+    </div>
+	
+	<squarespace:script src="vanilla-tilt-custom.js" combo="false" />
+	<squarespace:script src="site.js" combo="false" />	
+    {squarespace-footers}
+                 
+    
+  </body>
+
+	<script>
+    (function (config) { var s = document.createElement('script'); s.src = 'https://cdn.virtuoussoftware.com/tracker/virtuous.tracker.shim.min.js';
+    s.type = 'text/javascript'; s.onload = function () { virtuousTrackerShim.init(config); };
+    document.getElementsByTagName('script')[0].parentNode.appendChild(s);
+    }({
+        organizationId: '6d51ff2a-e88d-4c61-a351-b3d784f81a81'
+    }));
+	</script>
+
+
+</html> 
+

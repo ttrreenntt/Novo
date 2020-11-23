@@ -558,6 +558,17 @@ aside.announcement-bar {
   -o-transition: all 0.7s 3s ease;
   -ms-transition: all 0.7s 3s ease;
   z-index: 0; }
+.header.landing-page {
+  background: #00af9a;}
+.header.landing-page .frame:before {
+  display: none;}
+.header.landing-page h1 {
+  left: 45%;}
+
+.header.landing-page h1 a {
+  background: url("../assets/novo-logo-white.png") no-repeat;
+}
+
   .header.homepage {
     margin: -120px 0 0 0;
     height: 860px; }
@@ -1810,6 +1821,11 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   -moz-animation: Text-Color 40s 0s ease infinite;
   animation: Text-Color 40s 0s ease infinite;
   z-index: 200; }
+.footer.landing-page {
+  background-color: #00af9a;
+  min-height: 90px;}
+.footer.landing-page:before {
+  display: none;}
   .footer .frame {
     width: 85%;
     padding: 130px 0;
@@ -1925,6 +1941,13 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
     -moz-animation: Gradient 40s 0s ease infinite;
     animation: Gradient 40s 0s ease infinite;
     z-index: 10; }
+.footer.landing-page:after {
+  display: none;
+}
+.footer.landing-page .frame {
+  padding: 40px 0 30px;
+}
+
   .footer .blog, .footer .social, .footer .subscribe, .footer .contact, .footer .links, .footer .etc {
     width: 32%;
     min-height: 480px;
@@ -2121,6 +2144,34 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
     cursor: pointer;
     z-index: 20; }
 
+.footer.landing-page .logo-mark {
+  display: none;}
+.footer.landing-page .footer-list {
+  display: block;
+  text-align: center;
+}
+.footer.landing-page .landing-contact li {
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer.landing-page .landing-contact li a {
+  color: #ffffff!important;
+  text-decoration: none;
+}
+.footer.landing-page .landing-contact li:before {
+  content: '|';
+  color: #ffffff;
+  padding-right: 10px;
+  padding-left: 8px;
+}
+.footer.landing-page .landing-contact li:first-of-type:before {
+  display: none;
+}
+.footer.landing-page .landing-contact li a:after {
+  display: none;
+}
 body.green .mobile-nav nav a:nth-last-child(2) {
   -webkit-animation: Green-Background 40s 0s ease infinite;
   -moz-animation: Green-Background 40s 0s ease infinite;
