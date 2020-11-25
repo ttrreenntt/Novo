@@ -2155,7 +2155,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
 }
 .footer.landing-page .landing-contact li {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -3386,8 +3386,6 @@ main .form-wrapper form .form-submission-text {
     width: 100%; }
   main.homepage .full-width-frame .content-frame .content .sqs-video-wrapper {
     margin: 0; }
-  .footer.landing-page .landing-contact li {
-    font-size: 18px;}
   .header.landing-page h1 {
     left: 42%;
   }
