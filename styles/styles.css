@@ -3382,8 +3382,6 @@ main .form-wrapper form .form-submission-text {
     float: none;
     width: 100%;
     margin-top: 400px; }
-
-
   main.homepage .full-width-frame .content-frame .content div.col {
     width: 100%; }
   main.homepage .full-width-frame .content-frame .content .sqs-video-wrapper {
@@ -3527,7 +3525,7 @@ main .form-wrapper form .form-submission-text {
     background: url("../assets/novo-logo-white-mob.png") no-repeat;
     width: 130px;
     height: 145px; }
-  .header h1:before, .header h1:after {
+  .header.landing-page h1:before, .header.landing-page h1:after {
     display: none; }
   .footer.landing-page .footer-list {
     width: 400px;
