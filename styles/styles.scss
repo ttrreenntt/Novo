@@ -1008,6 +1008,24 @@ aside.announcement-bar {
 	
 }
 
+.header.landing-page {
+	background: #00af9a;
+	.frame:before {
+		display: none;
+	}
+	h1 {
+		width: 140px;
+		left: calc(50% - 70px);
+		a {
+			background: url("../assets/novo-logo-white.png") no-repeat;
+			width: 140px;
+		}
+	}
+	.open-nav {
+		display: none;
+	}
+}
+
 // Homepage
 main.homepage {
 	

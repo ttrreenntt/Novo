@@ -563,13 +563,13 @@ aside.announcement-bar {
 .header.landing-page .frame:before {
   display: none;}
 .header.landing-page h1 {
-  left: 45%;}
+  width: 140px;
+  left: 45%;
+}
 
 .header.landing-page h1 a {
   background: url("../assets/novo-logo-white.png") no-repeat;
-  width: 140px;
-}
-
+  width: 140px;}
   .header.homepage {
     margin: -120px 0 0 0;
     height: 860px; }
@@ -698,6 +698,8 @@ aside.announcement-bar {
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1px; }
+      .header.landing-page .open-nav {
+        display: none; }
   .header nav {
     position: absolute;
     top: 150px;
@@ -2153,7 +2155,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
 }
 .footer.landing-page .landing-contact li {
   display: inline-block;
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -3284,7 +3286,11 @@ main .form-wrapper form .form-submission-text {
   main.homepage .frame .image {
     width: 40%; }
   main.homepage .frame .content-frame {
-    width: 60%; } }
+    width: 60%; }
+  .header.landing-page h1 {
+    left: 43%;
+  }
+}
 
 @media screen and (max-width: 1000px) {
   aside.announcement-bar {
@@ -3381,7 +3387,11 @@ main .form-wrapper form .form-submission-text {
   main.homepage .full-width-frame .content-frame .content .sqs-video-wrapper {
     margin: 0; }
   .footer.landing-page .landing-contact li {
-    font-size: 20px;}}
+    font-size: 18px;}
+  .header.landing-page h1 {
+    left: 42%;
+  }
+}
 
 @media screen and (max-width: 767px) {
   aside.announcement-bar:after {
@@ -3682,7 +3692,7 @@ main .form-wrapper form .form-submission-text {
   .footer .subscribe, .footer .contact {
     min-height: 360px; }
   .footer .links, .footer .etc {
-    min-height: 200px; } }
+    min-height: 200px; }}
 
 @media screen and (max-width: 875px) {
   .footer .frame {
