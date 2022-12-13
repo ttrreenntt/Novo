@@ -1008,42 +1008,42 @@ aside.announcement-bar {
 	
 }
 
-.header.landing-page {
-	background: #00af9a;
-	.frame:before {
-		display: none;
-	}
-	h1 {
-		width: 140px;
-		left: 45%;
-		@media screen and (max-width: 1220px) {
-			left: 43%;
-		}
-		@media screen and (max-width: 1000px) {
-			left: 42%;
-		}
-		@media screen and (max-width: 767px) {
-			left: 50%;
-			width: 130px;
-			height: 145px;
-		}
-		@media screen and (max-width: 500px) {
-			left: 52%;
-		}
-		a {
-			background: url("../assets/novo-logo-white.png") no-repeat;
-			width: 140px;
-			@media screen and (max-width: 767px) {
-				background: url("../assets/novo-logo-white-mob.png") no-repeat;
-				width: 130px;
-				height: 145px;
-			}
-		}
-	}
-	.open-nav {
-		display: none;
-	}
-}
+//.header.landing-page {
+//	background: #00af9a;
+//	.frame:before {
+//		display: none;
+//	}
+//	h1 {
+//		width: 140px;
+//		left: 45%;
+//		@media screen and (max-width: 1220px) {
+//			left: 43%;
+//		}
+//		@media screen and (max-width: 1000px) {
+//			left: 42%;
+//		}
+//		@media screen and (max-width: 767px) {
+//			left: 50%;
+//			width: 130px;
+//			height: 145px;
+//		}
+//		@media screen and (max-width: 500px) {
+//			left: 52%;
+//		}
+//		a {
+//			background: url("../assets/novo-logo-white.png") no-repeat;
+//			width: 140px;
+//			@media screen and (max-width: 767px) {
+//				background: url("../assets/novo-logo-white-mob.png") no-repeat;
+//				width: 130px;
+//				height: 145px;
+//			}
+//		}
+//	}
+//	.open-nav {
+//		display: none;
+//	}
+//}
 
 // Homepage
 main.homepage {
@@ -2436,71 +2436,71 @@ main.blogpage .frame {
 
 }
 .footer.landing-page {
-	background-color: #00af9a;
+	//background-color: #00af9a;
 	min-height: auto;
-	&:before {
-		display: none;
-	}
-	&:after {
-		display: none;
-	}
-	.frame {
-		padding: 40px 0 30px;
-		@media screen and (max-width: 767px) {
-			padding: 25px 0 20px;
-		}
-	}
-	.logo-mark {
-		display: none;
-	}
-	.landing-contact {
-		.footer-list {
-			display: block;
-			text-align: center;
-			@media screen and (max-width: 767px) {
-				width: 400px;
-				margin: 0 auto;
-			}
-			@media screen and (max-width: 500px) {
-				width: 100%;
-			}
-			li {
-				display: inline-block;
-				font-size: 18px;
-				color: #ffffff;
-				text-transform: uppercase;
-				@media screen and (max-width: 767px) {
-					padding-top: 7px;
-					&:nth-of-type(2n+1):before {
-						display: none;
-					}
-				}
-				@media screen and (max-width: 500px) {
-					display: block;
-				}
-				&:before {
-					content: '|';
-					color: #ffffff;
-					padding-right: 10px;
-					padding-left: 8px;
-					@media screen and (max-width: 500px) {
-						display: none;
-					}
-				}
-				&:first-of-type:before {
-					display: none;
-				}
-				a {
-					color: #ffffff!important;
-					text-decoration: none;
-					&:after {
-						display: none;
-					}
-				}
-
-			}
-		}
-	}
+	//&:before {
+	//	display: none;
+	//}
+	//&:after {
+	//	display: none;
+	//}
+	//.frame {
+	//	padding: 40px 0 30px;
+	//	@media screen and (max-width: 767px) {
+	//		padding: 25px 0 20px;
+	//	}
+	//}
+	//.logo-mark {
+	//	display: none;
+	//}
+	//.landing-contact {
+	//	.footer-list {
+	//		display: block;
+	//		text-align: center;
+	//		@media screen and (max-width: 767px) {
+	//			width: 400px;
+	//			margin: 0 auto;
+	//		}
+	//		@media screen and (max-width: 500px) {
+	//			width: 100%;
+	//		}
+	//		li {
+	//			display: inline-block;
+	//			font-size: 18px;
+	//			color: #ffffff;
+	//			text-transform: uppercase;
+	//			@media screen and (max-width: 767px) {
+	//				padding-top: 7px;
+	//				&:nth-of-type(2n+1):before {
+	//					display: none;
+	//				}
+	//			}
+	//			@media screen and (max-width: 500px) {
+	//				display: block;
+	//			}
+	//			&:before {
+	//				content: '|';
+	//				color: #ffffff;
+	//				padding-right: 10px;
+	//				padding-left: 8px;
+	//				@media screen and (max-width: 500px) {
+	//					display: none;
+	//				}
+	//			}
+	//			&:first-of-type:before {
+	//				display: none;
+	//			}
+	//			a {
+	//				color: #ffffff!important;
+	//				text-decoration: none;
+	//				&:after {
+	//					display: none;
+	//				}
+	//			}
+	//
+	//		}
+	//	}
+	//}
 }
 
 //Green Only Page
