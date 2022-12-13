@@ -2169,7 +2169,7 @@ body.green .footer {
   padding: 12px 10px 12px 20px !important;
   border-radius: 80px !important;
   border: 1px solid #acacac;
-  font-family: 'din-2014', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #262626;
   font-weight: 300;
@@ -2180,6 +2180,8 @@ body.green .footer {
   opacity: 1; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus {
     width: 100%; }
+  .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus-visible {
+    border-color: #acacac; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder {
     color: #acacac;
     padding-top: 1px; }

@@ -2256,6 +2256,8 @@ body.green .footer {
   opacity: 1; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus {
     width: 100%; }
+  .sqs-search-ui-button-wrapper input.search-input[type="search"]:focus {
+    border-color: #acacac; }
   .sqs-search-ui-button-wrapper input.search-input[type="search"]::-webkit-input-placeholder {
     color: #acacac;
     padding-top: 1px; }

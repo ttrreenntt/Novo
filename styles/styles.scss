@@ -2586,6 +2586,10 @@ body.green {
 	&:focus {
 		width: 100%;
 	}
+
+	&:focus-visible {
+		border-color: #acacac;
+	}
 	
 	&::-webkit-input-placeholder {
 		color: $lightergray;
