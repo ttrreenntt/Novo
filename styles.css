@@ -1940,7 +1940,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   .footer .social a:after, .footer .contact a:after {
     display: none; }
   .footer .blog .discipleship, .footer .blog .mission, .footer .blog .action {
-    display: none; }
+    display: block; }
   .footer .blog .discipleship.show, .footer .blog .mission.show, .footer .blog .action.show {
     display: block; }
   .footer .blog h3 {
@@ -2095,6 +2095,9 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
     background-size: 100%, 100%;
     cursor: pointer;
     z-index: 20; }
+
+.footer.landing-page {
+  min-height: auto; }
 
 body.green .mobile-nav nav a:nth-last-child(2) {
   -webkit-animation: Green-Background 40s 0s ease infinite;

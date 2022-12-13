@@ -1826,7 +1826,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   z-index: 200; }
 .footer.landing-page {
   background-color: #00af9a;
-  min-height: 90px;}
+  min-height: auto;}
 .footer.landing-page:before {
   display: none;}
   .footer .frame {
@@ -1991,7 +1991,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
   .footer .social a:after, .footer .contact a:after {
     display: none; }
   .footer .blog .discipleship, .footer .blog .mission, .footer .blog .action {
-    display: none; }
+    display: block; }
   .footer .blog .discipleship.show, .footer .blog .mission.show, .footer .blog .action.show {
     display: block; }
   .footer .blog h3 {

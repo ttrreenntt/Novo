@@ -2240,7 +2240,7 @@ main.blogpage .frame {
 	.blog {
 		
 		.discipleship, .mission, .action {
-			display: none;
+			display: block;
 		}
 		
 		.discipleship.show, .mission.show, .action.show {
@@ -2437,7 +2437,7 @@ main.blogpage .frame {
 }
 .footer.landing-page {
 	background-color: #00af9a;
-	min-height: 90px;
+	min-height: auto;
 	&:before {
 		display: none;
 	}
