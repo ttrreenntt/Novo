@@ -7,7 +7,7 @@
 		      
 		     			  </squarespace:query>
 			  
-			  <squarespace:query collection="novo-action-blog" featured="true" limit="1">
+			  <squarespace:query collection="discipleship-blog" featured="true" limit="1">
 
 			      	{.repeated section items}
 
