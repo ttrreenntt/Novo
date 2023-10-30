@@ -2789,8 +2789,10 @@ main .form-wrapper form .form-button-wrapper {
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease;
     z-index: 1; }
+/*
   main .form-wrapper form .form-button-wrapper:hover:after {
     right: 4px; }
+*/
   main .form-wrapper form .form-button-wrapper.hidden {
     display: none; }
 
