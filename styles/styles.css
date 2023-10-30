@@ -2748,10 +2748,8 @@ main .form-wrapper form .form-button-wrapper {
     font-weight: 800;
     background: rgba(0, 0, 0, 0);
     z-index: 10; }
-/*
   main .form-wrapper form .form-button-wrapper:hover input.button.sqs-editable-button {
     color: white; }
-*/
   main .form-wrapper form .form-button-wrapper:before {
     content: "";
     display: block;
@@ -2760,13 +2758,11 @@ main .form-wrapper form .form-button-wrapper {
     left: 0px;
     top: 0px;
     bottom: 0px;
-    z-index: 1;
+    z-index: -999;
     background: rgba(0, 0, 0, 0);
     border-radius: 4px; }
-/*
   main .form-wrapper form .form-button-wrapper:hover:before {
     background: black; }
-*/
   main .form-wrapper form .form-button-wrapper:after {
     content: "k";
     position: absolute;
@@ -2789,10 +2785,8 @@ main .form-wrapper form .form-button-wrapper {
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease;
     z-index: 1; }
-/*
   main .form-wrapper form .form-button-wrapper:hover:after {
     right: 4px; }
-*/
   main .form-wrapper form .form-button-wrapper.hidden {
     display: none; }
 
