@@ -2769,6 +2769,10 @@ main .form-wrapper form .form-button-wrapper {
     width: 100%;
 }
 */
+#collection-653800e9443c6c7d3f49bd6c .row .sqs-row{
+    background: #262626;
+    color: white;
+}
   main .form-wrapper form .form-button-wrapper:hover:before {
     background: black; }
   main .form-wrapper form .form-button-wrapper:after {
