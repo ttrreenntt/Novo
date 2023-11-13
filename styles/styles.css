@@ -2769,18 +2769,16 @@ main .form-wrapper form .form-button-wrapper {
     width: 100%;
 }
 */
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row{
+#collection-653800e9443c6c7d3f49bd6c .row .sqs-row:nth-child(2){
     background: #262626;
     color: white;
 }
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row sqs-col-7{
+/*
+#collection-653800e9443c6c7d3f49bd6c .row .sqs-row{
     background: white;
     color: black;
 }
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row sqs-col-5{
-    background: white;
-    color: black;
-}
+*/
 #collection-653800e9443c6c7d3f49bd6c .row .sqs-row .plus{
     color: #00af9a;
 }
