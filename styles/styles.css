@@ -2771,7 +2771,10 @@ main .form-wrapper form .form-button-wrapper {
 */
 #collection-653800e9443c6c7d3f49bd6c .row .sqs-row{
     background: #262626;
-    color: white;
+    color: #00AF9A;
+}
+#collection-653800e9443c6c7d3f49bd6c .sqs-block-accordion .accordion-icon-container>* {
+    color: #00AF9A;
 }
   main .form-wrapper form .form-button-wrapper:hover:before {
     background: black; }
