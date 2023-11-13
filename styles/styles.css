@@ -2761,8 +2761,7 @@ main .form-wrapper form .form-button-wrapper {
     z-index: -999;
     background: rgba(0, 0, 0, 0);
     border-radius: 4px; }
-  site .form-wrapper .react-form-contents .field-list .field, .form-wrapper .react-form-contents .field-list .fields .field {
-    margin: 0 0 18px;
+  .form-wrapper .react-form-contents .field-list .field, .form-wrapper .react-form-contents .field-list .fields .field {
     padding: 10px 0 10px 0;
 }
   main .form-wrapper form .form-button-wrapper:hover:before {
