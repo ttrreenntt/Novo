@@ -2761,6 +2761,9 @@ main .form-wrapper form .form-button-wrapper {
     z-index: -999;
     background: rgba(0, 0, 0, 0);
     border-radius: 4px; }
+    .form-item .field .textarea{
+    padding: 10px 0 10px 0;
+    }
   main .form-wrapper form .form-button-wrapper:hover:before {
     background: black; }
   main .form-wrapper form .form-button-wrapper:after {
