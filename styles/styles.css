@@ -3857,8 +3857,10 @@ main .form-wrapper form .form-submission-text {
   .collection-5d13b2a5990c4f00014818ae .sqs-gallery-aspect-ratio-widescreen .margin-wrapper:before {
     top: 20%;
     font-size: 14px !important;
-    line-height: 20px; } }
-
+    line-height: 20px; } 
+    .form-item .field .textarea{
+        padding: 10px 0 10px 0;
+    }
 /*@media screen and (max-width: 500px) {*/
 /*  .header.landing-page h1 {*/
 /*    left: 52%; }*/
