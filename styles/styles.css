@@ -2769,7 +2769,7 @@ main .form-wrapper form .form-button-wrapper {
     width: 100%;
 }
 */
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row:nth-child(2){
+#collection-653800e9443c6c7d3f49bd6c .site .contentpage .full-width-frame .content-frame .content .sqs-layout .row .col > .sqs-row:nth-child(2){
     background: #262626 !important;
     color: white !important;
 }
