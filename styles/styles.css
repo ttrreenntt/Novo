@@ -2773,10 +2773,13 @@ main .form-wrapper form .form-button-wrapper {
     background: #262626;
     color: white;
 }
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row #block-yui_3_17_2_1_1698863041571_9991{
-    background: white;}
-#collection-653800e9443c6c7d3f49bd6c .row .sqs-row #block-yui_3_17_2_1_1698863041571_4030{
+#collection-653800e9443c6c7d3f49bd6c .row .sqs-row sqs-col-7{
     background: white;
+    color: black;
+}
+#collection-653800e9443c6c7d3f49bd6c .row .sqs-row sqs-col-5{
+    background: white;
+    color: black;
 }
 #collection-653800e9443c6c7d3f49bd6c .row .sqs-row .plus{
     color: #00af9a;
