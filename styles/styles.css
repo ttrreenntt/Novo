@@ -2752,14 +2752,13 @@ main .form-wrapper form .form-button-wrapper {
     color: white; }
   main .form-wrapper form .form-button-wrapper:before {
     content: "";
-    
     display: block;
     position: absolute;
     width: 100%;
     left: 0px;
     top: 0px;
     bottom: 0px;
-/*    z-index: -999;*/
+    z-index: -999;
     background: rgba(0, 0, 0, 0);
     border-radius: 4px; }
   main .form-wrapper form .form-button-wrapper:hover:before {
