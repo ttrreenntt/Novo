@@ -2818,6 +2818,7 @@ main .form-wrapper form .form-button-wrapper {
     -moz-transition: all 0.3s 0s ease;
     -o-transition: all 0.3s 0s ease;
     -ms-transition: all 0.3s 0s ease; }
+/*
     .map-share a:after {
       content: "";
       display: block;
@@ -2909,6 +2910,7 @@ main .form-wrapper form .form-button-wrapper {
     -moz-animation: Gradient 40s 0s ease infinite;
     animation: Gradient 40s 0s ease infinite;
     z-index: 10; }
+*/
 /*.map-share.landing-page:after {*/
 /*  display: none;*/
 /*}*/
@@ -2996,6 +2998,7 @@ main .form-wrapper form .form-button-wrapper {
       transform: perspective(1000px);
       -webkit-transform: perspective(1000px);
       -moz-transform: perspective(1000px); }
+/*
       .map-share .social .social-content:before {
         content: "";
         display: block;
@@ -3007,6 +3010,7 @@ main .form-wrapper form .form-button-wrapper {
         background: url("../assets/social-bg.svg") no-repeat;
         background-position: center center;
         background-size: 100%; }
+*/
       .map-share .social .social-content li {
         display: block;
         width: 135px;
@@ -3057,48 +3061,6 @@ main .form-wrapper form .form-button-wrapper {
         top: 135px;
         right: 0px;
         background: url("../assets/social-instagram.svg") no-repeat; }
-  .map-share .subscribe p {
-    max-width: 360px;
-    font-family: 'din-2014', Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 32px;
-    letter-spacing: .25px;
-    margin-bottom: 40px; }
-  .map-share .contact p {
-    margin-bottom: 20px; }
-  .map-share .contact p:last-of-type {
-    margin-bottom: 44px; }
-  .map-share .links ul li {
-    padding: 0 0 12px 0;
-    font-weight: 300;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: .75px; }
-  .map-share .etc {
-    font-size: 16px; }
-    .map-share .etc ul li {
-      padding: 0 0 12px 0; }
-    .map-share .etc ul li:first-child {
-      display: inline-block;
-      padding: 0 0 0 16px;
-      position: relative;
-      font-size: 16px; }
-    .map-share .etc ul li.crm {
-      font-size: 13px;
-      font-weight: 600;
-      opacity: .6;
-      padding: 0 0 16px 0; }
-      .map-share .etc ul li.crm em {
-        font-style: italic;
-        font-weight: 400;
-        padding: 0 2px 0 0; }
-    .map-share .etc span {
-      display: inline-block;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      font-size: 13px; }
   .map-share .logo-mark {
     display: block;
     width: 124px;
