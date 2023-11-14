@@ -2767,6 +2767,28 @@ main .form-wrapper form .form-button-wrapper {
 .custom-map-block .custom-maps-info-window.outside-marker-item {
     padding: 1.75em;
 }
+.social .social-content {
+    display: block;
+    width: 270px;
+    height: 270px;
+    margin-left: 10px;
+    position: absolute;
+    top: 80px;
+    background: linear-gradient(-45deg,#008aab,#eb0045,#eb0045,#008aab,#00af9a,#00af9a);
+    background-size: 1200% 1200%;
+    -webkit-animation: Gradient 40s 0s ease infinite;
+    -moz-animation: Gradient 40s 0s ease infinite;
+    animation: Gradient 40s 0s ease infinite;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform: perspective(1000px);
+    -webkit-transform: perspective(1000px);
+    -moz-transform: perspective(1000px);
+    
+}
+
+
 /*
 #collection-653800e9443c6c7d3f49bd6c .contentpage .full-width-frame .content-frame {
     width: 100%;
