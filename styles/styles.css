@@ -2781,7 +2781,7 @@ main .form-wrapper form .form-button-wrapper {
   position: relative;
   text-align: left;
   color: #00af9a;
-/*  background-color: black;*/
+  background-color: black;
   overflow: hidden;
   -webkit-animation: Text-Color 40s 0s ease infinite;
   -moz-animation: Text-Color 40s 0s ease infinite;
