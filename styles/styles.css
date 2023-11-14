@@ -2764,6 +2764,9 @@ main .form-wrapper form .form-button-wrapper {
   .form-wrapper .react-form-contents .field-list .field, .form-wrapper .react-form-contents .field-list .fields .field {
     padding: 10px 0 10px 0;
 }
+.custom-map-block .custom-maps-info-window.outside-marker-item {
+    padding: 1.75em;
+}
 /*
 #collection-653800e9443c6c7d3f49bd6c .contentpage .full-width-frame .content-frame {
     width: 100%;
