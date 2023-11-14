@@ -2777,13 +2777,11 @@ main .form-wrapper form .form-button-wrapper {
   -moz-animation-fill-mode: both;
   animation-fill-mode: both; }
 .map-share {
-  width: 100%;
-  min-height: 1000px;
   margin: 0 0 0 0;
   position: relative;
   text-align: left;
   color: #00af9a;
-  background-color: black;
+/*  background-color: black;*/
   overflow: hidden;
   -webkit-animation: Text-Color 40s 0s ease infinite;
   -moz-animation: Text-Color 40s 0s ease infinite;
@@ -2957,6 +2955,7 @@ main .form-wrapper form .form-button-wrapper {
     letter-spacing: .5px; }
   .map-share .social a:after, .map-share .contact a:after {
     display: none; }
+/*
   .map-share .blog .discipleship, .map-share .blog .mission, .map-share .blog .action {
     display: block; }
   .map-share .blog .discipleship.show, .map-share .blog .mission.show, .map-share .blog .action.show {
@@ -2976,6 +2975,7 @@ main .form-wrapper form .form-button-wrapper {
     line-height: 32px;
     letter-spacing: .25px;
     margin-bottom: 40px; }
+*/
   .map-share .social {
     display: block;
     position: relative;
