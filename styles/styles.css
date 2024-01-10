@@ -2083,9 +2083,11 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
       .footer .social .social-content .twitter {
         top: 0px;
         right: 0px;
+/*
         width: 135px;
         height: 90px;
-        background: url("../assets/social-podbean.svg") no-repeat; }
+*/
+        background: url("../assets/social-podbean_2.svg") no-repeat; }
       .footer .social .social-content .youtube {
         top: 135px;
         left: 0px;
