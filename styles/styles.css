@@ -2082,7 +2082,7 @@ main.blogpage .frame .blog-item .content nav.pagination a.older, main.blogpage .
         background: url("../assets/social-facebook.svg") no-repeat; }
       .footer .social .social-content .twitter {
         top: 0px;
-        right: 0px;
+        right: 110px;
         width: 135px;
         height: 100px;
         background: url("../assets/social-podbean.svg") no-repeat; }
