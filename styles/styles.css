@@ -3900,3 +3900,20 @@ main .form-wrapper form .form-submission-text {
 /*    display: block; }*/
 /*  .footer.landing-page .landing-contact li:before {*/
 /*    display: none; } }*/
+/* Global Styles for Landing Pages */
+.header.landing-page {
+  padding-top: 10px!important;
+  padding-bottom: 10px!important;
+}
+
+.header.landing-page h1 a {
+  display: block;
+  width: 200px;
+  height: 60px;
+  background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: -9999px;
+  overflow: hidden;
+}
