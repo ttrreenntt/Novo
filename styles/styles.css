@@ -3902,32 +3902,36 @@ main .form-wrapper form .form-submission-text {
 /*    display: none; } }*/
 
 /* Global Styles for Landing Pages */
+/* ===== Corrected Landing Page Header Styles ===== */
+
+/* 1. Reset the main header container for landing pages. */
 .header.landing-page {
-  display: flex;
-  justify-content: center;  /* Horizontally center the logo on desktop */
-  align-items: center;  /* Vertically center the logo */
-  height: auto;  /* Ensure the height adapts to content */
-  min-height: 120px;  /* Set a minimum height to ensure the logo fits */
-  padding: 20px 0;  /* Add some space around the logo */
+  height: auto; /* Remove the fixed height to allow padding to control the size. */
+  padding: 20px 0; /* Adds 20px of space above and below the logo. */
+  text-align: left; /* Override the default centered text alignment. */
 }
 
-/* Replace logo with horizontal version */
+/* 2. Reset the H1 element that holds the logo. */
+.header.landing-page h1 {
+  position: static; /* This is the key fix. It removes absolute positioning. */
+  margin: 0; /* Resets any margins used for centering on mobile. */
+  padding: 0;
+  width: 200px; /* Your desired logo width. */
+  height: 60px; /* Your desired logo height. */
+  /* These reset positioning properties from other rules. */
+  top: auto;
+  left: auto;
+}
+
+/* 3. Style the logo link to display the image correctly. */
 .header.landing-page h1 a {
   display: block;
-  width: 200px;  /* Adjust logo width */
-  height: 60px;  /* Adjust logo height */
+  height: 100%; /* Fill the parent h1. */
+  width: 100%; /* Fill the parent h1. */
   background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
+  background-position: left center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  text-indent: -9999px;  /* Hide text, show only the logo */
+  text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
-}
-
-/* Mobile Adjustment: Left-align logo on mobile */
-@media (max-width: 768px) {
-  .header.landing-page {
-    justify-content: flex-start;  /* Left align logo */
-    padding-left: 20px;  /* Optional padding for left alignment */
-  }
 }
