@@ -3903,30 +3903,31 @@ main .form-wrapper form .form-submission-text {
 
 /* Global Styles for Landing Pages */
 .header.landing-page {
-  padding: 0!important;  /* Remove extra padding */
-  height: auto!important;
   display: flex;
-  justify-content: center;  /* Center horizontally */
-  align-items: center;  /* Center vertically */
+  justify-content: center;  /* Horizontally center the logo on desktop */
+  align-items: center;  /* Vertically center the logo */
+  height: auto;  /* Ensure the height adapts to content */
+  min-height: 120px;  /* Set a minimum height to ensure the logo fits */
+  padding: 20px 0;  /* Add some space around the logo */
 }
 
 /* Replace logo with horizontal version */
 .header.landing-page h1 a {
   display: block;
-  width: 200px;
-  height: 60px;
+  width: 200px;  /* Adjust logo width */
+  height: 60px;  /* Adjust logo height */
   background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  text-indent: -9999px;
+  text-indent: -9999px;  /* Hide text, show only the logo */
   overflow: hidden;
 }
 
 /* Mobile Adjustment: Left-align logo on mobile */
 @media (max-width: 768px) {
   .header.landing-page {
-    justify-content: flex-start;  /* Left align the logo */
-    padding-left: 15px;  /* Optional padding for left alignment */
+    justify-content: flex-start;  /* Left align logo */
+    padding-left: 20px;  /* Optional padding for left alignment */
   }
 }
