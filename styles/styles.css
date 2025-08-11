@@ -3900,12 +3900,15 @@ main .form-wrapper form .form-submission-text {
 /*    display: block; }*/
 /*  .footer.landing-page .landing-contact li:before {*/
 /*    display: none; } }*/
+
 /* Global Styles for Landing Pages */
 .header.landing-page {
-  padding-top: 10px!important;
-  padding-bottom: 10px!important;
+  padding-top: 5px!important;  /* Reduced top padding */
+  padding-bottom: 5px!important;  /* Reduced bottom padding */
+  height: auto!important;  /* Adjust header height */
 }
 
+/* Replace logo with horizontal version */
 .header.landing-page h1 a {
   display: block;
   width: 200px;
