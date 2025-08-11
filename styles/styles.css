@@ -3903,16 +3903,16 @@ main .form-wrapper form .form-submission-text {
 
 /* Global Styles for Landing Pages */
 .header.landing-page {
-  padding-top: 5px!important;  /* Reduced top padding */
-  padding-bottom: 5px!important;  /* Reduced bottom padding */
-  height: auto!important;  /* Adjust header height */
+  padding-top: 10px!important;  /* Slight padding above the logo */
+  padding-bottom: 10px!important;  /* Slight padding below the logo */
+  height: auto!important;  /* Adjust height to fit the logo */
 }
 
 /* Replace logo with horizontal version */
 .header.landing-page h1 a {
   display: block;
-  width: 200px;
-  height: 60px;
+  width: 200px;  /* Keep the logo width as before */
+  height: 60px;  /* Keep the logo height */
   background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
   background-size: contain;
   background-repeat: no-repeat;
