@@ -3903,13 +3903,13 @@ main .form-wrapper form .form-submission-text {
 
 /* Global Styles for Landing Pages */
 .header.landing-page {
-  padding-top: 10px!important;
-  padding-bottom: 10px!important;
-  min-height: 80px!important;  /* Ensure enough height */
+  padding-top: 15px!important;  /* Adjust to give a bit more space */
+  padding-bottom: 15px!important;  /* Adjust padding at the bottom */
+  min-height: 100px!important;  /* Ensure enough space for the logo */
   height: auto!important;
   display: flex;
-  justify-content: center;  /* Center the content horizontally */
-  align-items: center;  /* Vertically center the content */
+  justify-content: center;  /* Center logo horizontally on desktop */
+  align-items: center;  /* Vertically center logo */
 }
 
 /* Replace logo with horizontal version */
@@ -3928,7 +3928,7 @@ main .form-wrapper form .form-submission-text {
 /* Mobile adjustment: Left align the logo */
 @media (max-width: 768px) {
   .header.landing-page {
-    justify-content: flex-start;  /* Left-align content */
-    padding-left: 10px;  /* Optional, to add space on the left */
+    justify-content: flex-start;  /* Left-align logo */
+    padding-left: 15px;  /* Space for left alignment */
   }
 }
