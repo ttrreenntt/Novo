@@ -3937,20 +3937,32 @@ main .form-wrapper form .form-submission-text {
 }
 /* ===== Fix for Landing Page Logo Hover ===== */
 
-/* 1. Force the header container to be centered, overriding the 'text-align: left'. */
+/* 1. Prepare the header to contain a positioned element. */
 .header.landing-page {
+  position: relative; /* This is needed for the logo to be positioned correctly inside. */
+  padding: 50px 0;  /* Ensures the header has enough height for the logo. */
   text-align: center;
 }
 
-/* 2. Restore the absolute positioning and centering logic for the logo's container. */
+/* 2. Set the logo's size and center it perfectly. */
 .header.landing-page h1 {
-  position: absolute !important; /* Override 'static' positioning */
+  /* Restore the logo's size */
+  width: 200px !important;
+  height: 60px !important;
+  
+  /* Perfectly center the logo */
+  position: absolute !important;
+  top: 50% !important;
   left: 50% !important;
-  top: 40px !important; /* Adjust this value if needed to match main site */
-  transform: translateX(-50%); /* This is a modern way to center the logo */
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
-/* 3. Ensure the hover effect is a smooth zoom. */
+/* 3. Ensure the hover scales smoothly from the center. */
+.header.landing-page h1 a {
+  transition: transform 0.2s ease-in-out; /* Makes the zoom effect smooth */
+}
+
 .header.landing-page h1 a:hover {
-  transform: scale(1.1); /* Apply the desired zoom effect */
+  transform: scale(1.1);
 }
