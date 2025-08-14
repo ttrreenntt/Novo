@@ -3951,14 +3951,14 @@ main .form-wrapper form .form-submission-text {
   margin: 0;
   padding: 0;
   /* Reset any transform properties from previous fixes */
-  transform: none; 
+  transform: none;
   top: auto;
   left: auto;
 }
 
-/* 3. Add a smooth transition and set the origin for the zoom effect. */
+/* 3. Add a smooth transition and set the origin for the zoom effect to the CENTER. */
 .header.landing-page h1 a {
-  transform-origin: left center; /* Makes the logo scale from its left edge */
+  transform-origin: center; /* Makes the logo scale from its exact center */
   transition: transform 0.2s ease-in-out;
 }
 
