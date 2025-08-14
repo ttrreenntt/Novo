@@ -3937,32 +3937,32 @@ main .form-wrapper form .form-submission-text {
 }
 /* ===== Fix for Landing Page Logo Hover ===== */
 
-/* 1. Prepare the header to contain a positioned element. */
+/* 1. Set the header to align content to the left. */
 .header.landing-page {
-  position: relative; /* This is needed for the logo to be positioned correctly inside. */
-  padding: 50px 0;  /* Ensures the header has enough height for the logo. */
-  text-align: center;
+  text-align: left;
+  padding: 20px 0; /* Adjust vertical spacing if needed */
 }
 
-/* 2. Set the logo's size and center it perfectly. */
+/* 2. Style the logo's container (h1) to be a simple block on the left. */
 .header.landing-page h1 {
-  /* Restore the logo's size */
-  width: 200px !important;
-  height: 60px !important;
-  
-  /* Perfectly center the logo */
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%, -50%);
+  position: static !important; /* This is the key fix to prevent the jump */
+  width: 200px;
+  height: 60px;
   margin: 0;
+  padding: 0;
+  /* Reset any transform properties from previous fixes */
+  transform: none; 
+  top: auto;
+  left: auto;
 }
 
-/* 3. Ensure the hover scales smoothly from the center. */
+/* 3. Add a smooth transition and set the origin for the zoom effect. */
 .header.landing-page h1 a {
-  transition: transform 0.2s ease-in-out; /* Makes the zoom effect smooth */
+  transform-origin: left center; /* Makes the logo scale from its left edge */
+  transition: transform 0.2s ease-in-out;
 }
 
+/* 4. Apply the simple scale effect on hover. */
 .header.landing-page h1 a:hover {
   transform: scale(1.1);
 }
