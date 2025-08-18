@@ -3958,7 +3958,7 @@ main .form-wrapper form .form-submission-text {
 
 /* 3. Add a smooth transition and set the origin for the zoom effect. */
 .header.landing-page h1 a {
-  transform-origin: left center; /* Makes the logo scale from its left edge */
+  transform-origin:  center; /* Makes the logo scale from center */
   transition: transform 0.2s ease-in-out;
 }
 
@@ -3966,32 +3966,3 @@ main .form-wrapper form .form-submission-text {
 .header.landing-page h1 a:hover {
   transform: scale(1.1);
 }
-/* === Landing Page Logo: Centered on Desktop Only === */
-
-/* Desktop view (≥1025px) */
-@media screen and (min-width: 1025px) {
-  .header.landing-page {
-    text-align: center; /* Center contents */
-  }
-
-  .header.landing-page h1 {
-    position: relative !important;
-    margin: 0 auto;      /* Center the block */
-    width: 200px;        /* Adjust to your logo size */
-    height: 60px;
-    left: auto;
-    top: auto;
-  }
-
-  .header.landing-page h1 a {
-    background-position: center center; /* Ensure logo image is centered */
-    transform-origin: center center;    /* Grow from the middle on hover */
-  }
-
-  .header.landing-page h1 a:hover {
-    transform: scale(1.1);
-  }
-}
-
-/* Mobile & tablet (<1025px) will keep the left-aligned rules you already set */
-
