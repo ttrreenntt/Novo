@@ -3958,7 +3958,7 @@ main .form-wrapper form .form-submission-text {
 
 /* 3. Add a smooth transition and set the origin for the zoom effect. */
 .header.landing-page h1 a {
-  transform-origin:  left-center; /* transfor */
+  transform-origin: left center; /* Makes the logo scale from its left edge */
   transition: transform 0.2s ease-in-out;
 }
 
