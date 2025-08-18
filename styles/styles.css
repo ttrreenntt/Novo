@@ -3935,7 +3935,7 @@ main .form-wrapper form .form-submission-text {
   text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
 }
-/* ===== FINAL v3 - Landing Page Logo Hover Fix (Flexbox Method) ===== */
+/* ===== FINAL v4 - Landing Page Logo Hover Fix (Correct Image URL) ===== */
 
 /* 1. Use Flexbox on the logo's container to control alignment */
 .header.landing-page .frame {
@@ -3959,7 +3959,8 @@ main .form-wrapper form .form-submission-text {
   display: block;
   height: 100%;
   width: 100%;
-  background-image: url('https://static1.squarespace.com/static/ta/5bb3e0e234c4e2dd29db7437/1759/scripts/site.js');
+  /* ▼▼▼ THIS IS THE CORRECTED IMAGE URL ▼▼▼ */
+  background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
   background-size: contain;
   background-repeat: no-repeat;
   transition: transform 0.2s ease-in-out;
