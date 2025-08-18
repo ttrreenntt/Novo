@@ -3972,3 +3972,19 @@ main .form-wrapper form .form-submission-text {
 .header.landing-page h1 a:hover {
   transform: scale(1.05);
 }
+/* Landing page specific logo adjustments */
+.header.landing-page h1 {
+  left: 20px;              /* push logo to the left edge */
+  right: auto;             /* cancel centering */
+  margin: 0;               /* remove auto margins */
+}
+
+.header.landing-page h1 a {
+  background: url("../assets/novo-logo.svg") no-repeat left center;
+  background-size: contain;
+  transform-origin: center center; /* grow from the center */
+}
+
+.header.landing-page h1 a:hover {
+  transform: scale(1.1);   /* slight grow effect */
+}
