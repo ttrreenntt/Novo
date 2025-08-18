@@ -3935,26 +3935,26 @@ main .form-wrapper form .form-submission-text {
   text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
 }
-/* ===== FINAL - Landing Page Logo Hover Fix ===== */
+/* ===== FINAL v2 - Landing Page Logo Hover Fix (Float Method) ===== */
 
 /* 1. Header container for landing pages. */
-/* text-align: left; ensures the logo's container (the h1) stays on the left. */
 .header.landing-page {
-  text-align: left;
   padding: 20px 0;
+  /* We remove text-align as float is more reliable for positioning the block */
 }
 
-/* 2. The logo's container (h1). It stays on the left. */
+/* 2. The logo's container (h1). */
+/* We are using float: left; to force it to the left side of its container. */
 .header.landing-page h1 {
   position: static !important;
-  display: inline-block; /* Use inline-block for predictable transform behavior */
+  float: left;
   width: 200px;
   height: 60px;
   margin: 0;
   padding: 0;
 }
 
-/* 3. The logo's link (a). This is where the magic happens. */
+/* 3. The logo's link (a). */
 .header.landing-page h1 a {
   display: block;
   height: 100%;
@@ -3962,18 +3962,19 @@ main .form-wrapper form .form-submission-text {
   background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
   background-size: contain;
   background-repeat: no-repeat;
-  text-indent: -9999px;
-  overflow: hidden;
   transition: transform 0.2s ease-in-out;
-
-  /* ▼▼▼ THIS IS THE CRITICAL FIX ▼▼▼ */
-  /* This centers the logo IMAGE inside its container. */
-  /* It DOES NOT center the logo on the page. */
+  /* This is still required to make the hover scale from the center of the image */
   background-position: center center;
 }
 
 /* 4. Apply the scale effect on hover. */
 .header.landing-page h1 a:hover {
-  /* This now works correctly because the background image is centered in its box */
   transform: scale(1.05);
+}
+
+/* 5. Add a clearfix to the header to contain the floated logo */
+.header.landing-page::after {
+  content: "";
+  display: table;
+  clear: both;
 }
