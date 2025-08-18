@@ -3939,31 +3939,33 @@ main .form-wrapper form .form-submission-text {
 
 /* 1. Set the header to align content to the left. */
 .header.landing-page {
-  text-align: left;
-  padding: 20px 0; /* Adjust vertical spacing if needed */
+  text-align: left;
+  padding: 20px 0; /* Adjust vertical spacing if needed */
 }
 
 /* 2. Style the logo's container (h1) to be a simple block on the left. */
 .header.landing-page h1 {
-  position: static !important; /* This is the key fix to prevent the jump */
-  width: 200px;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  /* Reset any transform properties from previous fixes */
-  transform: none; 
-  top: auto;
-  left: auto;
+  position: static !important; /* This is the key fix to prevent the jump */
+  width: 200px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  /* Reset any transform properties from previous fixes */
+  transform: none;
+  top: auto;
+  left: auto;
 }
 
 /* 3. Add a smooth transition and set the origin for the zoom effect. */
 .header.landing-page h1 a {
-  transform-origin: left center; /* Makes the logo scale from its left edge */
-  transition: transform 0.2s ease-in-out;
+  /* This ensures the logo scales from the center */
+  transform-origin: center center;
+  /* This creates a smooth animation effect */
+  transition: transform 0.2s ease-in-out;
 }
 
 /* 4. Apply the simple scale effect on hover. */
 .header.landing-page h1 a:hover {
-  transform: scale(1.1);
+  /* Scales the logo to 110%. You can change this value for a more subtle effect (e.g., 1.05) */
+  transform: scale(1.1);
 }
-
