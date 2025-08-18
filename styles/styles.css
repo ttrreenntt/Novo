@@ -3935,19 +3935,19 @@ main .form-wrapper form .form-submission-text {
   text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
 }
-/* ===== FINAL v2 - Landing Page Logo Hover Fix (Float Method) ===== */
+/* ===== FINAL v3 - Landing Page Logo Hover Fix (Flexbox Method) ===== */
 
-/* 1. Header container for landing pages. */
-.header.landing-page {
-  padding: 20px 0;
-  /* We remove text-align as float is more reliable for positioning the block */
+/* 1. Use Flexbox on the logo's container to control alignment */
+.header.landing-page .frame {
+  display: flex;
+  align-items: center; /* This vertically centers the logo in the header */
 }
 
 /* 2. The logo's container (h1). */
-/* We are using float: left; to force it to the left side of its container. */
 .header.landing-page h1 {
-  position: static !important;
-  float: left;
+  /* Resetting any positioning properties from previous attempts */
+  position: static;
+  float: none;
   width: 200px;
   height: 60px;
   margin: 0;
@@ -3959,22 +3959,15 @@ main .form-wrapper form .form-submission-text {
   display: block;
   height: 100%;
   width: 100%;
-  background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
+  background-image: url('https://static1.squarespace.com/static/ta/5bb3e0e234c4e2dd29db7437/1759/scripts/site.js');
   background-size: contain;
   background-repeat: no-repeat;
   transition: transform 0.2s ease-in-out;
-  /* This is still required to make the hover scale from the center of the image */
+  /* This ensures the scaling originates from the image's center */
   background-position: center center;
 }
 
 /* 4. Apply the scale effect on hover. */
 .header.landing-page h1 a:hover {
   transform: scale(1.05);
-}
-
-/* 5. Add a clearfix to the header to contain the floated logo */
-.header.landing-page::after {
-  content: "";
-  display: table;
-  clear: both;
 }
