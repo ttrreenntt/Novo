@@ -3935,37 +3935,45 @@ main .form-wrapper form .form-submission-text {
   text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
 }
-/* ===== Fix for Landing Page Logo Hover ===== */
+/* ===== FINAL - Landing Page Logo Hover Fix ===== */
 
-/* 1. Set the header to align content to the left. */
+/* 1. Header container for landing pages. */
+/* text-align: left; ensures the logo's container (the h1) stays on the left. */
 .header.landing-page {
-  text-align: left;
-  padding: 20px 0; /* Adjust vertical spacing if needed */
+  text-align: left;
+  padding: 20px 0;
 }
 
-/* 2. Style the logo's container (h1) to be a simple block on the left. */
+/* 2. The logo's container (h1). It stays on the left. */
 .header.landing-page h1 {
-  position: static !important; /* This is the key fix to prevent the jump */
-  width: 200px;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  /* Reset any transform properties from previous fixes */
-  transform: none;
-  top: auto;
-  left: auto;
+  position: static !important;
+  display: inline-block; /* Use inline-block for predictable transform behavior */
+  width: 200px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
 }
 
-/* 3. Add a smooth transition and set the origin for the zoom effect. */
+/* 3. The logo's link (a). This is where the magic happens. */
 .header.landing-page h1 a {
-  /* This ensures the logo scales from the center */
-  transform-origin: center center;
-  /* This creates a smooth animation effect */
-  transition: transform 0.2s ease-in-out;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+
+  /* ▼▼▼ THIS IS THE CRITICAL FIX ▼▼▼ */
+  /* This centers the logo IMAGE inside its container. */
+  /* It DOES NOT center the logo on the page. */
+  background-position: center center;
 }
 
-/* 4. Apply the simple scale effect on hover. */
+/* 4. Apply the scale effect on hover. */
 .header.landing-page h1 a:hover {
-  /* Scales the logo to 110%. You can change this value for a more subtle effect (e.g., 1.05) */
-  transform: scale(1.1);
+  /* This now works correctly because the background image is centered in its box */
+  transform: scale(1.05);
 }
