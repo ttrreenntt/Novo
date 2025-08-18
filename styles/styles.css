@@ -3935,56 +3935,34 @@ main .form-wrapper form .form-submission-text {
   text-indent: -9999px; /* Hides the H1 text. */
   overflow: hidden;
 }
-/* ===== FINAL v4 - Landing Page Logo Hover Fix (Correct Image URL) ===== */
+/* ===== Fix for Landing Page Logo Hover ===== */
 
-/* 1. Use Flexbox on the logo's container to control alignment */
-.header.landing-page .frame {
-  display: flex;
-  align-items: center; /* This vertically centers the logo in the header */
+/* 1. Set the header to align content to the left. */
+.header.landing-page {
+  text-align: left;
+  padding: 20px 0; /* Adjust vertical spacing if needed */
 }
 
-/* 2. The logo's container (h1). */
+/* 2. Style the logo's container (h1) to be a simple block on the left. */
 .header.landing-page h1 {
-  /* Resetting any positioning properties from previous attempts */
-  position: static;
-  float: none;
+  position: static !important; /* This is the key fix to prevent the jump */
   width: 200px;
   height: 60px;
   margin: 0;
   padding: 0;
+  /* Reset any transform properties from previous fixes */
+  transform: none; 
+  top: auto;
+  left: auto;
 }
 
-/* 3. The logo's link (a). */
+/* 3. Add a smooth transition and set the origin for the zoom effect. */
 .header.landing-page h1 a {
-  display: block;
-  height: 100%;
-  width: 100%;
-  /* ▼▼▼ THIS IS THE CORRECTED IMAGE URL ▼▼▼ */
-  background-image: url('https://static1.squarespace.com/static/5bb3e0e234c4e2dd29db7437/t/5d15473cfe74b300013e37a9/1561675580292/Small-White-Solid-Alt.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  transform-origin: left center; /* Makes the logo scale from its left edge */
   transition: transform 0.2s ease-in-out;
-  /* This ensures the scaling originates from the image's center */
-  background-position: center center;
 }
 
-/* 4. Apply the scale effect on hover. */
+/* 4. Apply the simple scale effect on hover. */
 .header.landing-page h1 a:hover {
-  transform: scale(1.05);
-}
-/* Landing page specific logo adjustments */
-.header.landing-page h1 {
-  left: 20px;              /* push logo to the left edge */
-  right: auto;             /* cancel centering */
-  margin: 0;               /* remove auto margins */
-}
-
-.header.landing-page h1 a {
-  background: url("../assets/novo-logo.svg") no-repeat left center;
-  background-size: contain;
-  transform-origin: center center; /* grow from the center */
-}
-
-.header.landing-page h1 a:hover {
-  transform: scale(1.1);   /* slight grow effect */
+  transform: scale(1.1);
 }
