@@ -66,7 +66,7 @@
 		
 		<squarespace:navigation navigationId="primary-nav" template="navigation" />
 		
-		<div class="banner" data-tilt data-tilt-scale="1.05" data-tilt-speed="4000" data-tilt-perspective="2000">
+		<div class="banner">
 			
 			<div class="map"></div>
 			
